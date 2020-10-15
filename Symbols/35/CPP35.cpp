@@ -1,19 +1,22 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main()
+main()
 {
-	int i,j,k,s;
-	for(i=1;i<=5;i++)
+	int n;
+	cout<<"Enter the no. of rows \n";
+	cin>>n;
+	int s=n;
+	for(int i=1;i<=n;i++)
 	{
-		for(s=4;s>=i;s--)
+		for(int sp=1;sp<=s;sp++)
 		{
 			cout<<" ";
 		}
-		for(j=1;j<=i;j++)
+		s--;
+		for(int j=0;j<i;j++)
 		{
 			cout<<"* ";
 		}
-		cout<<"\n";
+		cout<<endl;
 	}
-	return 0;
 }
