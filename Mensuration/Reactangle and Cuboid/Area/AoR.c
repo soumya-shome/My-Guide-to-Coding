@@ -1,0 +1,11 @@
+//Area of a Rectangle
+#include<stdio.h>
+void main(){
+    int l,b,area;
+    printf("Enter the Length : ");
+    scanf("%d",&l);
+    printf("Enter the Breadth : ");
+    scanf("%d",&b);
+    area =l*b;
+    printf("Area : %d",area);
+}

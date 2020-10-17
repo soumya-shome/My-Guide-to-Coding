@@ -1,12 +1,13 @@
-//Volume of a Sphere
+
+//Circumference of a Circle
 import java.util.Scanner;
-public class VoC{
+public class CoC{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter Radius : ");
         int r=sc.nextInt();
         sc.close();
-        double vol=(4/3)*Math.PI*Math.pow(r,3);
-        System.out.println("Volume : "+vol);
+        double circum=2*Math.PI*r;
+        System.out.println("Circumference : "+circum);
     }
 }

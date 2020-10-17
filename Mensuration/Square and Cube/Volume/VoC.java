@@ -7,6 +7,6 @@ public class VoC{
         int r=sc.nextInt();
         sc.close();
         double vol=(4/3)*Math.PI*Math.pow(r,3);
-        System.out.println("Volume : "+vol);
+        System.out.println("circumference : "+vol);
     }
 }
