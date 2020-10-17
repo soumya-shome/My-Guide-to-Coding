@@ -11,5 +11,3 @@ print("Difference : ",diff)
 print("Product : ",pro)
 print("Quotient : ",quo)
 print("Reminder : ",rem)
-
-input()#Optional : "This line is just to hold the output screen" 
