@@ -14,5 +14,3 @@ All Beginner Level Program using different Languages List of Questions:
   i)	Area
   ii)	Circumference
   iii)	Volume
-
-
