@@ -1,7 +1,6 @@
-
-//Circumference of a Circle
+//Perimeter of a Square
 import java.util.Scanner;
-public class CoC{
+public class PoS{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter Radius : ");

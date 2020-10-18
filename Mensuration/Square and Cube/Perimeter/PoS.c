@@ -1,4 +1,4 @@
-//Circumference of a Circle
+//Perimeter of a Square
 #include<stdio.h>
 #include<math.h>
 void main(){
