@@ -1,6 +1,6 @@
-//Volume of a rectangle
+//Volume of a Cuboid
 import java.util.Scanner;
-public class VoR{
+public class VoC{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter Length : ");
