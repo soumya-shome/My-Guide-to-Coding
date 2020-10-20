@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class PoS{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter Radius : ");
-        int r=sc.nextInt();
+        System.out.print("Enter Side : ");
+        int s=sc.nextInt();
         sc.close();
-        double circum=2*Math.PI*r;
-        System.out.println("Circumference : "+circum);
+        int peri=4*s;
+        System.out.println("Perimeter : "+peri);
     }
 }

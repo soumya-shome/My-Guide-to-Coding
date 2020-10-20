@@ -1,5 +1,4 @@
 #Perimeter of a Square
-import math
-r=int(input("Enter Radius : "))
-circum=2*math.pi*r
-print("Circumference : ",circum)
+s=int(input("Enter Side : "))
+peri=4*s
+print("Perimeter : ",peri)
