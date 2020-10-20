@@ -1,12 +1,12 @@
-//Area of a Circle
+//Area of a Square
 import java.util.Scanner;
-public class AoC{
+public class AoS{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter Radius : ");
-        int r=sc.nextInt();
+        System.out.print("Enter Side : ");
+        int s=sc.nextInt();
         sc.close();
-        double area=Math.pow(r,2)*Math.PI;
+        int area=Math.pow(s,2);
         System.out.println("Area : "+area);
     }
 }

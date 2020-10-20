@@ -1,6 +1,5 @@
 //Volume of a Cuboid
 #include<stdio.h>
-#include<math.h>
 void main(){
     int l,b,h,vol;
     printf("Enter the Length : ");

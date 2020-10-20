@@ -1,5 +1,5 @@
-#Area of a Circle
+#Area of a Square
 import math
-r=int(input("Enter Radius : "))
-area=pow(r,2) * math.pi
+s=int(input("Enter Side : "))
+area=pow(s,2) 
 print("Area : ",area)

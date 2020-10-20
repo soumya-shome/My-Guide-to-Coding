@@ -1,11 +1,11 @@
-//Area of a Circle
+//Area of a Square
 #include<stdio.h>
 #include<math.h>
 void main(){
-    int r;
-    float area=0.0;
-    printf("Enter the Radius : ");
-    scanf("%d",&r);
-    area = M_PI*pow(r,2);
-    printf("Area : %0.4f",area);
+    int s;
+    int area=0;
+    printf("Enter the Side : ");
+    scanf("%d",&s);
+    area = pow(s,2);
+    printf("Area : %d",area);
 }
