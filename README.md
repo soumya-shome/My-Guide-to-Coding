@@ -8,6 +8,8 @@
     c)Rectangle / Cuboid - Area, Perimeter & Volume
 5)  Covert Temperature - C <-> K, K <-> F, C <->F
 6)  Swap the values of 2 numbers - with and without - using 3rd variable
+)   LCD GCD
+
 
 7)  Postive or Negative Number 
 8)  Greatest Between 2 numbers
