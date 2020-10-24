@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 void main()
 {
     int n1, n2, gcd, lcm, rem, num, den;
-    printf("Enter 1st number : ");
-    scanf("%d",&n1);
-    printf("Enter 2nd number : ");
-    scanf("%d",&n2);
+    cout<<"Enter 1st number : ";
+    cin>>n1;
+    cout<<"Enter 2nd number : ";
+    cin>>n2;
     num = n2;
     den = n1;
     rem = num % den;
@@ -16,6 +17,6 @@ void main()
     }
     gcd = den;
     lcm = n1 * n2 / gcd;
-    printf("GCD of %d and %d : %d\n", n1, n2, gcd);
-    printf("LCM of %d and %d : %d", n1, n2, lcm);
+    cout<<"GCD of "<<n1<<" and "<<n2<<" : "<<gcd<<endl;
+    cout<<"LCM of "<<n1<<" and "<<n2<<" : "<<lcm;
 }
