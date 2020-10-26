@@ -1,36 +1,41 @@
 #include<stdio.h>
-#include<conio.h>
-
-main()
+void main()
 {
-	int x,y,s,d,p,di;
-	char z;
-	printf("Enter two numbers: \n");
-	scanf("%d %d",&x,&y);
+	int x,y,res;
+	char s=' ';
+	printf("Enter operation [ + , - , * , / ] : ");
+	scanf("%c",&s);
+	printf("Enter 1st number: ");
+	scanf("%d",&x);
+	printf("Enter 2nd number: ");
+	scanf("%d",&y);
 	
-	printf("Enter what you want to do[ + , - , * , / ]");
-	scanf("%c",&z);
-	if(z=='+')
-	{
-		s=x+y;
-		printf("The sum is: \n %d",s);
+	switch(s){
+		case '+':
+			res=x+y;
+			printf("Summation : %d",res);
+		break;
+	
+		case '-':
+			res=x-y;
+			printf("Difference : %d",res);
+		break;
+		
+		case '*':
+			res=x*y;
+			printf("Product : %d",res);
+		break;
+		
+		case '/':
+			res=x/y;
+			printf("Division : %d",res);
+		break;
+		
+		default:
+			printf("Wrong Input !!");
+		break;
+	}
 }
-	else if(z=='-')
-	{
-		d=x-y;
-		printf("The product is: \n %d",d);
-	}
-	else if(z=='*')
-	{
-		p=x*y;
-		printf("The product is: \n %d",p);
-	}
-	else
-	{
-		di=x/y;
-		printf("The division is: \n %d",di);
-	}
-		}
 	
 	
 
