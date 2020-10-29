@@ -14,4 +14,3 @@ main()
 		cout<<a<<" is an even number";
 	}
 }
-
