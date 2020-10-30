@@ -21,13 +21,17 @@ int binSubtracton(int a, int b)
 }
 void main()
 {
-    int number1,number2, binAdd, binSub;
+    int n1,n2, binAdd;
     printf("Input first integer value: ");
-    scanf("%d",&number1);
+    scanf("%d",&n1);
     printf("Input second integer value: ");
-    scanf("%d",&number2);
-    binAdd=binAddition(number1,number2);
-    binSub=binSubtracton(number1,number2);
+    scanf("%d",&n2);
+    int c;
+    while (n2 != 0) {
+    c = (n1 & n2) << 1;
+    n1=n1^n2;
+    n2=c;
+    }
+    binAdd=n1;
     printf("Binary Addition: %d\n",binAdd);
-    printf("Binary Subtraction: %d\n",binSub);
 }
