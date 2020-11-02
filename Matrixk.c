@@ -1,0 +1,39 @@
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+
+main()
+{
+	int x[5][5],i,j,t,y,h,k;double r;int max=0;
+	for(i=0;i<5;i++)
+	{
+		printf("Enter the numbers: \n");
+		for(j=0;j<5;j++)
+		{
+			scanf("%d",&x[i][j]);
+		}
+	}
+	printf("The new matrix: \n");
+	for(i=0;i<5;i++)
+	{
+		for(j=0;j<5;j++)
+		{
+			printf("%d ",x[i][j]);
+		}
+		printf("\n");
+	}
+	printf("\n");
+	for(i=0;i<5;i++)
+	{
+		for(j=0;j<5;j++)
+		{
+					if(x[i][0]>max)
+					{
+						max=x[i][0];
+						printf("%d",max);
+						break;
+					}
+		}
+	}
+}

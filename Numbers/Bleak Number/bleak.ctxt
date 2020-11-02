@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=bleak
+comment1.params=x
+comment1.target=int\ countSetBits(int)
+comment1.text=\ Function\ to\ get\ no\ of\ set\ bits\ in\ binary\r\nrepresentation\ of\ passed\ binary\ no.
+comment2.params=n
+comment2.target=boolean\ isBleak(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
