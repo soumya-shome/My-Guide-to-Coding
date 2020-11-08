@@ -8,6 +8,7 @@ class ar1
         int m=sc.nextInt();
         System.out.println("Enter a the number of elements for 2nd array");
         int n=sc.nextInt();
+        sc.close();
         int a[]=new int[m];
         int b[]=new int[n];
         System.out.println("Enter the Elements for the 1st array");
