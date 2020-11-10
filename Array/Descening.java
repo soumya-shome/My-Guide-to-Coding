@@ -1,8 +1,6 @@
 import java.util.*;
-class Descening
-{
-    public static void meth()
-    {
+class Descening{
+    public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the no,");
         int a[]=new int[10];
@@ -10,6 +8,7 @@ class Descening
         {
             a[i]=sc.nextInt();
         }
+        sc.close();
         int min;
         for(int j=0;j<9;j++)
         {
