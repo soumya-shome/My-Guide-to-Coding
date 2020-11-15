@@ -32,6 +32,6 @@ void main() {
    cout<<"Enter birth year : ";
    cin>>b_y;
    cout<<"Present date : "<<p_d<<"."<<p_m<<"."<<p_y<<endl;
-   printf("Birth date : "<<b_d<<"."<<b_m<<"."<<b_y);
+   printf("Birth date : "<<b_d<<"."<<b_m<<"."<<b_y;
    age(p_d, p_m, p_y, b_d, b_m, b_y);
 }
