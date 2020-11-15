@@ -1,16 +1,22 @@
 #include<math.h>
+#include<stdio.h>
+int num_digits(int n){
+    int nd=0;
+    for(nd=0;n!=0;nd++,n=n/10);
+    return nd;
+}
+
+int powe(int d,int p){
+    int po=1,j;
+    for(j=1;j<=p;j++)
+        po=po*d;
+    return po;
+}
+
 int armstrong(int n){
-    int n2=n,t=0,y,s=0;
-    while(n2!=0){
-        t++;
-        n2=n2/10;
-    }
-    n2=n;
-    while(n2!=0){
-        y=n2%10;
-        s=s+pow(y,t);
-        n2=n2/10;
-    }
+    int r,n2,t=num_digits(n),s=0,y,j;
+    for(n2=n;n2!=0;n2/=10)
+        s=s+powe(n2%10,t);
     if(n==s)
         return 1;
     else
@@ -19,10 +25,10 @@ int armstrong(int n){
 
 void main(){
     int n,i;
-    printf("Enter the number of terms : ");
+    printf("Enter A Number : ");
     scanf("%d",&n);
-    for(i=0;i<=n;i++){
-        if(armstrong(153)==1)
-            printf("%d , ",i);
-    }
+    if(armstrong(n)==1)
+        printf("%d is an Armstrong Numeber",n);
+    else
+        printf("%d is not a Armstrong Number",n);
 }

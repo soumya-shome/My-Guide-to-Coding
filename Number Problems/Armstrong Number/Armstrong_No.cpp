@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-main()
-{
+void main(){
 	int n,n1,d,a,s=0;
 	cout<<"Enter a number: ";
 	cin>>n;

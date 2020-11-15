@@ -1,13 +1,11 @@
 def adam(n):
-    n1=0 #OG reverse
+    n1,b=0,0
     n2=n #OG number
     while (n!=0):
         n1=n1*10+int(n%10)
         n=n//10
-    s1=n2**2 #OG number square
-    s2=n1**2 #OG reverse square
+    s1,s2=n2**2,n1**2 #OG number square
     s3=s2
-    b=0 #Reverse of OG reverse Square
     while(s3!=0):
         b=b*10 + int(s3%10)
         s3=s3//10
