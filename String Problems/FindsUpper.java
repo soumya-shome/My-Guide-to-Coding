@@ -7,6 +7,7 @@ class FindsUpper
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a sentence");
         String s=sc.nextLine();
+        sc.close();
         s=s.trim();
         s=s+" ";
         int l1=s.length();
@@ -22,7 +23,6 @@ class FindsUpper
         String s2[]=new String[sp];
         String t=" ";
         int p=0;
-        int y=0;
         for(int j=0;j<l1;j++)
         {
             char c2=s.charAt(j);

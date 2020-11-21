@@ -1,25 +1,20 @@
 import java.util.*;
 class letter_order
 {
-    public static void meth()
-    {
+    public static void meth(){
         Scanner sc=new Scanner (System.in);
         System.out.println("Enter a word");
         String s=sc.nextLine();
+        sc.close();
         s=s.toUpperCase();
         String s2="";
         int l=s.length();
-
-        for(int i=64;i<=90;i++)
-        {
+        for(int i=64;i<=90;i++){
             char c=(char)i;
-            for(int j=0;j<l;j++)
-            {
+            for(int j=0;j<l;j++){
                 char c2=s.charAt(j);
                 if(c==c2)
-                {
                     s2=s2+c;
-                }
             }
         }
         System.out.println(s2);
@@ -30,20 +25,13 @@ class letter_order
         a2++;
         int b2=(int)b;
         int p=1;
-        for(int h=a2;h<b2;h++)
-        {
+        for(int h=a2;h<b2;h++){
             char t=s2.charAt(p);
             char e=(char)h;
             if(t!=e)
-            {
                 s3=s3+e;
-
-            }
             else
-            {
                 p++;
-            }
-
         }
         System.out.println(s3);
     }

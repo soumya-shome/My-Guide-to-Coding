@@ -7,20 +7,17 @@ class LetterCount
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a String");
         String s=sc.nextLine();
+        sc.close();
         s=s+" ";
         int l=s.length();
         int q=0;
         for(int j=97;j<=122;j++)
         {
             char c2=(char)j;
-            int f=0;
-            for(int i=0;i<l;i++)
-            {
+            for(int i=0;i<l;i++){
                 char c=s.charAt(i);
                 if(c==c2)
-                {
                     a[q]++;
-                }
             }
             q++;
         }
@@ -29,9 +26,7 @@ class LetterCount
         {
             char c2=(char)e;
             if(a[k]>0)
-            {
                 System.out.println(c2+"\t\t"+a[k]);
-            }
             e++;
         }
     }
