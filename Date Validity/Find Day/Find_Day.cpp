@@ -1,5 +1,6 @@
-#include<stdio.h>
-int calc(int d,int m,int y){
+#include<iostream>
+using namespace std;
+int day(int d,int m,int y){
     int yc=0,day=0;
     int mc[]={0,3,3,6,1,4,6,2,5,0,3,5};
     if(y>=1600 && y<=1699)
@@ -18,38 +19,38 @@ int calc(int d,int m,int y){
     return day;
 }
 void main(){
-    int day,d,m,y;
-    printf("Enter in numbers\n");
-    printf("Enter Date : ");
-    scanf("%d",&d);
-    printf("Enter Month : ");
-    scanf("%d",&m);
-    printf("Enter Year : ");
-    scanf("%d",&y);
-    printf("Date : %d-%d-%d\n",d,m,y);
-    day=calc(d,m,y);
-    printf("The Day is :");
-    switch(day){
+    int days,d,m,y;
+    cout<<"Enter in Numbers"<<endl;
+    cout<<"Enter Date : ";
+    cin>>d;
+    cout<<"Enter Month : ";
+    cin>>m;
+    cout<<"Enter Year : ";
+    cin>>y;
+    cout<<"Date : "<<d<<"-"<<m<<"-"<<y<<endl;
+    days=day(d,m,y);
+    cout<<"The Day is :";
+    switch(days){
         case 0:
-            printf("Sunday");
+            cout<<"Sunday";
         break;
         case 1:
-            printf("Monday");
+            cout<<"Monday";
         break;
         case 2:
-            printf("Tuesday");
+            cout<<"Tuesday";
         break;
         case 3:
-            printf("Wednesday");
+            cout<<"Wednesday";
         break;
         case 4:
-            printf("Thursday");
+            cout<<"Thursday";
         break;
         case 5:
-            printf("Friday");
+            cout<<"Friday";
         break;
         case 6:
-            printf("Saturday");
+            cout<<"Saturday";
         break;
     }
 }
