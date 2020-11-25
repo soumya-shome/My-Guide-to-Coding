@@ -7,7 +7,7 @@ main()
 	cout<<"Enter a sentence";
 	gets(c);
 	for(i=0;c[i]!='\0';i++);
-	cout<<i;
+	//cout<<i;
 	c[i+1]=' ';
 	c[i+2]='\0';
 	k2=0;

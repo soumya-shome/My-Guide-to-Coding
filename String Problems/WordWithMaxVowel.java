@@ -6,6 +6,7 @@ class WordWithMaxVowel
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a Sentence");
         String n=sc.nextLine();
+        sc.close();
         n=n.toUpperCase();
         n=n+" ";
         int l=n.length();

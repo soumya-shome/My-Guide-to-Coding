@@ -1,7 +1,7 @@
 import java.util.*;
 class ReverseSentence
 {
-    public static void meth()
+    public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a Sentence");
