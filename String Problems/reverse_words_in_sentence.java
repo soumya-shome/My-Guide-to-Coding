@@ -1,11 +1,12 @@
 import java.util.*;
 class WordReverse
 {
-    public static void meth()
+    public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a Sentence");
         String s=sc.nextLine();
+        sc.close();
         s=s+" ";
         String s1="",s2="";
         int l=s.length();

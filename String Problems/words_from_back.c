@@ -1,4 +1,5 @@
-main()
+#include<stdio.h>
+void main()
 {
     char a[100],b[50];
     int i,j,e=0,l;
