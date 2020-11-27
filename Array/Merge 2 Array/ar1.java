@@ -1,14 +1,14 @@
 import java.util.*;
 class ar1
 {
-    static void main()
+    public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a the number of elements for 1st array");
         int m=sc.nextInt();
         System.out.println("Enter a the number of elements for 2nd array");
         int n=sc.nextInt();
-        sc.close();
+        
         int a[]=new int[m];
         int b[]=new int[n];
         System.out.println("Enter the Elements for the 1st array");
@@ -22,6 +22,7 @@ class ar1
             b[i]=sc.nextInt();
         }
         int c[]=new int [m+n];
+        sc.close();
         int t=0;
         for(int i=0;i<(m+n);i++)
         {

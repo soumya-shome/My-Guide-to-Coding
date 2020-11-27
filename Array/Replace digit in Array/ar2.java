@@ -1,7 +1,7 @@
 import java.util.*;
 class ar2
 {
-    static void main()
+    public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a the number of elements for the array");
