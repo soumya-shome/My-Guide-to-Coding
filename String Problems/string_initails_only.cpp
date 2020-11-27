@@ -2,10 +2,8 @@
 using namespace std;
 main()
 {
-	
 	char c[100];
 	int i,sp,s=0,j,k,sa=0;
-	
 	cout<<"Enter a name \n";
 	gets(c);
 	for(i=0;c[i]!='\0';i++);

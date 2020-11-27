@@ -1,6 +1,6 @@
 import java .util.*;
 class LetterCount{
-    public static void meth(){
+    public static void main(String[] args){
         int a[ ]=new int[26];
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a String");
