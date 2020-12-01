@@ -20,10 +20,14 @@ main()
 		{
 			if((i==j)||((i+j)==(n-1)))
 			{
-				sum=sum+(a[i][j]*a[i][j]);
+				cout<<a[i][j]<<" ";
 			}
-			
+			else
+			{
+				cout<<"  ";
+			}
 		}
+		cout<<endl;
 	}
 	cout<<"Sum= "<<sum;
 }
