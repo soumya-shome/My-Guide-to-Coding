@@ -1,7 +1,7 @@
 import java.util.*;
 class ExitMatrix
 {
-    static void main()
+    public static void main(String[] args)
     {
         Scanner sc=new Scanner (System.in);
         System.out.println("Enter the rows and Column of the Matrix");
