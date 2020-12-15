@@ -1,39 +1,41 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-void age(int s_d, int s_m, int s_y, int f_d, int f_m, int f_y) {
-   int month[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-   if (f_d > s_d) {
-      s_d = s_d + month[f_m - 1];
-      s_m = s_m - 1;
-   }
-   if (f_m > s_m) {
-      s_y = s_y - 1;
-      s_m = s_m + 12;
-   }
-   int d_d = s_d - f_d;
-   int d_m = s_m - f_m;
-   int d_y = s_y - f_y;
-   cout<<"Difference: Years: "<<d_y<<" Months: "<<d_m<<" Days: "<<d_d;
+struct Date {
+	int d, m, y;
+};
+
+const int monthDays[12]= { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+int countLeapYears(Date d)
+{
+	int years = d.y;
+
+	if (d.m <= 2)
+		years--;
+	return years / 4 - years / 100 + years / 400;
 }
 
-int main(){
-   int f_d,f_m,f_y , s_d,s_m,s_y ;
-   cout<<"Date Difference :From 1st Date to 2nd Date\n";
-   cout<<"Enter 1st Date : ";
-   cin>>f_d;
-   cout<<"Enter 1st Month : ";
-   cin>>f_m;
-   cout<<"Enter 1st Year : ";
-   cin>>f_y;
-   cout<<"Enter 2nd Date : ";
-   cin>>s_d;
-   cout<<"Enter 2nd Month : ";
-   cin>>s_m;
-   cout<<"Enter 2nd Year : ";
-   cin>>s_y;
-   cout<<"1st Date : "<<f_d<<"."<<f_m<<"."<<f_y<<endl;
-   cout<<"2nd Date : "<<s_d<<"."<<s_m<<"."<<s_y<<endl;
-   age(s_d,s_m,s_y, f_d, f_m,f_y);
-   return 0;
+int getDifference(Date dt1, Date dt2)
+{
+	long int n1 = dt1.y * 365 + dt1.d;
+
+	for (int i = 0; i < dt1.m - 1; i++)
+		n1 += monthDays[i];
+	n1 += countLeapYears(dt1);
+
+	long int n2 = dt2.y * 365 + dt2.d;
+	for (int i = 0; i < dt2.m - 1; i++)
+		n2 += monthDays[i];
+	n2 += countLeapYears(dt2);
+	return (n2 - n1);
+}
+
+int main()
+{
+	Date dt1 = { 1, 2, 2000 };
+	Date dt2 = { 1, 2, 2004 };
+
+	cout << "Difference between two dates is "<< getDifference(dt1, dt2);
+	return 0;
 }

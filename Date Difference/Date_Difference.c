@@ -1,38 +1,57 @@
-#include <stdio.h>
-#include <stdlib.h>
-// function to calculate current age
-void age(int p_d, int p_m, int p_y, int b_d, int b_m, int b_y) {
-   int month[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-   if (b_d > p_d) {
-      p_d = p_d + month[b_m - 1];
-      p_m = p_m - 1;
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+   int day1,mon1,year1,day2,mon2,year2;
+   int ref,dd1,dd2,i;
+   printf("Enter first day, month, year");
+   scanf("%d %d %d",&day1,&mon1,&year1);
+   scanf("%d %d %d",&day2,&mon2,&year2);
+   ref = year1;
+   if(year2<year1)
+      ref = year2;
+   dd1=0;
+   dd1=func1(mon1);
+   for(i=ref;i<year1;i++)
+   {
+      if(i%4==0)
+      dd1+=1;
    }
-   if (b_m > p_m) {
-      p_y = p_y - 1;
-      p_m = p_m + 12;
+   dd1=dd1+day1+(year1-ref)*365;
+   printf("No. of days of first date fronm the Jan 1 %d= %d",year1,dd1);
+   /* Count for additional days due to leap years*/
+   dd2=0;
+   for(i=ref;i<year2;i++)
+   {
+      if(i%4==0)
+      dd2+=1;
    }
-   int f_d = p_d - b_d;
-   int f_m = p_m - b_m;
-   int f_y = p_y - b_y;
-   printf("Difference: Years: %d Months: %d Days: %d", f_y, f_m, f_d);
+   dd2=func1(mon2)+dd2+day2+((year2-ref)*365);
+   printf("No. of days from the reference year's first Jan = %d",dd2);
+   printf("Therefore, diff between the two dates is %d",abs(dd2-dd1));
 }
 
-void main() {
-   int f_d,f_m,f_y , s_d,s_m,s_y ;
-   printf("Date Difference :From 1st Date to 2nd Date\n");
-   printf("Enter present date : ");
-   scanf("%d",&f_d);
-   printf("Enter present month : ");
-   scanf("%d",&f_m);
-   printf("Enter present year : ");
-   scanf("%d",&f_y);
-   printf("Enter birth date : ");
-   scanf("%d",&s_d);
-   printf("Enter birth month : ");
-   scanf("%d",&s_m);
-   printf("Enter birth year : ");
-   scanf("%d",&s_y);
-   printf("1st Date : %d.%d.%d\n",f_d,f_m,f_y);
-   printf("2nd Date : %d.%d.%d\n",s_d,s_m,s_y);
-   age(s_d,s_m,s_y, f_d,f_m,f_y);
+
+
+
+int func1(x)       //x for month y for dd
+{  
+      int y=0;
+   switch(x)
+   {
+      case 1: y=0; break;
+      case 2: y=31; break;
+      case 3: y=59; break;
+      case 4: y=90; break;
+      case 5: y=120;break;
+      case 6: y=151; break;
+      case 7: y=181; break;
+      case 8: y=212; break;
+      case 9: y=243; break;
+      case 10:y=273; break;
+      case 11:y=304; break;
+      case 12:y=334; break;
+      default: printf("Error encountered"); exit(1);
+   }
+   return(y);
 }
