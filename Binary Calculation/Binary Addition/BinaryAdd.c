@@ -8,9 +8,9 @@ void main()
     scanf("%d",&n2);
     int c;
     while (n2 != 0) {
-    c = (n1 & n2) << 1;
-    n1=n1^n2;
-    n2=c;
+        c = (n1 & n2) << 1;
+        n1=n1^n2;
+        n2=c;
     }
     binAdd=n1;
     printf("Binary Addition: %d\n",binAdd);

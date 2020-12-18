@@ -1,3 +1,4 @@
+#include<stdio.h>
 int binAddition(int a,int b)
 {
       int c;
@@ -19,19 +20,15 @@ int binSubtracton(int a, int b)
       }
       return a;
 }
-void main()
-{
-    int n1,n2, binAdd;
-    printf("Input first integer value: ");
-    scanf("%d",&n1);
-    printf("Input second integer value: ");
-    scanf("%d",&n2);
-    int c;
-    while (n2 != 0) {
-    c = (n1 & n2) << 1;
-    n1=n1^n2;
-    n2=c;
-    }
-    binAdd=n1;
-    printf("Binary Addition: %d\n",binAdd);
+void main(){
+      int number1,number2,binSub;
+
+	printf("Input first integer value: ");
+	scanf("%d",&number1);
+	
+	printf("Input second integer value: ");
+	scanf("%d",&number2);
+	binSub=binSubtracton(number1,number2);
+
+	printf("Binary Subtraction: %d\n",binSub);
 }
