@@ -1,4 +1,11 @@
-# All Beginner Level Program using different Languages List of Questions:
+### Welcome to this repo. Here is my way to learn coding . Different types of topics and portions have been covered here. All the topics are covered in the list below.
+## Languages used:
+- C
+- C++
+- Java
+- Python
+
+# Here are the list of codes available in this repository : 
 -   Print "Hello World !"
 -   Basic Calculation of 2 Integer numbers (Summation, Difference, Product, Quotient & Reminder)
 -	Calculate Simple Interest. Take P, R and T as input.
