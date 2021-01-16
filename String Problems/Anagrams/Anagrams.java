@@ -3,8 +3,7 @@ class Anagrams
 {
     int c = 0;
      
-    void input()throws Exception
-    {
+    void input(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a word : ");
         String s = sc.next();
