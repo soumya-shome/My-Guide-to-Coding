@@ -1,7 +1,7 @@
 import java.util.*;
-class binarySearch
+class binary_search
 {
-    public static void meth()
+    public static void main(String args[])
     {
         int a[]=new int[10];
         Scanner sc=new Scanner(System.in);

@@ -4,11 +4,13 @@ def bubblesort(l):
         for j in range(0,n-i-1):
             if l[j]>l[j+1]:
                 l[j],l[j+1]=l[j+1],l[j]
-    return l
 
 li=[]
-n1=int(input("Enter the size"))
+n1=int(input("Enter the size : "))
+print("Enter the numbers : ")
 for i in range(0,n1):
-    m=int(input("Enter a number"))
+    m=int(input())
     li.append(m)
-print (bubblesort(li))
+print("Original Array : ",li)
+bubblesort(li)
+print ("Sorted Array : ",li)

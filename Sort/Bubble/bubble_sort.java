@@ -1,32 +1,43 @@
 import java.util.*;
-class BubbleSort
+class bubble_sort
 {
-    public static void meth()
-    {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the no,");
-        int a[]=new int[10];
-        for(int i=0;i<10;i++)
-        {
-            a[i]=sc.nextInt();
-        }
-        for(int j=0;j<9;j++)
-        {
-            for(int k=0;k<(9-j);k++)
-            {
-                if(a[k]>a[k+1])
-                {
-                    int t=a[k];
-                    a[k]=a[k+1];
-                    a[k+1]=t;
+    void bubbleSort(int arr[],int n){
+        int i,j;
+        for(i=0;i<n-1;i++){
+            for(j=0;j<n-i-1;j++){
+                if(arr[j]>arr[j+1]){
+                    int temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
                 }
             }
-            
         }
-        System.out.println("------------------");
-        for(int i=0;i<10;i++)
+    }
+
+    void printArray(int arr[],int n){
+        for(int i=0;i<n;i++)
+            System.out.print(arr[i]+" ");
+        System.out.println();
+    }
+
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter number of items : ");
+        int n=sc.nextInt();
+        int arr[]=new int[n];
+        System.out.println("Enter the no.s : ");
+        for(int i=0;i<n;i++)
         {
-            System.out.println(a[i]);
+            arr[i]=sc.nextInt();
         }
+        sc.close();
+        bubble_sort ob=new bubble_sort();
+        System.out.print("Original Array : ");
+        ob.printArray(arr, n);
+        
+        ob.bubbleSort(arr, n);
+        System.out.print("Sorted Array : ");
+        ob.printArray(arr, n);
     }
 }
