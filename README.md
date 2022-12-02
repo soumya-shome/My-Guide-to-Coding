@@ -1,115 +1,42 @@
 # Patterns
 Using Alphabets
 
-|1|61
-|-------|-------|
-|<pre>
-      *
-     * *
-    * * *
-   * * * *
-  * * * * *
-  </pre>
-|<pre>
-A
-A B
-A B C
-A B C D
-A B C D E
-</pre>|
+| | | | | |
+|-------|-------|-------|-------|-------|
+|01<br><pre>1 <br>1 2 <br>1 2 3 <br>1 2 3 4 <br>1 2 3 4 5 <br></pre>|02<br><pre>1 2 3 4 5 <br>1 2 3 4 <br>1 2 3 <br>1 2 <br>1 <br></pre>|03<br><pre>1 2 3 4 5 <br>2 3 4 5 <br>3 4 5 <br>4 5 <br>5 <br></pre>|04<br><pre>5 <br>4 5 <br>3 4 5 <br>2 3 4 5 <br>1 2 3 4 5 <br></pre>|05<br><pre>1 <br>2 2 <br>3 3 3 <br>4 4 4 4 <br>5 5 5 5 5 <br></pre>|
 
+1
+<pre>     *<br>    * *<br>   * * *<br>  * * * *<br> * * * * *<br></pre>
+
+61
+<pre>A<br>A B <br>A B C <br>A B C D <br>A B C D E <br></pre>
 
 
 68
-<pre>
-A
-B C
-D E F
-G H I J
-</pre>
+<pre>A <br>B C <br>D E F <br>G H I J <br></pre>
 
 77
-<pre>
-E D C B A
-  E D C B
-    E D C
-      E D
-        E
-</pre>
+<pre>E D C B A<br>  E D C B<br>    E D C<br>      E D<br>        E<br></pre>
 
 84
-<pre>
-Enter a Three Letter Word : CAT 
- C
-CAT
- T
-</pre>
+<pre>Enter a Three Letter Word : CAT<br> C <br>CAT<br> T <br></pre>
 
 85 
-<pre>
-Enter word : Hello
-H
- e
-  l
-   l
-    o
-</pre>
+<pre>Enter word : Hello<br>H<br> e<br>  l<br>   l<br>    o<br></pre>
 
 88
-<pre>
-A B C D E
-B C D E
-C D E
-D E
-E
-</pre>
+<pre>A B C D E<br>B C D E<br>C D E<br>D E<br>E<br></pre>
 
 89
-<pre>
-A A A A A 
-C C C C
-E E E
-G G
-I
-</pre>
+<pre>A A A A A <br>C C C C<br>E E E<br>G G<br>I<br></pre>
 
 93
-<pre>
-       A
-     A B A
-   A B C B A
- A B C D C B A
-   A B C B A
-     A B A
-       A 
-</pre>
+<pre>       A<br>     A B A<br>   A B C B A<br> A B C D C B A<br>   A B C B A<br>     A B A<br>       A <br></pre>
 
-01
-<pre>
-1 
-1 2 
-1 2 3
-1 2 3 4
-1 2 3 4 5
-</pre>
 
-05
-<pre>
-1 
-2 2
-3 3 3
-4 4 4 4
-5 5 5 5 5
-</pre>
 
 07
-<pre>
-5 5 5 5 5 
-4 4 4 4
-3 3 3
-2 2
-1
-</pre>
+<pre>5 5 5 5 5 <br>4 4 4 4 <br>3 3 3 <br>2 2 <br>1 <br></pre>
 
 10
 <pre>
