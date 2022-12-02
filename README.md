@@ -4,6 +4,8 @@ Using Alphabets
 | | | | | |
 |-------|-------|-------|-------|-------|
 |01<br><pre>1 <br>1 2 <br>1 2 3 <br>1 2 3 4 <br>1 2 3 4 5 <br></pre>|02<br><pre>1 2 3 4 5 <br>1 2 3 4 <br>1 2 3 <br>1 2 <br>1 <br></pre>|03<br><pre>1 2 3 4 5 <br>2 3 4 5 <br>3 4 5 <br>4 5 <br>5 <br></pre>|04<br><pre>5 <br>4 5 <br>3 4 5 <br>2 3 4 5 <br>1 2 3 4 5 <br></pre>|05<br><pre>1 <br>2 2 <br>3 3 3 <br>4 4 4 4 <br>5 5 5 5 5 <br></pre>|
+|06<br><pre>1 1 1 1 1 <br>2 2 2 2 <br>3 3 3 <br>4 4 <br>5 <br></pre>|07<br><pre>5 5 5 5 5<br>4 4 4 4 <br>3 3 3 <br>2 2 <br>1<br></pre>|08<br><pre>5<br>4 4 <br>3 3 3 <br>2 2 2 2 <br>1 1 1 1 1<br></pre>|09<br><pre>1<br>2 1<br>3 2 1<br>4 3 2 1<br>5 4 3 2 1<br></pre>|10<br><pre>5 4 3 2 1<br>4 3 2 1<br>3 2 1<br>2 1<br>1<br></pre>|
+
 
 1
 <pre>     *<br>    * *<br>   * * *<br>  * * * *<br> * * * * *<br></pre>
