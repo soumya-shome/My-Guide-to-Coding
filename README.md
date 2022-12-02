@@ -1,10 +1,6 @@
 # Patterns
-| Using Numbers | | | | | |
-|-------|-------|-------|-------|-------|-------|
-|01|02|03|04|05|06|
-|<pre>1 <br>1 2 <br>1 2 3 <br>1 2 3 4 <br>1 2 3 4 5 <br></pre>|<pre>1 2 3 4 5 <br>1 2 3 4 <br>1 2 3 <br>1 2 <br>1 <br></pre>|<pre>5 <br>4 5 <br>3 4 5 <br>2 3 4 5 <br>1 2 3 4 5 <br></pre>|<pre>1 2 3 4 5 <br>2 3 4 5 <br>3 4 5 <br>4 5 <br>5 <br></pre>|<pre>1 <br>2 2 <br>3 3 3 <br>4 4 4 4 <br>5 5 5 5 5 <br></pre>|<pre>1 1 1 1 1 <br>2 2 2 2 <br>3 3 3 <br>4 4 <br>5 <br></pre>|
 |07|08|09|10|11|12|
-|<pre>5<br>4 4 <br>3 3 3 <br>2 2 2 2 <br>1 1 1 1 1<br></pre>|<pre>5 5 5 5 5<br>4 4 4 4 <br>3 3 3 <br>2 2 <br>1<br></pre>|<pre>1<br>2 1<br>3 2 1<br>4 3 2 1<br>5 4 3 2 1<br></pre>|<pre>5 4 3 2 1<br>4 3 2 1<br>3 2 1<br>2 1<br>1<br></pre>|<pre>1<br>1 3<br>1 3 5<br>1 3 5 7<br>1 3 5 7 9<br></pre>|<pre>1 3 5 7 9<br>1 3 5 7<br>1 3 5<br>1 3 <br>1 <br></pre>|
+|
 
 <table>
   <tbody>
@@ -20,63 +16,100 @@
       <td >6</td>
     </tr>
     <tr>
-      <td><pre>
+<td><pre>
 1 
 1 2 
 1 2 3 
 1 2 3 4 
 1 2 3 4 5 
 </pre></td>
-
-  <td>
-<pre>
+<td><pre>
 1 2 3 4 5 
 1 2 3 4 
 1 2 3 
 1 2 
 1 
-</pre>
-  </td>
-
-  <td>
-<pre>
+</pre></td>
+<td><pre>
 5 
 4 5 
 3 4 5 
 2 3 4 5 
 1 2 3 4 5 
-</pre>
-  </td>
-
-  <td>
-<pre>
+</pre></td>
+<td><pre>
 1 2 3 4 5 
 2 3 4 5 
 3 4 5 
 4 5 
 5 
-</pre>
-      </td>
-
-<td>
-<pre>
+</pre></td>
+<td><pre>
 1 
 2 2 
 3 3 3 
 4 4 4 4 
 5 5 5 5 5 
-</pre>
-      </td>
-
-<td>
-<pre>
+</pre></td>
+<td><pre>
 1 1 1 1 1 
 2 2 2 2 
 3 3 3 
 4 4 
 5 
-</pre>
-      </td>
+</pre></td>
+    </tr>
+    <tr>
+      <td >7</td>
+      <td >8</td>
+      <td >9</td>
+      <td >10</td>
+      <td >11</td>
+      <td >12</td>
+    </tr>
+    <tr>
+<td><pre>
+5
+4 4 
+3 3 3 
+2 2 2 2 
+1 1 1 1 1
+</pre></td>
+<td><pre>
+5 5 5 5 5
+4 4 4 4 
+3 3 3 
+2 2 
+1
+</pre></td>
+<td><pre>
+1
+2 1
+3 2 1
+4 3 2 1
+5 4 3 2 1
+</pre></td>
+<td><pre>
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+</pre></td>
+<td><pre>
+1
+1 3
+1 3 5
+1 3 5 7
+1 3 5 7 9
+</pre></td>
+<td><pre>
+1 3 5 7 9
+1 3 5 7
+1 3 5
+1 3 
+1 
+</pre></td>
     </tr>
   </tbody>
 </table>
