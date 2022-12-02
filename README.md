@@ -12,15 +12,21 @@
       <td  colspan=6>Using Numbers</td>
     </tr>
     <tr>
-      <td>
-<pre>
+      <td >1</td>
+      <td >2</td>
+      <td >3</td>
+      <td >4</td>
+      <td >5</td>
+      <td >6</td>
+    </tr>
+    <tr>
+      <td><pre>
 1 
 1 2 
 1 2 3 
 1 2 3 4 
 1 2 3 4 5 
-</pre>
-      </td>
+</pre></td>
 
   <td>
 <pre>
