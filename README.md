@@ -1,11 +1,9 @@
 # Patterns
-|07|08|09|10|11|12|
-|
 
 <table>
   <tbody>
     <tr>
-      <td  colspan=6>Using Numbers</td>
+      <td colspan=6>Using Numbers</td>
     </tr>
     <tr>
       <td >1</td>
@@ -111,54 +109,38 @@
 1 
 </pre></td>
     </tr>
-  </tbody>
-</table>
-
-
-1
-<pre>     *<br>    * *<br>   * * *<br>  * * * *<br> * * * * *<br></pre>
-
-61
-<pre>A<br>A B <br>A B C <br>A B C D <br>A B C D E <br></pre>
-
-
-68
-<pre>A <br>B C <br>D E F <br>G H I J <br></pre>
-
-77
-<pre>E D C B A<br>  E D C B<br>    E D C<br>      E D<br>        E<br></pre>
-
-84
-<pre>Enter a Three Letter Word : CAT<br> C <br>CAT<br> T <br></pre>
-
-85 
-<pre>Enter word : Hello<br>H<br> e<br>  l<br>   l<br>    o<br></pre>
-
-88
-<pre>A B C D E<br>B C D E<br>C D E<br>D E<br>E<br></pre>
-
-89
-<pre>A A A A A <br>C C C C<br>E E E<br>G G<br>I<br></pre>
-
-93
-<pre>       A<br>     A B A<br>   A B C B A<br> A B C D C B A<br>   A B C B A<br>     A B A<br>       A <br></pre>
-
-20
-<pre>
+    <tr>
+      <td >13</td>
+      <td >14</td>
+      <td >15</td>
+      <td >16</td>
+      <td >17</td>
+      <td >18</td>
+    </tr>
+    <tr>
+<td><pre>
 0
 1 2
 3 4 5
 6 7 8 9
-</pre>
-
-59
-<pre>
+</pre></td>
+<td><pre>
         1
       1 2 1
     1 2 3 2 1
   1 2 3 4 3 2 1
 1 2 3 4 5 4 3 2 1
-</pre>
+</pre></td>
+<td><pre>
+1 1 1 1 1 
+2 2 2 2 2
+3 3 3 3 3 
+4 4 4 4 4
+5 5 5 5 5
+</pre></td>
+    </tr>
+  </tbody>
+</table>
 
 78
 <pre>
@@ -192,22 +174,7 @@ Enter the number of terms 5
 </pre>
 
 94
-<pre>
-1 1 1 1 1 
-2 2 2 2 2
-3 3 3 3 3 
-4 4 4 4 4
-5 5 5 5 5
-</pre>
 
-95
-<pre>
-*
-* A
-* A *
-* A * A
-* A * A *
-</pre>
 
 96
 <pre>
@@ -234,11 +201,67 @@ Enter the number of terms 5
 0 1 3
 3 5 8 12
 12 15 19 24 30 
-30
 </pre>
+
+61
+<pre>
+A
+A B 
+A B C 
+A B C D 
+A B C D E 
+</pre>
+
+
+68
+<pre>
+A 
+B C 
+D E F 
+G H I J 
+</pre>
+
+77
+<pre>E D C B A<br>  E D C B<br>    E D C<br>      E D<br>        E<br></pre>
+
+84
+<pre>Enter a Three Letter Word : CAT<br> C <br>CAT<br> T <br></pre>
+
+85 
+<pre>Enter word : Hello<br>H<br> e<br>  l<br>   l<br>    o<br></pre>
+
+88
+<pre>A B C D E<br>B C D E<br>C D E<br>D E<br>E<br></pre>
+
+89
+<pre>A A A A A <br>C C C C<br>E E E<br>G G<br>I<br></pre>
+
+93
+<pre>       A<br>     A B A<br>   A B C B A<br> A B C D C B A<br>   A B C B A<br>     A B A<br>       A <br></pre>
+
+
+
+95
+<pre>
+*
+* A
+* A *
+* A * A
+* A * A *
+</pre>
+
+
 
 # Patterns
 Using Alphabets
+1
+<pre>
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+</pre>
 23
 <pre>
 * 
