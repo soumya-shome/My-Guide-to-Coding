@@ -1,22 +1,24 @@
 # Patterns
 Using Alphabets
 
-1
-<pre>
+|1|61
+|-------|-------|
+|<pre>
       *
      * *
     * * *
    * * * *
   * * * * *
   </pre>
-61
-<pre>
+|<pre>
 A
 A B
 A B C
 A B C D
 A B C D E
-</pre>
+</pre>|
+
+
 
 68
 <pre>
