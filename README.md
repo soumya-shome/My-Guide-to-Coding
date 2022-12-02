@@ -1,10 +1,11 @@
 # Patterns
 Using Alphabets
-
-| | | | | |
-|-------|-------|-------|-------|-------|
-|01<br><pre>1 <br>1 2 <br>1 2 3 <br>1 2 3 4 <br>1 2 3 4 5 <br></pre>|02<br><pre>1 2 3 4 5 <br>1 2 3 4 <br>1 2 3 <br>1 2 <br>1 <br></pre>|03<br><pre>1 2 3 4 5 <br>2 3 4 5 <br>3 4 5 <br>4 5 <br>5 <br></pre>|04<br><pre>5 <br>4 5 <br>3 4 5 <br>2 3 4 5 <br>1 2 3 4 5 <br></pre>|05<br><pre>1 <br>2 2 <br>3 3 3 <br>4 4 4 4 <br>5 5 5 5 5 <br></pre>|
-|06<br><pre>1 1 1 1 1 <br>2 2 2 2 <br>3 3 3 <br>4 4 <br>5 <br></pre>|07<br><pre>5 5 5 5 5<br>4 4 4 4 <br>3 3 3 <br>2 2 <br>1<br></pre>|08<br><pre>5<br>4 4 <br>3 3 3 <br>2 2 2 2 <br>1 1 1 1 1<br></pre>|09<br><pre>1<br>2 1<br>3 2 1<br>4 3 2 1<br>5 4 3 2 1<br></pre>|10<br><pre>5 4 3 2 1<br>4 3 2 1<br>3 2 1<br>2 1<br>1<br></pre>|
+| | | | | | |
+|-------|-------|-------|-------|-------|-------|
+|01|02|03|04|05|06|
+|<pre>1 <br>1 2 <br>1 2 3 <br>1 2 3 4 <br>1 2 3 4 5 <br></pre>|<pre>1 2 3 4 5 <br>1 2 3 4 <br>1 2 3 <br>1 2 <br>1 <br></pre>|<pre>5 <br>4 5 <br>3 4 5 <br>2 3 4 5 <br>1 2 3 4 5 <br></pre>|<pre>1 2 3 4 5 <br>2 3 4 5 <br>3 4 5 <br>4 5 <br>5 <br></pre>|<pre>1 <br>2 2 <br>3 3 3 <br>4 4 4 4 <br>5 5 5 5 5 <br></pre>|<pre>1 1 1 1 1 <br>2 2 2 2 <br>3 3 3 <br>4 4 <br>5 <br></pre>|
+|07|08|09|10|11|12|
+|<pre>5<br>4 4 <br>3 3 3 <br>2 2 2 2 <br>1 1 1 1 1<br></pre>|<pre>5 5 5 5 5<br>4 4 4 4 <br>3 3 3 <br>2 2 <br>1<br></pre>|<pre>1<br>2 1<br>3 2 1<br>4 3 2 1<br>5 4 3 2 1<br></pre>|<pre>5 4 3 2 1<br>4 3 2 1<br>3 2 1<br>2 1<br>1<br></pre>|||
 
 
 1
@@ -34,20 +35,6 @@ Using Alphabets
 
 93
 <pre>       A<br>     A B A<br>   A B C B A<br> A B C D C B A<br>   A B C B A<br>     A B A<br>       A <br></pre>
-
-
-
-07
-<pre>5 5 5 5 5 <br>4 4 4 4 <br>3 3 3 <br>2 2 <br>1 <br></pre>
-
-10
-<pre>
-5 4 3 2 1 
-4 3 2 1
-3 2 1
-2 1
-1
-</pre>
 
 20
 <pre>
