@@ -138,14 +138,7 @@
   1 2 3 4 3 2 1
 1 2 3 4 5 4 3 2 1
 </pre></td>
-<td colspan=2><pre><!-- 00 -->
-Enter the number of rows : 5
-        0
-      1 0 1
-    2 1 0 1 2
-  3 2 1 0 1 2 3
-4 3 2 1 0 1 2 3 4
-</pre></td>
+<td colspan=2></td>
     </tr>
     <tr>
       <td >19</td>
@@ -204,11 +197,7 @@ Enter the number of terms 5
   1 6 1 0 5 1
  1 7 7 1 5 6 1
 </pre></td>
-<td colspan=2><pre>Enter a Three Letter Word : CAT
- C 
-CAT
- T 
-</pre></td>
+<td colspan=2></td>
     </tr>
     <tr>
       <td >13</td>
@@ -298,8 +287,6 @@ I
 </table>
 
 
-
-85 
 <pre>
 Enter word : Hello
 H
@@ -309,13 +296,6 @@ H
     o
 </pre>
 
-88
-
-
-89
-
-
-93
 <pre>
       A
     A B A
@@ -325,7 +305,14 @@ A B C D C B A
     A B A 
       A 
 </pre>
-
+<pre><!-- 00 -->
+Enter the number of rows : 5
+        0
+      1 0 1
+    2 1 0 1 2
+  3 2 1 0 1 2 3
+4 3 2 1 0 1 2 3 4
+</pre>
 <pre>
 *
 * A
@@ -333,20 +320,11 @@ A B C D C B A
 * A * A
 * A * A *
 </pre>
-
-
-
-# Patterns
-Using Alphabets
-1
-
-23
-
-
-24
-
-
-28
+<pre>Enter a Three Letter Word : CAT
+ C 
+CAT
+ T 
+</pre>
 <pre>
      * 
     * *
@@ -359,7 +337,6 @@ Using Alphabets
      *
 </pre>
 
-31
 <pre>
 *
 **  
@@ -370,7 +347,6 @@ Using Alphabets
 *
 </pre>
 
-34
 <pre>
 Enter the terms: 5
 *********
@@ -380,10 +356,6 @@ Enter the terms: 5
     *
 </pre>
 
-35
-
-
-36
 <pre>
  * * * * * 
   * * * *
@@ -392,7 +364,6 @@ Enter the terms: 5
      *
 </pre>
 
-37
 <pre>
 Enter the number of terms : 5
    * 
@@ -402,7 +373,6 @@ Enter the number of terms : 5
    *
 </pre>
 
-38
 <pre>
 * * * * 
  * * *
@@ -413,7 +383,6 @@ Enter the number of terms : 5
 * * * *
 </pre>
 
-39
 <pre>
 * * * * * * 
  * * * * *
@@ -429,7 +398,6 @@ Enter the number of terms : 5
 * * * * * *
 </pre>
 
-40
 <pre>
 * 
 * *
@@ -438,7 +406,6 @@ Enter the number of terms : 5
 * * * * *
 </pre>
 
-44
 <pre>
 enter the no. of rows : 5
      *
@@ -448,7 +415,6 @@ enter the no. of rows : 5
  *********
 </pre>
 
-45
 <pre>
      *
    *  *
@@ -457,7 +423,6 @@ enter the no. of rows : 5
 *  *  *  *
 </pre>
 
-47
 <pre>
 * * * * * 
 *       *
@@ -466,7 +431,6 @@ enter the no. of rows : 5
 * * * * *
 </pre>
 
-48
 <pre>
 * * * * * 
 * *   * *
@@ -475,7 +439,6 @@ enter the no. of rows : 5
 * * * * *
 </pre>
 
-52
 <pre>
 * * * * * * * 
 *           *
@@ -486,7 +449,6 @@ enter the no. of rows : 5
 * * * * * * *
 </pre>
 
-54
 <pre>
  *     *
   *   *
@@ -497,14 +459,12 @@ enter the no. of rows : 5
  *     *
 </pre>
 
-90
 <pre>
 # # # # # 
 # # #
 #
 </pre>
 
-91
 <pre>
 ******
 * ****
@@ -513,7 +473,6 @@ enter the no. of rows : 5
 *    *
 </pre>
 
-92
 <pre>
 * * * * * * 
 * *     * *
