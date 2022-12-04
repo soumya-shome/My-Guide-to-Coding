@@ -3,15 +3,13 @@
 <table>
   <tbody>
     <tr>
-      <td colspan=6>Using Numbers</td>
+      <td colspan=4>Using Numbers</td>
     </tr>
     <tr>
       <td >01</td>
       <td >02</td>
       <td >03</td>
       <td >04</td>
-      <td >05</td>
-      <td >06</td>
     </tr>
     <tr>
 <td><pre><!-- 01 -->
@@ -42,6 +40,14 @@
 4 5 
 5 
 </pre></td>
+    </tr>
+    <tr>
+      <td >07</td>
+      <td >08</td>
+      <td >09</td>
+      <td >10</td>
+    </tr>
+    <tr>
 <td><pre><!-- 05 -->
 1 
 2 2 
@@ -56,16 +62,6 @@
 4 4 
 5 
 </pre></td>
-    </tr>
-    <tr>
-      <td >07</td>
-      <td >08</td>
-      <td >09</td>
-      <td >10</td>
-      <td >11</td>
-      <td >12</td>
-    </tr>
-    <tr>
 <td><pre><!-- 07 -->
 5
 4 4 
@@ -80,6 +76,14 @@
 2 2 
 1
 </pre></td>
+    </tr>
+    <tr>
+      <td >13</td>
+      <td >14</td>
+      <td >15</td>
+      <td >16</td>
+    </tr>
+    <tr>
 <td><pre><!-- 09 -->
 1
 2 1
@@ -110,12 +114,10 @@
 </pre></td>
     </tr>
     <tr>
-      <td >13</td>
-      <td >14</td>
-      <td >15</td>
-      <td >16</td>
-      <td >17</td>
-      <td >18</td>
+      <td >19</td>
+      <td >20</td>
+      <td >21</td>
+      <td >22</td>
     </tr>
     <tr>
 <td><pre><!-- 00 -->
@@ -139,17 +141,6 @@
 1 2 3 4 5 4 3 2 1
 </pre></td>
 <td ></td>
-    </tr>
-    <tr>
-      <td >19</td>
-      <td >20</td>
-      <td >21</td>
-      <td >22</td>
-      <td >23</td>
-      <td >24</td>
-    </tr>
-    <tr>
-<td ></td>
 <td><pre><!-- 00 -->
 12345677654321
 123456  654321
@@ -159,6 +150,14 @@
 12          21
 1            1
 </pre></td>
+    </tr>
+    <tr>
+      <td >25</td>
+      <td >26</td>
+      <td >27</td>
+      <td >28</td>
+    </tr>
+    <tr>
 <td ><pre><!-- 00 -->
       1
     1 2 3
@@ -171,16 +170,6 @@
 3 5 8 12
 12 15 19 24 30 
 </pre></td>
-    </tr>
-    <tr>
-      <td >25</td>
-      <td >26</td>
-      <td >27</td>
-      <td >28</td>
-      <td >29</td>
-      <td >30</td>
-    </tr>
-    <tr>
 <td><pre><!-- 00 -->
        1 
       1 1
@@ -197,8 +186,6 @@
       <td >14</td>
       <td >15</td>
       <td >16</td>
-      <td >17</td>
-      <td >18</td>
     </tr>
     <tr>
 <td><pre><!-- 00 -->
@@ -228,23 +215,12 @@ C D E
 D E
 E
 </pre></td>
-<td><pre><!-- 00 -->
-A A A A A 
-C C C C
-E E E
-G G
-I
-</pre></td>
-<td>
-</td>
     </tr>
     <tr>
       <td >13</td>
       <td >14</td>
       <td >15</td>
       <td >16</td>
-      <td >17</td>
-      <td >18</td>
     </tr>
     <tr>
 <td><pre>
@@ -278,7 +254,15 @@ I
     </tr>
   </tbody>
 </table>
-
+<td><pre><!-- 00 -->
+A A A A A 
+C C C C
+E E E
+G G
+I
+</pre></td>
+<td>
+</td>
 <pre><!-- 00 -->
 Enter the number of terms 5
 ++++1++++
