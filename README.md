@@ -131,14 +131,14 @@
 4 4 4 4 4
 5 5 5 5 5
 </pre></td>
-<td colspan=2><pre><!-- 00 -->
+<td ><pre><!-- 00 -->
         1
       1 2 1
     1 2 3 2 1
   1 2 3 4 3 2 1
 1 2 3 4 5 4 3 2 1
 </pre></td>
-<td colspan=2></td>
+<td ></td>
     </tr>
     <tr>
       <td >19</td>
@@ -149,7 +149,7 @@
       <td >24</td>
     </tr>
     <tr>
-<td colspan=2><pre><!-- 00 -->
+<td ><pre><!-- 00 -->
 Enter the number of terms 5
 ++++1++++
 +++222+++
@@ -197,7 +197,7 @@ Enter the number of terms 5
   1 6 1 0 5 1
  1 7 7 1 5 6 1
 </pre></td>
-<td colspan=2></td>
+<td ></td>
     </tr>
     <tr>
       <td >13</td>
