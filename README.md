@@ -6,34 +6,29 @@
       <td colspan=4>Using Numbers</td>
     </tr>
     <tr>
-      <td >01</td>
-      <td >02</td>
-      <td >03</td>
-      <td >04</td>
-    </tr>
-    <tr>
-<td><pre><!-- 01 -->
+<td><pre>
 1 
 1 2 
 1 2 3 
 1 2 3 4 
-1 2 3 4 5 
+1 2 3 4 5
+Code here [Code](www.google.co.in) 
 </pre></td>
-<td><pre><!-- 02 -->
+<td><pre>
 1 2 3 4 5 
 1 2 3 4 
 1 2 3 
 1 2 
 1 
 </pre></td>
-<td><pre><!-- 03 -->
+<td><pre>
 5 
 4 5 
 3 4 5 
 2 3 4 5 
 1 2 3 4 5 
 </pre></td>
-<td><pre><!-- 04 -->
+<td><pre>
 1 2 3 4 5 
 2 3 4 5 
 3 4 5 
@@ -41,35 +36,35 @@
 5 
 </pre></td>
     </tr>
-    <tr>
+    <tr><!-- Row 02 -->
       <td >05</td>
       <td >06</td>
       <td >07</td>
       <td >08</td>
     </tr>
     <tr>
-<td><pre><!-- 05 -->
+<td><pre>
 1 
 2 2 
 3 3 3 
 4 4 4 4 
 5 5 5 5 5 
 </pre></td>
-<td><pre><!-- 06 -->
+<td><pre>
 1 1 1 1 1 
 2 2 2 2 
 3 3 3 
 4 4 
 5 
 </pre></td>
-<td><pre><!-- 07 -->
+<td><pre>
 5
 4 4 
 3 3 3 
 2 2 2 2 
 1 1 1 1 1
 </pre></td>
-<td><pre><!-- 08 -->
+<td><pre>
 5 5 5 5 5
 4 4 4 4 
 3 3 3 
@@ -77,35 +72,35 @@
 1
 </pre></td>
     </tr>
-    <tr>
+    <tr><!-- Row 03 -->
       <td >09</td>
       <td >10</td>
       <td >11</td>
       <td >12</td>
     </tr>
     <tr>
-<td><pre><!-- 09 -->
+<td><pre>
 1
 2 1
 3 2 1
 4 3 2 1
 5 4 3 2 1
 </pre></td>
-<td><pre><!-- 10 -->
+<td><pre>
 5 4 3 2 1
 4 3 2 1
 3 2 1
 2 1
 1
 </pre></td>
-<td><pre><!-- 11 -->
+<td><pre>
 1
 1 3
 1 3 5
 1 3 5 7
 1 3 5 7 9
 </pre></td>
-<td><pre><!-- 12 -->
+<td><pre>
 1 3 5 7 9
 1 3 5 7
 1 3 5
@@ -113,35 +108,35 @@
 1 
 </pre></td>
     </tr>
-    <tr>
+    <tr><!-- Row 04 -->
       <td >13</td>
       <td >14</td>
       <td >15</td>
       <td >16</td>
     </tr>
     <tr>
-<td><pre><!-- 13 -->
+<td><pre>
 1
 3 3
 5 5 5
 7 7 7 7
 9 9 9 9 9
 </pre></td>
-<td><pre><!-- 14 -->
+<td><pre>
 9 9 9 9 9
 7 7 7 7
 5 5 5
 3 3 
 1
 </pre></td>
-<td><pre><!-- 15 -->
+<td><pre>
 1 1 1 1 1
 3 3 3 3
 5 5 5
 7 7
 9
 </pre></td>
-<td><pre><!-- 16 -->
+<td><pre>
 9
 7 7
 5 5 5
@@ -149,70 +144,70 @@
 1 1 1 1 1
 </pre></td>
     </tr>
-    <tr>
+    <tr><!-- Row 05 -->
       <td>17</td>
       <td>18</td>
       <td>19</td>
       <td>20</td>
     </tr>
     <tr>
-<td><pre><!-- 17 -->
+<td><pre>
 1
 1 1
 1 2 1
 1 3 3 1
 1 4 6 4 1
 </pre></td>
-<td><pre><!-- 18 -->
+<td><pre>
 0
 1 2
 3 4 5
 6 7 8 9
 10 11 12 13 14
 </pre></td>
-<td><pre><!-- 19 -->
+<td><pre>
 1
 2 6
 3 7 10
 4 8 11 13
 5 9 12 14 15
 </pre></td>
-<td><pre><!-- 20 -->
+<td><pre>
 2
 4 4 4
 6 6 6 6 6
 8 8 8 8 8 8 8
 </pre></td>
     </tr>
-    <tr>
+    <tr><!-- Row 06 -->
       <td>21</td>
       <td>22</td>
       <td>23</td>
       <td>24</td>
     </tr>
     <tr>
-<td><pre><!-- 21 -->
+<td><pre>
 5 4 3 2 1 
 5 4 3 2 2
 5 4 3 3 3
 5 4 4 4 4
 5 5 5 5 5
 </pre></td>
-<td><pre><!-- 22 -->
+<td><pre>
 5 5 5 5 5
 4 5 5 5 5
 3 4 5 5 5 
 2 3 4 5 5
 1 2 3 4 5 
 </pre></td>
-<td><pre><!-- 23 -->
+<td><pre>
 5 5 5 5 5
 5 5 5 5 4
 5 5 5 4 3
 5 5 4 3 2 
 5 4 3 2 1 
 </pre></td>
-<td><pre><!-- 24 -->
+<td><pre>
 1 2 3 4 5
 2 3 4 5 1
 3 4 5 1 1
@@ -220,35 +215,51 @@
 5 1 1 1 1 
 </pre></td>
     </tr>
-    <tr>
+    <tr><!-- Row 07 -->
       <td>25</td>
       <td>26</td>
       <td>27</td>
       <td>28</td>
     </tr>
     <tr>
-<td><pre><!-- 25 -->
+<td><pre>
 5 5 5 5 5
 4 5 4 4 4
 3 4 5 3 3
 2 3 4 5 2
 1 2 3 4 5
 </pre></td>
-<td><pre><!-- 26 -->
+<td><pre>
 1 1 1 1 1
 2 2 2 2 2
 3 3 3 3 3
 4 4 4 4 4
 5 5 5 5 5
 </pre></td>
-<td><pre><!-- 27 -->
-
+<td><pre>
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+1 2 
+1 2 3
+1 2 3 4
+1 2 3 4 5
 </pre></td>
-<td><pre><!-- 28 -->
-
+<td><pre>
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2 
+1
 </pre></td>
     </tr>
-    <tr>
+    <tr><!-- Row 08 -->
       <td >29</td>
       <td >30</td>
       <td >31</td>
@@ -272,7 +283,7 @@
 1            1
 </pre></td>
     </tr>
-    <tr>
+    <tr><!-- Row 09 -->
       <td >33</td>
       <td >34</td>
       <td >35</td>
@@ -296,14 +307,14 @@
  1 7 7 1 5 6 1
 </pre></td>
     </tr>
-    <tr>
+    <tr><!-- Row 10 -->
       <td >37</td>
       <td >38</td>
       <td >39</td>
       <td >40</td>
     </tr>
     <tr>
-<td colspan=2><pre><!-- 00 -->
+<td colspan=2><pre>
 Enter the number of terms 5
 ++++1++++
 +++222+++
@@ -311,7 +322,7 @@ Enter the number of terms 5
 +4444444+
 555555555
 </pre></td>
-<td colspan=2><pre><!-- 00 -->
+<td colspan=2><pre>
 Enter the number of rows : 5
         0
       1 0 1
@@ -322,9 +333,6 @@ Enter the number of rows : 5
     </tr>
   </tbody>
 </table>
-
-
-
 
 <br/><br/><br/><br/>
 
@@ -453,18 +461,18 @@ CAT
 *
 </pre></td>
 <td><pre>
-* * * * *
-  * * * *
-    * * *
-      * *
         *
+      * *
+    * * *
+  * * * *
+* * * * *
 </pre></td>
 <td><pre>
-        *
-      * *
-    * * *
-  * * * *
 * * * * *
+  * * * *
+    * * *
+      * *
+        *
 </pre></td>
     </tr>
     <tr>
@@ -509,16 +517,8 @@ CAT
       <td >11</td>
       <td >12</td>
     </tr>
-  </tbody>
-</table>
-
-
-
-
-
-
-
-<pre>
+    <tr>
+<td><pre>
      * 
     * *
    * * *
@@ -528,36 +528,30 @@ CAT
    * * *
     * *
      *
-</pre>
-<pre>
+</pre></td>
+<td><pre>
 *
-**  
+**
 *** 
+****
+*****
 ****
 ***
 **
 *
-</pre>
-<pre>
-Enter the terms: 5
-*********
- *******
-  *****
-   ***
+</pre></td>
+<td><pre>
+* * * * *
+ * * * * 
+  * * *
+   * *
     *
-</pre>
-
-<pre>
-* * * * 
- * * *
-  * *
-   *
-  * *
- * * *
-* * * *
-</pre>
-<pre>
-* * * * * * 
+   * *
+  * * *
+ * * * *
+* * * * *
+</pre></td>
+<td><pre>
  * * * * *
   * * * *
    * * *
@@ -568,25 +562,30 @@ Enter the terms: 5
    * * *
   * * * *
  * * * * *
-* * * * * *
-</pre>
-
-
-<pre>
+</pre></td>
+    </tr>
+    <tr>
+      <td >13</td>
+      <td >14</td>
+      <td >15</td>
+      <td >16</td>
+    </tr>
+    <tr>
+<td><pre>
 * * * * * 
 *       *
 *       *
 *       *
 * * * * *
-</pre>
-<pre>
+</pre></td>
+<td><pre>
 * * * * * 
 * *   * *
 *   *   *
 * *   * *
 * * * * *
-</pre>
-<pre>
+</pre></td>
+<td><pre>
 * * * * * * * 
 *           *
 *   * * *   *
@@ -594,8 +593,8 @@ Enter the terms: 5
 *   * * *   *
 *           *
 * * * * * * *
-</pre>
-<pre>
+</pre></td>
+<td><pre>
  *     *
   *   *
    * *
@@ -603,47 +602,85 @@ Enter the terms: 5
    * *
   *   *
  *     *
-</pre>
-<pre>
+</pre></td>
+    </tr>
+    <tr>
+      <td >17</td>
+      <td >18</td>
+      <td >19</td>
+      <td >20</td>
+    </tr>
+    <tr>
+<td><pre>
 # # # # # 
 # # #
 #
-</pre>
-<pre>
+</pre></td>
+<td><pre>
 ******
 * ****
 *  ***
 *   **
 *    *
-</pre>
-<pre>
+</pre></td>
+<td><pre>
 * * * * * * 
 * *     * *
 *         *
 *         *
 * *     * *
 * * * * * *
-</pre>
-<pre>
+</pre></td>
+<td><pre>
 *
 * A
 * A *
 * A * A
 * A * A *
-</pre>
-<pre>
+</pre></td>
+    </tr>
+    <tr>
+      <td >21</td>
+      <td >22</td>
+      <td >23</td>
+      <td >24</td>
+    </tr>
+    <tr>
+<td colspan=2><pre>
+Enter the terms: 5
+*********
+ *******
+  *****
+   ***
+    *
+</pre></td>
+<td colspan=2><pre>
 enter the no. of rows : 5
      *
     * *
    *   *
   *     *
  *********
-</pre>
-<pre>
+</pre></td>
+    </tr>
+    <tr>
+      <td >25</td>
+      <td >26</td>
+      <td >27</td>
+      <td >28</td>
+    </tr>
+    <tr>
+<td colspan=2><pre>
 Enter the number of terms : 5
    * 
   * *
  * * *
   * *
    *
-</pre>
+</pre></td>
+<td></td>
+<td></td>
+<td></td>
+    </tr>
+  </tbody>
+</table>
