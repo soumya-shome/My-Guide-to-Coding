@@ -248,17 +248,21 @@
 
 </pre></td>
     </tr>
-  </tbody>
-</table>
-
-<pre>
+    <tr>
+      <td >29</td>
+      <td >30</td>
+      <td >31</td>
+      <td >32</td>
+    </tr>
+    <tr>
+<td colspan=2><pre>
         1
       1 2 1
     1 2 3 2 1
   1 2 3 4 3 2 1
 1 2 3 4 5 4 3 2 1
-</pre>
-<pre>
+</pre></td>
+<td colspan=2><pre>
 12345677654321
 123456  654321
 12345    54321
@@ -266,20 +270,23 @@
 123        321
 12          21
 1            1
-</pre>
-<pre>
-      1
-    1 2 3
-  1 2 3 4 5
-1 2 3 4 5 6 7
 </pre></td>
-<pre><!-- 18 -->
-0 
-0 1 3
-3 5 8 12
-12 15 19 24 30 
+    </tr>
+    <tr>
+      <td >33</td>
+      <td >34</td>
+      <td >35</td>
+      <td >36</td>
+    </tr>
+    <tr>
+<td colspan=2><pre>
+        1
+      1 2 3
+    1 2 3 4 5
+  1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8 9
 </pre></td>
-<pre><!-- 19 -->
+<td colspan=2><pre><!-- 19 -->
        1 
       1 1
      1 2 1
@@ -287,27 +294,39 @@
    1 4 6 4 1
   1 6 1 0 5 1
  1 7 7 1 5 6 1
-</pre>
-<pre><!-- 00 -->
+</pre></td>
+    </tr>
+    <tr>
+      <td >37</td>
+      <td >38</td>
+      <td >39</td>
+      <td >40</td>
+    </tr>
+    <tr>
+<td colspan=2><pre><!-- 00 -->
 Enter the number of terms 5
 ++++1++++
 +++222+++
 ++33333++
 +4444444+
 555555555
-</pre>
-<pre><!-- 00 -->
+</pre></td>
+<td colspan=2><pre><!-- 00 -->
 Enter the number of rows : 5
         0
       1 0 1
     2 1 0 1 2
   3 2 1 0 1 2 3
 4 3 2 1 0 1 2 3 4
-</pre>
+</pre></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
 
+<br/><br/><br/><br/>
 
 <table>
   <tbody>
@@ -321,25 +340,13 @@ Enter the number of rows : 5
       <td >04</td>
     </tr>
     <tr>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-<pre><!-- 21 -->
+<td><pre><!-- 21 -->
 A
 A B 
 A B C 
 A B C D 
 A B C D E 
-</pre>
+</pre></td>
 <td><pre><!-- 22 -->
 A 
 B C 
@@ -359,23 +366,39 @@ B C D E
 C D E
 D E
 E
-</pre>
-<pre><!-- 00 -->
+</pre></td>
+    </tr>
+    <tr>
+      <td >05</td>
+      <td >06</td>
+      <td >07</td>
+      <td >08</td>
+    </tr>
+    <tr>
+<td><pre><!-- 00 -->
 A A A A A 
 C C C C
 E E E
 G G
 I
-</pre>
-<pre>
+</pre></td>
+    </tr>
+    <tr>
+      <td >09</td>
+      <td >10</td>
+      <td >11</td>
+      <td >12</td>
+    </tr>
+    <tr>
+<td colspan=2><pre>
 Enter word : Hello
 H
  e
   l
    l
     o
-</pre>
-<pre>
+</pre></td>
+<td colspan=2><pre>
       A
     A B A
   A B C B A
@@ -383,16 +406,25 @@ A B C D C B A
   A B C B A
     A B A 
       A 
-</pre>
-<pre>Enter a Three Letter Word : CAT
+</pre></td>
+    </tr>
+    <tr>
+      <td >13</td>
+      <td >14</td>
+      <td >15</td>
+      <td >16</td>
+    </tr>
+    <tr>
+<td colspan=2><pre>Enter a Three Letter Word : CAT
  C 
 CAT
  T 
-</pre>
+</pre></td>
+    </tr>
+  </tbody>
+</table>
 
-
-
-
+<br/><br/><br/><br/>
 
 <table>
   <tbody>
@@ -435,23 +467,53 @@ CAT
 * * * * *
 </pre></td>
     </tr>
-  </tbody>
-</table>
-
-<pre>
+    <tr>
+      <td >05</td>
+      <td >06</td>
+      <td >07</td>
+      <td >08</td>
+    </tr>
+    <tr>
+<td><pre>
      *
     * *
    * * *
   * * * *
  * * * * *
-</pre>
-<pre>
+</pre></td>
+<td><pre>
  * * * * * 
   * * * *
    * * *
     * *
      *
-</pre>
+</pre></td>
+<td><pre>
+* 
+* *
+*   *
+*     *
+* * * * *
+</pre></td>
+<td><pre>
+     *
+   *  *
+  *    *
+ *      *
+*  *  *  *
+</pre></td>
+    </tr>
+    <tr>
+      <td >09</td>
+      <td >10</td>
+      <td >11</td>
+      <td >12</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 
 
 
@@ -508,20 +570,8 @@ Enter the terms: 5
  * * * * *
 * * * * * *
 </pre>
-<pre>
-* 
-* *
-*   *
-*     *
-* * * * *
-</pre>
-<pre>
-     *
-   *  *
-  *    *
- *      *
-*  *  *  *
-</pre>
+
+
 <pre>
 * * * * * 
 *       *
