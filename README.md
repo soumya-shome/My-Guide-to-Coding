@@ -11,8 +11,7 @@
 1 2 
 1 2 3 
 1 2 3 4 
-1 2 3 4 5
-Code here [Code](www.google.co.in) 
+1 2 3 4 5 
 </pre></td>
 <td><pre>
 1 2 3 4 5 
@@ -35,12 +34,6 @@ Code here [Code](www.google.co.in)
 4 5 
 5 
 </pre></td>
-    </tr>
-    <tr><!-- Row 02 -->
-      <td >05</td>
-      <td >06</td>
-      <td >07</td>
-      <td >08</td>
     </tr>
     <tr>
 <td><pre>
@@ -72,12 +65,6 @@ Code here [Code](www.google.co.in)
 1
 </pre></td>
     </tr>
-    <tr><!-- Row 03 -->
-      <td >09</td>
-      <td >10</td>
-      <td >11</td>
-      <td >12</td>
-    </tr>
     <tr>
 <td><pre>
 1
@@ -107,12 +94,6 @@ Code here [Code](www.google.co.in)
 1 3 
 1 
 </pre></td>
-    </tr>
-    <tr><!-- Row 04 -->
-      <td >13</td>
-      <td >14</td>
-      <td >15</td>
-      <td >16</td>
     </tr>
     <tr>
 <td><pre>
@@ -144,12 +125,6 @@ Code here [Code](www.google.co.in)
 1 1 1 1 1
 </pre></td>
     </tr>
-    <tr><!-- Row 05 -->
-      <td>17</td>
-      <td>18</td>
-      <td>19</td>
-      <td>20</td>
-    </tr>
     <tr>
 <td><pre>
 1
@@ -178,12 +153,6 @@ Code here [Code](www.google.co.in)
 6 6 6 6 6
 8 8 8 8 8 8 8
 </pre></td>
-    </tr>
-    <tr><!-- Row 06 -->
-      <td>21</td>
-      <td>22</td>
-      <td>23</td>
-      <td>24</td>
     </tr>
     <tr>
 <td><pre>
@@ -214,12 +183,6 @@ Code here [Code](www.google.co.in)
 4 5 1 1 1 
 5 1 1 1 1 
 </pre></td>
-    </tr>
-    <tr><!-- Row 07 -->
-      <td>25</td>
-      <td>26</td>
-      <td>27</td>
-      <td>28</td>
     </tr>
     <tr>
 <td><pre>
@@ -259,12 +222,6 @@ Code here [Code](www.google.co.in)
 1
 </pre></td>
     </tr>
-    <tr><!-- Row 08 -->
-      <td >29</td>
-      <td >30</td>
-      <td >31</td>
-      <td >32</td>
-    </tr>
     <tr>
 <td colspan=2><pre>
         1
@@ -283,12 +240,6 @@ Code here [Code](www.google.co.in)
 1            1
 </pre></td>
     </tr>
-    <tr><!-- Row 09 -->
-      <td >33</td>
-      <td >34</td>
-      <td >35</td>
-      <td >36</td>
-    </tr>
     <tr>
 <td colspan=2><pre>
         1
@@ -306,12 +257,6 @@ Code here [Code](www.google.co.in)
   1 6 1 0 5 1
  1 7 7 1 5 6 1
 </pre></td>
-    </tr>
-    <tr><!-- Row 10 -->
-      <td >37</td>
-      <td >38</td>
-      <td >39</td>
-      <td >40</td>
     </tr>
     <tr>
 <td colspan=2><pre>
@@ -340,12 +285,6 @@ Enter the number of rows : 5
   <tbody>
     <tr>
       <td colspan=4>Using Alphabets</td>
-    </tr>
-    <tr>
-      <td >01</td>
-      <td >02</td>
-      <td >03</td>
-      <td >04</td>
     </tr>
     <tr>
 <td><pre><!-- 21 -->
@@ -377,12 +316,6 @@ E
 </pre></td>
     </tr>
     <tr>
-      <td >05</td>
-      <td >06</td>
-      <td >07</td>
-      <td >08</td>
-    </tr>
-    <tr>
 <td><pre><!-- 00 -->
 A A A A A 
 C C C C
@@ -390,12 +323,6 @@ E E E
 G G
 I
 </pre></td>
-    </tr>
-    <tr>
-      <td >09</td>
-      <td >10</td>
-      <td >11</td>
-      <td >12</td>
     </tr>
     <tr>
 <td colspan=2><pre>
@@ -417,12 +344,6 @@ A B C D C B A
 </pre></td>
     </tr>
     <tr>
-      <td >13</td>
-      <td >14</td>
-      <td >15</td>
-      <td >16</td>
-    </tr>
-    <tr>
 <td colspan=2><pre>Enter a Three Letter Word : CAT
  C 
 CAT
@@ -438,12 +359,6 @@ CAT
   <tbody>
     <tr>
       <td colspan=4>Using Symbols</td>
-    </tr>
-    <tr>
-      <td >01</td>
-      <td >02</td>
-      <td >03</td>
-      <td >04</td>
     </tr>
     <tr>
 <td><pre>
@@ -474,12 +389,6 @@ CAT
       * *
         *
 </pre></td>
-    </tr>
-    <tr>
-      <td >05</td>
-      <td >06</td>
-      <td >07</td>
-      <td >08</td>
     </tr>
     <tr>
 <td><pre>
