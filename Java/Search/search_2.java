@@ -1,7 +1,7 @@
 import java.util.*;
 class search_2
 {
-    int ola(int n)
+    static int ola(int n)
     {
         int a=56;
         int f=29;
@@ -17,7 +17,7 @@ class search_2
             }
         }
     }
-    public  void meth()
+    public static void main(String []args)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a no.");
