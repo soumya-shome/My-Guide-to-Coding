@@ -1,7 +1,7 @@
 import java.util.*;
 class PiglatinWords
 {
-    public  void meth()
+     void meth()
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the no. of phrases");
@@ -76,7 +76,7 @@ class PiglatinWords
             }
         }
     }
-    static void main()
+    public static void main(String args[])
     {
         PiglatinWords obj=new PiglatinWords();
         obj.meth();
