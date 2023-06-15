@@ -47,7 +47,7 @@ Java is a high-level programming language originally developed by Sun Microsyste
 - Business applications </br>
 </p>
 
-## Basics  [ basics.py ]()
+## Basics  [ Basics.java ](Basics.java)
 
 Literals / Datatypes
 - Integer
