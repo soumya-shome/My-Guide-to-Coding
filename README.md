@@ -67,44 +67,67 @@ Literals / Datatypes
 - Null
     - null
 
+### Other Contents
+
+- Punctuators
+- Separators
+- Escape Sequences
+- Operators
+    - Arithmetic Operators
+    - Assignment Operators
+    - Relational Operators
+    - Logical Operators
+    - Bitwise Operators
+    - Ternary Operator
+- Type Casting
+- Arrays
+
+
 |  | Description |
 | --- | --- |
 | Print | 1. using System.out.print() <br> 2. using System.out.println() <br> 3. using System.out.printf() <br> 4. using System.out.format() |
-| input() | 1. using input() <br> 2. using eval() |
-| type() | 1. using type()  |
-| Operators | <br> 1. Arithmetic Operators <br> 2. Assignment Operators <br> 3. Comparison Operators <br> 4. Logical Operators <br> 5. Identity Operators <br> 6. Membership Operators <br> 7. Bitwise Operators |
-| Control Flow | <br> 1. If-else <br> 2. For <br> 3. While <br> 4. Break <br> 5. Continue <br> 6. Pass|
-| range() |  <br> 2. using range() <br> 2. using range() with step  <br> 2. using range() with start, stop and step |
-| List Comprehension | <br> 1. using List Comprehension <br> 2. >using List Comprehension with if <br> 3. using List Comprehension with if-else <br> 4. using List Comprehension with nested if <br> 5. using List Comprehension with nested if-else |
-|Concatenation and Replication |  <br> 2. Concatenation <br> 2. Replication |
+| Input - Scanner | 1. next() <br> 2. nextLine() <br> 3. nextInt() <br> 4. nextFloat() <br> 5. nextDouble() <br> 6. nextBoolean()<br> 7. next().charAt(0) |
+| Input - BufferedReader | 1. readLine() <br> 2. read() <br> 3. Integer.parseInt(br.readLine())<br> 4. Float.parseFloat(br.readLine())<br> 5. Double.parseDouble(br.readLine())<br> 6. Boolean.parseBoolean(br.readLine())|
+| Control Flow | <br> 1. If-else <br> 2. For <br> 3. While <br> 4. Do-While <br> 5. Switch <br> 6. Break <br> 7. Continue <br> 8. Return |
 
+## OOPs  [ OOPs.java ](OOPs.java)
 
-## Java - Basics
+### Other Contents
 
-Literals / Datatypes<br>
-|-- Byte => byte => to
-|-- Integer => int => int()<br>
-|-- Float => float => float()<br>
-|-- String => str => str()<br>
-|-- Boolean => bool => bool()<br>
+- Class
+- Object
+- Constructor
+- This Keyword
+- Inheritance
+- Method Overloading
+- Method Overriding
+- Data Hiding
+- Abstraction
+- Encapsulation
+- Polymorphism
+- Interface
+- Abstract Class
+- Inner Class
+- Static Class
+- Nested Class
+- Anonymous Class
+- Final Keyword
+- Static Keyword
+- Synchronized Keyword
+- Access Modifiers
+- Packages
+- Exception Handling
+- Multithreading
+- Enum
+- Wrapper Class
+- Autoboxing and Unboxing
 
-
-
-
-## Basics  [ basics.py ](basics.py)
 
 ## Java - Basics
 
 | Basics | Description |
 | --- | --- |
-|Hello World | 1. Hello World </br> 2. Hello World with Arguments </br> 3. Hello World with Arguments and Return Value |
-|Data Types | 1. Primitive Data Types </br> 2. Non-Primitive Data Types </br> 3. Type Casting </br> 4. Type Conversion |
-|Operators | 1. Arithmetic Operators </br> 2. Assignment Operators </br> 3. Comparison Operators </br> 4. Logical Operators </br> 5. Bitwise Operators </br> 6. Ternary Operator </br> 7. Instanceof Operator |
-|Strings | 1. String Length </br> 2. Concatenation </br> 3. Escape Characters </br> 4. String Methods |
-|Arrays | 1. Creating an Array </br> 2. Accessing Elements </br> 3. Changing Elements </br> 4. Looping Through an Array </br> 5. Array Length </br> 6. Multidimensional Arrays |
 |Collections | 1. ArrayList </br> 2. LinkedList </br> 3. HashSet </br> 4. LinkedHashSet </br> 5. TreeSet </br> 6. HashMap </br> 7. LinkedHashMap </br> 8. TreeMap |
-|Conditions | 1. If </br> 2. If-Else </br> 3. If-Else-If </br> 4. Nested If </br> 5. Switch |
-|Loops | 1. For </br> 2. For-Each </br> 3. While </br> 4. Do-While </br> 5. Break </br> 6. Continue |
 |Methods | 1. Creating a Method </br> 2. Calling a Method </br> 3. Method with Arguments </br> 4. Method with Return Value </br> 5. Method with Arguments and Return Value </br> 6. Method Overloading |
 |Classes and Objects | 1. Class </br> 2. Object </br> 3. Constructor </br> 4. This Keyword </br> 5. Instance Variables </br> 6. Class Variables </br> 7. Static Methods </br> 8. Inheritance </br> 9. Overriding Methods </br> 10. Data Hiding |
 |Interfaces | 1. Interface </br> 2. Implementing an Interface </br> 3. Extending an Interface </br> 4. Default Methods </br> 5. Static Methods </br> 6. Private Methods </br> 7. Abstract Methods </br> 8. Functional Interfaces </br> 9. Marker Interfaces |

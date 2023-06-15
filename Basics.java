@@ -178,20 +178,50 @@ public class Basics {
 
         System.out.print("Enter a double: ");
         double c1 = sc.nextDouble();
-        System.out.println("double = "+d);
+        System.out.println("double = "+c1);
 
         System.out.print("Enter a boolean: ");
         boolean d1 = sc.nextBoolean();
-        System.out.println("boolean = "+b);
+        System.out.println("boolean = "+d1);
 
         System.out.print("Enter a character: ");
         char e1 = sc.next().charAt(0);
-        System.out.println("character = "+c);
+        System.out.println("character = "+e1);
 
         System.out.print("Enter a line: ");
         String f1 = sc.nextLine();
         System.out.println("line = "+f1);
 
+        sc.close();
+
+        //BufferedReader
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Enter a number: ");
+        int a2 = Integer.parseInt(br.readLine());
+        System.out.println("Number = "+a2);
+
+        System.out.print("Enter a string: ");
+        String b2 = br.readLine();
+        System.out.println("String = "+b2);
+
+        System.out.print("Enter a double: ");
+        double c2 = Double.parseDouble(br.readLine());
+        System.out.println("double = "+c2);
+
+        System.out.print("Enter a boolean: ");
+        boolean d2 = Boolean.parseBoolean(br.readLine());
+        System.out.println("boolean = "+d2);
+
+        System.out.print("Enter a character: ");
+        char e2 = br.readLine().charAt(0);
+        System.out.println("character = "+e2);
+
+        System.out.print("Enter a line: ");
+        String f2 = br.readLine();
+        System.out.println("line = "+f2);
+
+        br.close();
+        
         //--------------------------Control Flow----------------------------
 
         //If-else
