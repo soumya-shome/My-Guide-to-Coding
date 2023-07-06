@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		#p1,#u1{
+			font-style: italic;
+			color: red
+		}
+		#name,#pass,#sbmt{
+			padding: 10px;
+			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+			color: #5A5A5A;
+			font-size: 110%
+		}
+	
+	</style>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script>
+	
+	$(document).ready(function(){
+		$('form input[type="submit"]').prop("disabled", true);
+		$("#name").blur(function(){
+			
+			if(document.f1.name.value==""){
+				
+				$("#name").css("border","red solid 1px")
+				$("#u1").html("Enter User name")
+			}
+			else{
+				$("#name").css("border","#333 solid 1px")
+				$("#u1").html("")
+			}
+		})
+		
+		$("#pass").blur(function(){
+			if(document.f1.pass.value.length<=5){
+				
+				$("#pass").css("border","red solid 1px")
+				$("#p1").html("Enter password witn min 6 charecter")
+				
+			}
+			else{
+				$("#pass").css("border","#333 solid 1px")
+				$("#p1").html("")
+				
+				
+			}
+		})
+		
+		 $("#agree").click(function(){
+            if($(this).prop("checked") == true){
+                $('form input[type="submit"]').prop("disabled", false);
+            }
+            else if($(this).prop("checked") == false){
+                $('form input[type="submit"]').prop("disabled", true);
+            }
+        });
+		
+	})
+	
+	
+	</script>
+	
+	
+</head>
+
+<body>
+	<form name="f1" method="post">
+	<p>
+		<label>User Name</label></p>
+		<input type="text" id="name" name="user" placeholder="User Name" size="40"><span id="u1"></span>
+		
+	<p>
+		<label>Password</label></p>
+		<input type="password" id="pass" name="pass" placeholder="Password" size="40"><span id="p1"></span>
+	
+		<p><input type="checkbox" id="agree"> i accept all terms & conditions</p>
+		
+	<p><input type="submit" id="sbmt" value="Login"></p>
+	</form>
+</body>
+</html>

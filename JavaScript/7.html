@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script language="javascript">
+i=3
+function demo(){
+	var user=document.login.nam.value
+	var pw=document.login.pass.value
+	if(user!="admin" || pw!="12345"){
+		i--;
+		if(i<=0){
+			alert("Your chance is over")
+			window.close()
+		}
+		else{
+		alert("you have "+i+" chance left ")
+		}
+	}
+	else{
+		document.write("login Successful")
+	}	
+}
+function showpass(){
+	x=document.login.pass
+	if(x.type==="password"){
+		x.type="text"	
+	}
+	else{
+		x.type="password"
+	}
+	
+}
+</script>
+</head>
+
+<body>
+<form name="login" method="post">
+<p>User</p>
+<input type="text" name="nam" placeholder="User ID">
+<p>Password</p>
+<input type="password" name="pass" placeholder="User ID"><input type="checkbox" onChange="showpass()">Show Password
+<br>
+<br>
+
+<button type="button" onClick="demo()">Login</button>
+</form>
+</body>
+</html>

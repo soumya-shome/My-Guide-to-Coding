@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+title{
+	font-size:24px;
+	font-family:Calibri;
+	color:#03C;
+	font-weight:bold;
+	display:block
+}
+author{
+	font-size:20px;
+	color:#F30;
+	font-weight:bold;
+	display:block
+}
+price{
+	font-size:18px;
+	color:#090;
+	font-weight:bold;
+	display:block
+}
+qty{
+	font-size:16px;
+	color:#F30;
+	font-weight:bold;
+	display:block
+}

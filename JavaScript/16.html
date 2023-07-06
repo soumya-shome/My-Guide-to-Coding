@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+
+function bgcolor(){
+window.setTimeout("bgcolor()",1000)
+x=new Array ('red','green','blue','orange','indigo','yellow','brown','cyan','magenta','maroon','purple')
+document.body.style.background=x[Math.floor(Math.random()*x.length)]	
+	
+}
+
+
+</script>
+</head>
+
+<body onLoad="bgcolor()">
+</body>
+</html>

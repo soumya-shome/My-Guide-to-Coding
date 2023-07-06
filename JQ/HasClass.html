@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+	
+	</script><!--- Google CDN--->
+	<script>
+$(document).ready(function() {
+$(".btn").click(function(){
+var className = $(this).attr("id");
+$("ul li").each(function() {
+if ($(this).hasClass(className)) {
+$(this).fadeTo('slow', 0.0).fadeTo('slow', 1.0);
+}
+		});
+	});
+});
+</script>
+	
+	<style>
+ul{
+font-family: monospace;
+font-size: 15px;
+font-style: normal;
+font-size-adjust: none;
+width:200px;
+padding:0px;
+}
+ul li{
+background-color:#7fffd4;
+margin:5px;
+padding:5px;
+list-style-type:none;
+width:200px;
+}
+</style>
+	
+</head>
+
+<body>
+	<ul>
+<li class="red blue">Red Blue</li>
+<li class="green">Green</li>
+<li class="green red">Green Red</li>
+<li class="blue">Blue</li>
+<li class="noclass">Hello World</li>
+</ul>
+<input type="button" class="btn" value="Red Class" id="red">
+<input type="button" class="btn" value="Green Class" id="green">
+<input type="button" class="btn" value="Blue Class" id="blue">
+<input type="button" class="btn" value="No Matching Class" id="noclass">
+
+</body>
+</html>

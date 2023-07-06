@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+
+<parts>
+	<r1>Arduino</r1>
+	<sp>BreadBoard</sp>
+	<sp2>IR Sensor</sp2>
+	<sp2>Ultra Sonic sensor</sp2>
+<board>
+	<r1>Board</r1>
+	<typ>UNO</typ>
+	<typ>Nano 3.0</typ>
+	<typ>Mega</typ>
+</board>
+</parts>
