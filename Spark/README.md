@@ -143,12 +143,15 @@ Francis Galton was an English mathematician, statistician, and biologist who was
 Least Square Method : The least squares method is a statistical procedure to find the best fit for a set of data points by minimizing the sum of the offsets or residuals of points from the plotted curve.
 
 Mean Absolute Error : The mean absolute error (MAE) is a quantity used to measure how close forecasts or predictions are to the eventual outcomes.
+
 ![Alt text](image.png)
 
 Mean Squared Error : The mean squared error (MSE) or mean squared deviation (MSD) of an estimator measures the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value.
+
 ![Alt text](image-1.png)
 
 Root Mean Square Error : The root-mean-square deviation (RMSD) or root-mean-square error (RMSE) is a frequently used measure of the differences between values (sample or population values) predicted by a model or an estimator and the values observed.
+
 ![Alt text](image-2.png)
 
 R Squared Values : R-squared is a statistical measure of how close the data are to the fitted regression line. It is also known as the coefficient of determination, or the coefficient of multiple determination for multiple regression.
@@ -166,3 +169,36 @@ R Squared Values : R-squared is a statistical measure of how close the data are 
 |evaluate()|Evaluates the performance of the fitted linear model on the input data using the specified metric|
 |residuals|Returns the residuals of the fitted linear model|
 |transform()|Transforms the input DataFrame using the fitted linear model|
+
+## Logistic Regression
+
+Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model (a form of binary regression).
+Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
+
+Sigmoind Function : The sigmoid function, also called the sigmoidal curve (von Seggern 2007, p. 334) or logistic function, is the function
+
+![Alt text](image-3.png)
+
+Confusion Matrix : A confusion matrix is a table that is often used to describe the performance of a classification model on a set of test data for which the true values are known.
+
+![Alt text](image-4.png)
+![Alt text](image-5.png)
+
+NO = Negaitve = False = 0
+YES = Positive = True = 1
+
+True Positive (TP) : Observation is positive, and is predicted to be positive.
+False Negative (FN) : Observation is positive, but is predicted negative.
+True Negative (TN) : Observation is negative, and is predicted to be negative.
+False Positive (FP) : Observation is negative, but is predicted positive.
+
+Accuracy : Accuracy is the most intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations.
+
+(TP+TN)/total = Correct Accuracy
+(FP+FN)/total = Error Rate
+
+ROC Curve : A receiver operating characteristic curve, or ROC curve, is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied.
+
+
+
+
