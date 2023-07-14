@@ -136,3 +136,33 @@ df.printSchema()
 |na.drop(subset=['column_name'])|Returns a new DataFrame with rows containing null values in the specified column dropped|
 |na.fill(0)|Returns a new DataFrame with null values replaced by 0|
 
+## Linear Regression 
+
+Francis Galton was an English mathematician, statistician, and biologist who was a pioneer in the study of human intelligence and eugenics. He was knighted in 1909.
+
+Least Square Method : The least squares method is a statistical procedure to find the best fit for a set of data points by minimizing the sum of the offsets or residuals of points from the plotted curve.
+
+Mean Absolute Error : The mean absolute error (MAE) is a quantity used to measure how close forecasts or predictions are to the eventual outcomes.
+![Alt text](image.png)
+
+Mean Squared Error : The mean squared error (MSE) or mean squared deviation (MSD) of an estimator measures the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value.
+![Alt text](image-1.png)
+
+Root Mean Square Error : The root-mean-square deviation (RMSD) or root-mean-square error (RMSE) is a frequently used measure of the differences between values (sample or population values) predicted by a model or an estimator and the values observed.
+![Alt text](image-2.png)
+
+R Squared Values : R-squared is a statistical measure of how close the data are to the fitted regression line. It is also known as the coefficient of determination, or the coefficient of multiple determination for multiple regression.
+
+|Function|Description|
+|--------|-----------|
+|LinearRegression()|Creates a LinearRegression estimator object|
+|fit()|Fits a linear model to the input data using the specified parameters|
+|coefficients|Returns the coefficients of the fitted linear model|
+|intercept|Returns the y-intercept of the fitted linear model|
+|summary|Returns a LinearRegressionSummary object that contains additional information about the fitted linear model|
+|r2|Returns the coefficient of determination of the fitted linear model|
+|rootMeanSquaredError|Returns the root mean squared error of the fitted linear model|
+|randomSplit([x,y])|Splits the DataFrame into two DataFrames using the specified weights|
+|evaluate()|Evaluates the performance of the fitted linear model on the input data using the specified metric|
+|residuals|Returns the residuals of the fitted linear model|
+|transform()|Transforms the input DataFrame using the fitted linear model|
