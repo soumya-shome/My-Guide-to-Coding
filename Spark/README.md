@@ -144,15 +144,15 @@ Least Square Method : The least squares method is a statistical procedure to fin
 
 Mean Absolute Error : The mean absolute error (MAE) is a quantity used to measure how close forecasts or predictions are to the eventual outcomes.
 
-![Alt text](image.png)
+![Alt text](Images/image.png)
 
 Mean Squared Error : The mean squared error (MSE) or mean squared deviation (MSD) of an estimator measures the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value.
 
-![Alt text](image-1.png)
+![Alt text](Images/image-1.png)
 
 Root Mean Square Error : The root-mean-square deviation (RMSD) or root-mean-square error (RMSE) is a frequently used measure of the differences between values (sample or population values) predicted by a model or an estimator and the values observed.
 
-![Alt text](image-2.png)
+![Alt text](Images/image-2.png)
 
 R Squared Values : R-squared is a statistical measure of how close the data are to the fitted regression line. It is also known as the coefficient of determination, or the coefficient of multiple determination for multiple regression.
 
@@ -177,12 +177,12 @@ Logistic regression is used to describe data and to explain the relationship bet
 
 Sigmoind Function : The sigmoid function, also called the sigmoidal curve (von Seggern 2007, p. 334) or logistic function, is the function
 
-![Alt text](image-3.png)
+![Alt text](Images/image-3.png)
 
 Confusion Matrix : A confusion matrix is a table that is often used to describe the performance of a classification model on a set of test data for which the true values are known.
 
-![Alt text](image-4.png)
-![Alt text](image-5.png)
+![Alt text](Images/image-4.png)
+![Alt text](Images/image-5.png)
 
 NO = Negaitve = False = 0
 YES = Positive = True = 1
@@ -199,6 +199,15 @@ Accuracy : Accuracy is the most intuitive performance measure and it is simply a
 
 ROC Curve : A receiver operating characteristic curve, or ROC curve, is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied.
 
+## Tree Methods
 
+Decision Tree : A decision tree is a flowchart-like structure in which each internal node represents a "test" on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes).
 
+Random Forest : Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes or mean prediction of the individual trees.
 
+Gradient Boosted Trees : Gradient boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees.
+  - A loss function to be optimized.
+  - A weak learner to make predictions.
+  - An additive model to add weak learners to minimize the loss function.
+
+![Alt text](Images/image-6.png)
