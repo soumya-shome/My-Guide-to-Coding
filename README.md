@@ -26,6 +26,7 @@
 ## Features of Big Data
 - [Features of Big Data](https://www.guru99.com/characteristics-of-big-data.html) are Volume, Velocity, Variety, Veracity, and Value.
 
+## 3Vs of Big Data
 ### Volume
 - Volume refers to the amount of data generated from various sources such as business transactions, social media, sensors, devices, and mobile phones. The amount of data is very important in determining the value of data. Volume is measured in terms of terabytes, petabytes, and exabytes.
 
@@ -41,22 +42,8 @@
 ### Value
 - Value refers to the process of converting data into a useful format. Value refers to the value addition done at each stage of the big data processing. The value of big data is hidden in the insights that it provides after processing structured and unstructured data. The value of big data is in the analysis of the data, not in the data itself.
 
-## Hadoop Platform
-
-### HDFS (Hadoop Distributed File System)
-- [HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html) is a distributed file system that handles large data sets running on commodity hardware. It is used to scale a single Apache Hadoop cluster to hundreds (and even thousands) of nodes. HDFS is one of the major components of Apache Hadoop, the others being MapReduce and YARN.
-
-### MapReduce
-- [MapReduce](https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html) is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster. A MapReduce program is composed of a map procedure, which performs filtering and sorting (such as sorting students by first name into queues, one queue for each name), and a reduce method, which performs a summary operation (such as counting the number of students in each queue, yielding name frequencies).
-
-### YARN (Yet Another Resource Negotiator)
-- [YARN](https://hadoop.apache.org/docs/r1.2.1/yarn.html) is a resource management platform responsible for managing computing resources in clusters and using them for scheduling of users' applications. The fundamental idea of YARN is to split up the functionalities of resource management and job scheduling/monitoring into separate daemons. The idea is to have a global ResourceManager (RM) and per-application ApplicationMaster (AM). An application is either a single job or a DAG of jobs.
-
-### HBase
-- [HBase](https://hbase.apache.org/) is an open-source, distributed, versioned, non-relational database modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System, HBase provides Bigtable-like capabilities on top of Apache Hadoop.
-
-### Hive
-- [Hive](https://hive.apache.org/) is a data warehouse infrastructure tool to process structured data in Hadoop. It resides on top of Hadoop to summarize Big Data, and makes querying and analyzing easy. Hive provides a mechanism to project structure onto this data and query the data using a SQL-like language called HiveQL.
-
-
-
+## Challenges of Big Data
+- Storage
+- Computational Efficiency
+- Data Loss
+- Cost
