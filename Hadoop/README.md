@@ -108,3 +108,43 @@ Gain knowledge on how Big Data, Analytics and Hadoop are related
 
 ### Hive
 - [Hive](https://hive.apache.org/) is a data warehouse infrastructure tool to process structured data in Hadoop. It resides on top of Hadoop to summarize Big Data, and makes querying and analyzing easy. Hive provides a mechanism to project structure onto this data and query the data using a SQL-like language called HiveQL.
+
+## Commands
+
+### Local File System
+
+| Command | Description |
+| --- | --- |
+| `ls` | List the contents of the current directory |
+| `ls -l` | List the contents of the current directory in long format |
+| `ls -a` | List the contents of the current directory including hidden files |
+| `mkdir` | Create a new directory |
+| `cd` | Change directory |
+| `cd ..` | Change directory to the parent directory |
+| `cd ~` | Change directory to the home directory |
+| `pwd` | Print the current working directory |
+| `touch` | Create a new file |
+| `cat` | Display the contents of a file |
+| `cp` | Copy a file |
+| `mv` | Move a file |
+| `rm` | Remove a file |
+| `rm -r` | Remove a directory |
+| `head` | Display the first few lines of a file |
+| `tail` | Display the last few lines of a file |
+
+### Hadoop Commands
+
+| Command | Description |
+| --- | --- |
+| `hadoop fs -ls /` | List the contents of the root directory |
+| `hadoop fs -ls` | List the contents of the current directory |
+| `hadoop fs -mkdir <folder name>` | Create a new directory |
+| `hadoop fs -copyFromLocal <target location> <from location>` | Copy a file from the local file system to HDFS |
+| `hadoop fs -copyToLocal <from location> <target location>` | Copy a file from HDFS to the local file system |
+| `hadoop fs -cp <from location> <target location>` | Copy a file from one location to another in HDFS |
+| `hadoop fs -mv <from location> <target location>` | Move a file from one location to another in HDFS |
+| `hadoop fs -rm <file name>` | Remove a file |
+| `hadoop fs -ls <foldername>` | List the contents of a directory|
+| `hadoop fs -Ddfs.replication=2 -put <from location> <target location>` | Copy a file from the local file system to HDFS and set the replication factor to 2 |
+| `hadoop -fs -chmod 777 <foldername>` | Change the permissions of a folder |
+
