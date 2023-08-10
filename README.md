@@ -91,3 +91,8 @@
 - Computational Efficiency
 - Data Loss
 - Cost
+
+Differentiate between Transactional and Analytical workloads
+ Identify the different "Vs" in Big Data
+Recognize how to process large amount of data
+Gain knowledge on how Big Data, Analytics and Hadoop are related
