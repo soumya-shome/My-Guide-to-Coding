@@ -1,5 +1,49 @@
 # Data Engineering 
 
+## Data Extraction
+- SQL
+- Scrapping
+- File Formats
+    - CSV
+    - JSON
+    - XML
+- Consulting APIs
+- Buying Data
+- Distributed Databases
+
+## Data Cleaning
+- Missing Values and empty data
+- Data imputations
+- Incorrect types
+- Incorrect or invalid values
+- Outliers and non-relevant data
+- Statistical sanitization
+
+## Data Wrangling
+- Heirarchical data
+- Handling categorical data
+- Reshaping and transforming structures
+- Indexing data for quick access
+- Merging, combining and joining data
+
+## Analysis / Data Analysis
+- Exploration
+- Building Statistical Models
+- Visualization and representation
+- Correlation vs causation analysis
+- Hypothesis testing
+- Statistical analysis
+- Reporting
+
+## Action
+- Building Machine Learning Models
+- Feature Engineering
+- Moving ML into production
+- Building ETL Pipelines
+- Live Dashboard and Reporting
+- Decision making and real-life tests
+
+
 ## Big Data
 
 ### Hadoop
