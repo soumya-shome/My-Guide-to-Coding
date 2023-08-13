@@ -2,7 +2,13 @@
 
 ### For Baics of Python , Visit the following link: https://www.w3schools.com/python/default.asp
 
-## NumPy
+Table of Contents
+=================
+
+* [NumPy](#numpy)
+* [Pandas](#pandas)
+
+## [NumPy](NumPy.ipynb)
 
 In Python, everything is an object, which means that even simple ints are also objects, with all the required machinery to make object work. We call them "Boxed Ints". In contrast, NumPy uses primitive numeric types (floats, ints) which makes storing and computation efficient. NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices. 
 NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely. 
@@ -230,16 +236,147 @@ arr #[
 
 ### Summary Statistics
 
-| Function | Description |
-| --- | --- |
-| min() | Return the minimum value of the array |
-| max() | Return the maximum value of the array |
-| mean() | Return the average of the array |
-| median() | Return the median of the array |
-| sum() | Return the sum of the array |
-| std() | Return the standard deviation of the array |
-| var() | Return the variance of the array |
+a = np.array([0,1,2,3,4,5,6,7,8,9]) 
 
-a = np.array([1,2,3,4])
+| Function | Description | Example |
+| --- | --- | --- |
+| min() | Return the minimum value of the array | a.min() => 0 |
+| max() | Return the maximum value of the array | a.max() => 9 |
+| mean() | Return the average of the array | a.mean() => 4.5 |
+| median() | Return the median of the array | a.median() => 4.5 |
+| sum() | Return the sum of the array | a.sum() => 45 |
+| std() | Return the standard deviation of the array | a.std() => 2.872 |
+| var() | Return the variance of the array | a.var() => 8.25 |
 
-a.sum() # 10
+### Reshaping and Flattening Multidimensional Arrays
+
+#### Reshaping
+
+arr = np.array(
+        [
+            [1,2,3],
+            [4,5,6],
+            [7,8,9]
+        ]
+    )
+
+arr.reshape(1,9) => [[1,2,3,4,5,6,7,8,9]]
+arr.reshape(3,3) => [
+                        [1,2,3],
+                        [4,5,6],
+                        [7,8,9]
+                    ]
+arr.reshape(9,1) => [
+                        [1],
+                        [2],
+                        [3],
+                        [4],
+                        [5],
+                        [6],
+                        [7],
+                        [8],
+                        [9]
+                    ]
+
+#### Flattening
+
+arr = np.array(
+        [
+            [1,2,3],
+            [4,5,6],
+            [7,8,9]
+        ]
+    )
+
+arr.flatten() => [1,2,3,4,5,6,7,8,9]
+
+### Boolean Arrays (also called masks)
+
+arr = np.array(
+        [
+            [1,2,3],
+            [4,5,6],
+            [7,8,9]
+        ]
+    )
+
+arr > 5 => [
+            [False,False,False],
+            [False,False,True],
+            [True,True,True]
+        ]
+
+arr[arr > 5] => [6,7,8,9]
+
+a = np.array([1,2,3,4,5,6,7,8,9,10])
+
+a[0] , a[-3] => (1,8)
+
+a[[0,-3]] => [1,8]
+
+a[[True,False,True,False,True,False,True,True,True,False]] => [1,3,5,7,8,9]
+
+a[[a > 5]] => [6,7,8,9,10]
+
+a[[a > 5] & [a < 8]] => [6,7]
+
+a[[a > 5] | [a < 8]] => [1,3,5,6,7,8,9,10]
+
+### Linear Algebra
+
+A = np.array([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+])
+
+B = np.array([
+    [6, 5],
+    [4, 3],
+    [2, 1]
+])
+
+| Function | Description | Example |
+| --- | --- | --- |
+| dot() | Matrix multiplication | np.dot(A,B) => [[20,14],[56,41],[92,68]] |
+| @ | Matrix multiplication | A @ B => [[20,14],[56,41],[92,68]] |
+| . | Matrix multiplication | A . B => [[20,14],[56,41],[92,68]] |
+| vdot() | Vector dot product | np.vdot(A,B) => 90 |
+| inner() | Inner product of two arrays | np.inner(A,B) => [[28,10,2],[64,25,6],[100,40,10]] |
+| matmul() | Matrix multiplication of two arrays | np.matmul(A,B) => [[20,14],[56,41],[92,68]] |
+| determinant() | Determinant of a matrix | np.linalg.det(A) => 0 |
+| inv() | Inverse of a matrix | np.linalg.inv(A) => [[-0.33333333,-0.66666667,1.],[-0.33333333,1.33333333,-0.66666667],[0.33333333,-0.33333333,0.]] |
+
+### Functions of NumPy
+
+a = np.array([1,2,3,4,])
+
+| Function | Description | Example |
+| --- | --- | --- |
+| random() | Return random floats in the half-open interval [0.0, 1.0) | np.random.random(5) => [0.37454012,0.95071431,0.73199394,0.59865848,0.15601864] |
+| arange() | Return evenly spaced values within a given interval | np.arange(5) => [0,1,2,3,4] |
+| reshape() | Gives a new shape to an array without changing its data | np.arange(8).reshape(2,4) => [[0,1,2,3],[4,5,6,7]] |
+| linspace() | Return evenly spaced numbers over a specified interval | np.linspace(0,10,5) => [0.,2.5,5.,7.5,10.] |
+| zeros() | Return a new array of given shape and type, filled with zeros | np.zeros(5) => [0.,0.,0.,0.,0.] |
+| ones() | Return a new array of given shape and type, filled with ones | np.ones(5) => [1.,1.,1.,1.,1.] |
+| empty() | Return a new array of given shape and type, without initializing entries | np.empty(5) => [0.,0.,0.,0.,0.] |
+| identity() | Return the identity array | np.identity(5) => [[1.,0.,0.,0.,0.],[0.,1.,0.,0.,0.],[0.,0.,1.,0.,0.],[0.,0.,0.,1.,0.],[0.,0.,0.,0.,1.]] |
+| eye() | Return a 2-D array with ones on the diagonal and zeros elsewhere | np.eye(5) => [[1.,0.,0.,0.,0.],[0.,1.,0.,0.,0.],[0.,0.,1.,0.,0.],[0.,0.,0.,1.,0.],[0.,0.,0.,0.,1.]] |
+
+## [Pandas](Pandas.ipynb)
+
+Pandas is a Python library used for working with data sets. It has functions for analyzing, cleaning, exploring, and manipulating data. The name "Pandas" has a reference to both "Panel Data", and "Python Data Analysis" and was created by Wes McKinney in 2008. It is built on the Numpy package and its key data structure is called the DataFrame. DataFrames allow you to store and manipulate tabular data in rows of observations and columns of variables.
+
+### Installation of Pandas
+
+!pip install pandas
+
+### Import Pandas
+
+import pandas as pd
+
+### Pandas Series
+
+A Pandas Series is like a column in a table. It is a one-dimensional array holding data of any type.
+
+#### Create a Series
