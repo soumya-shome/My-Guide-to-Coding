@@ -375,8 +375,82 @@ Pandas is a Python library used for working with data sets. It has functions for
 
 import pandas as pd
 
-### Pandas Series
+Pandas has two main data structures:
+- Series
+- DataFrames
+
+### Series
 
 A Pandas Series is like a column in a table. It is a one-dimensional array holding data of any type.
 
 #### Create a Series
+
+a = pd.Series([1,2,3,4,5])
+
+b = pd.Series({'a':1,'b':2,'c':3,'d':4,'e':5})
+
+s = pd.Series([1,2,3,4,5], index = ['a','b','c','d','e'])
+
+
+#### Accessing Data from Series with Position
+
+s[0] = 1
+s[1] = 2
+
+#### Accessing Data from Series with Label
+
+s['a'] = 1
+s['b'] = 2
+
+#### Accessing Multiple Elements from Series
+
+s[0:3] = [1,2,3]
+s['a':'c'] = [1,2,3]
+
+#### See Datatype of Elements in Series
+
+s.dtype = int64
+
+#### See Shape of Series
+
+s.shape = (5,)
+s.size = 5
+
+#### Series Name
+
+s.name = 'Numbers'
+
+#### Series Location
+
+s.loc['a'] = 1
+s.iloc[0] = 1
+s.iloc[(0,1)] = [1,2]
+s.iloc[0:3] = [1,2,3]
+
+#### Series Boolean
+
+s > 3 => [False,False,False,True,True]
+
+s[s > 3] => [4,5]
+
+#### Series Operations
+
+| Operation | Description | Example |
+| --- | --- | --- |
+| mean() | Return the mean of the values for the requested axis | s.mean() => 3.0 |
+| median() | Return the median of the values for the requested axis | s.median() => 3.0 |
+| mode() | Return the mode(s) of the dataset | s.mode() => 0    1 |
+| + | Addition of series and other, element-wise (binary operator add) | s + 1 => [2,3,4,5,6] |
+| - | Subtraction of series and other, element-wise (binary operator sub) | s - 1 => [0,1,2,3,4] |
+| * | Multiplication of series and other, element-wise (binary operator mul) | s * 2 => [2,4,6,8,10] |
+| / | Floating division of series and other, element-wise (binary operator truediv) | s / 2 => [0.5,1.0,1.5,2.0,2.5] |
+| // | Integer division of series and other, element-wise (binary operator floordiv) | s // 2 => [0,1,1,2,2] |
+| % | Modulo of series and other, element-wise (binary operator mod) | s % 2 => [1,0,1,0,1] |
+| ** | Exponential power of series and other, element-wise (binary operator pow) | s ** 2 => [1,4,9,16,25] |
+| abs() | Return a Series/DataFrame with absolute numeric value of each element | s.abs() => [1,2,3,4,5] |
+| round() | Round each value in a Series to the given number of decimals | s.round() => [1,2,3,4,5] |
+| sum() | Return the sum of the values for the requested axis | s.sum() => 15 |
+| std() | Return sample standard deviation over requested axis | s.std() => 1.581139 |
+| var() | Return unbiased variance over requested axis | s.var() => 2.5 |
+| min() | Return the minimum of the values for the requested axis | s.min() => 1 |
+| max() | Return the maximum of the values for the requested axis | s.max() => 5 |
