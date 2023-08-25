@@ -454,3 +454,181 @@ s[s > 3] => [4,5]
 | var() | Return unbiased variance over requested axis | s.var() => 2.5 |
 | min() | Return the minimum of the values for the requested axis | s.min() => 1 |
 | max() | Return the maximum of the values for the requested axis | s.max() => 5 |
+
+
+### DataFrames
+
+A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional array, or a table with rows and columns.
+
+#### Create a DataFrame
+
+df = pd.DataFrame(
+        [
+            [1,2,3,4,5],
+            [6,7,8,9,10]
+        ]
+    )
+
+df = pd.DataFrame(
+        {
+            'a':[1,2,3,4,5],
+            'b':[6,7,8,9,10]
+        }
+    )
+
+df = pd.DataFrame(
+        {
+            'a':pd.Series([1,2,3,4,5]),
+            'b':pd.Series([6,7,8,9,10])
+        }
+    )
+
+
+
+#### Accessing Data from DataFrame with Position
+
+df[0] = [1,6]
+df[1] = [2,7]
+df[2] = [3,8]
+
+#### Accessing Data from DataFrame with Label
+
+df['a'] = [1,6]
+df['b'] = [2,7]
+df['c'] = [3,8]
+
+#### Accessing Multiple Elements from DataFrame
+
+df[0:2] = [[1,2,3],[6,7,8]]
+df['a':'b'] = [[1,2,3],[6,7,8]]
+
+#### See Datatype of Elements in DataFrame
+
+df.dtypes => int64
+
+#### See Shape of DataFrame
+
+df.shape => (2,3)
+
+#### DataFrame Name
+
+df.name = 'Numbers'
+
+#### DataFrame Location
+
+df = pd.DataFrame(
+        [
+            [1,2,3],
+            [4,5,6],
+            [7,8,9]
+        ]
+    )
+
+df.loc[0] => [1,2,3]
+df.iloc[0] => [1,2,3]
+df.iloc[(0,1)] => [[1,2],[2,3]]
+df.iloc[0:2] => [[1,2,3],[4,5,6]]
+
+df.columns = ['a','b','c']
+
+df.index = ['x','y','z']
+
+df.loc['x'] => [1,2,3]
+df.iloc[0] => [1,2,3]
+
+
+#### DataFrame Boolean
+
+df > 3 => [
+            [False,False,False],
+            [True,True,True],
+            [True,True,True]
+        ]
+
+#### DataFrame Selection
+
+df = pd.DataFrame(
+        [
+            [1,2,3],
+            [4,5,6],
+            [7,8,9]
+        ]
+    )
+
+df.index = ['x','y','z']
+df.columns = ['a','b','c']
+
+df 
+
+|  | a | b | c |
+| --- | --- | --- | --- |
+| x | 1 | 2 | 3 |
+| y | 4 | 5 | 6 |
+| z | 7 | 8 | 9 |
+
+df['a'] => [1,4,7]
+
+df[['a','b']] => [[1,2],[4,5],[7,8]]
+
+df.loc['x'] => [1,2,3]
+
+df.loc[['x','y']] => [[1,2,3],[4,5,6]]
+
+df.loc[['x','y'],['a','b']] => [[1,2],[4,5]]
+
+df.iloc[0] => [1,2,3]
+
+df.iloc[[0,1]] => [[1,2,3],[4,5,6]]
+
+df.iloc[[0,1],[0,1]] => [[1,2],[4,5]]
+
+df.iloc[0:2] => [[1,2,3],[4,5,6]]
+
+df.iloc[0:2,0:2] => [[1,2],[4,5]]
+
+df[df > 3] => [
+                [NaN,NaN,NaN],
+                [4,5,6],
+                [7,8,9]
+            ]
+
+df[df['a'] > 3] => [
+                        [4,5,6],
+                        [7,8,9]
+                    ]
+
+df[df['a'] > 3]['b'] => [5,8]
+
+df[df['a'] > 3][['b','c']] => [[5,6],[8,9]]
+
+df.drop('a') => [
+                    [4,5,6],
+                    [7,8,9]
+                ]
+
+df.drop(['x','z']) => [[4,5,6]]
+
+df.drop('a',axis = 1) => [
+                            [2,3],
+                            [5,6],
+                            [8,9]
+                        ]
+
+
+#### DataFrame Operations
+
+| Operation | Description | Example |
+| --- | --- | --- |
+| mean() | Return the mean of the values for the requested axis | df.mean() => a    4.0 b    5.0 c    6.0 dtype: float64 |
+| median() | Return the median of the values for the requested axis | df.median() => a    4.0 b    5.0 c    6.0 dtype: float64 |
+| mode() | Return the mode(s) of the dataset | df.mode() => 0    1 1    2 2    3 3    4 4    5 5    6 6    7 7    8 8    9 dtype: int64 |
+| + | Addition of dataframe and other, element-wise (binary operator add) | df + 1 => [[2,3,4],[5,6,7],[8,9,10]] |
+| - | Subtraction of dataframe and other, element-wise (binary operator sub) | df - 1 => [[0,1,2],[3,4,5],[6,7,8]] |
+| * | Multiplication of dataframe and other, element-wise (binary operator mul) | df * 2 => [[2,4,6],[8,10,12],[14,16,18]] |
+| / | Floating division of dataframe and other, element-wise (binary operator truediv) | df / 2 => [[0.5,1.0,1.5],[2.0,2.5,3.0],[3.5,4.0,4.5]] |
+| // | Integer division of dataframe and other, element-wise (binary operator floordiv) | df // 2 => [[0,1,1],[2,2,3],[3,4,4]] |
+| % | Modulo of dataframe and other, element-wise (binary operator mod) | df % 2 => [[1,0,1],[0,1,0],[1,0,1]] |
+| ** | Exponential power of dataframe and other, element-wise (binary operator pow) | df ** 2 => [[1,4,9],[16,25,36],[49,64,81]] |
+| abs() | Return a Series/DataFrame with absolute numeric value of each element | df.abs() => [[1,2,3],[4,5,6],[7,8,9]] |
+| round() | Round each value in a Series to the given number of decimals | df.round() => [[1,2,3],[4,5,6],[7,8,9]] |
+
