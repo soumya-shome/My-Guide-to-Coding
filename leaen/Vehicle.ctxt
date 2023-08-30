@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Vehicle
+comment1.params=a
+comment1.target=void\ changeGear(int)
+comment2.params=a
+comment2.target=void\ speedUp(int)
+comment3.params=a
+comment3.target=void\ applyBrakes(int)
+numComments=4
