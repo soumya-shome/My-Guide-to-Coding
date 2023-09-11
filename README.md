@@ -138,3 +138,49 @@ Literals / Datatypes
 |Database | 1. Connecting to a Database </br> 2. Creating a Table </br> 3. Inserting Data </br> 4. Selecting Data </br> 5. Updating Data </br> 6. Deleting Data |
 
 ## Java - Different Connections
+
+
+
+
+
+Features of Java
+Path and C;lasspath
+Class and Objects
+Javap
+Javadoc and API
+The main Method and Command-Line Arguments
+Compiling and Running a Java Program
+Types of Errors
+Data Types
+Casting, Arrays and Branches
+Looping Statements
+Operators
+Introduction to Object Orientation
+Abstract Classes and Interfaces
+Overriding and Overloading
+Access Modifiers
+Encalsulation
+Introduction to Exception Handling
+Methods for Handling Exceptions
+Introduction to Threads
+States and Methods of a Thread
+Creation of a Thread
+Multithreading
+Introduction to Coding Standards
+Java Comments
+JAva Declarations and Statements
+Java Naming Conventions and best practices
+Strings and StringBuffers
+Wrapper Classes
+Object Class
+Introduction to Collections
+Array and ArrayList
+Hashmap and ListIterator
+Introduction to Garbage Collection and Performances
+Variable Scope and Blocks
+Garbage Collection Criteria
+Input Stream
+Output Stream
+File Manipulation and Serialization
+Introduction to JDBC
+Statement Interface and Transactions
