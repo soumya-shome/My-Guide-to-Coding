@@ -6,7 +6,7 @@
 
 
 import matplotlib.pyplot as plt
-import datetime
+import datetime 
 
 def readTxt(fileName):
     f = open(fileName,"r")
