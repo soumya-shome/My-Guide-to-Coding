@@ -50,6 +50,9 @@ Java is a high-level programming language originally developed by Sun Microsyste
 ## Basics  [ Basics.java ](Basics.java)
 
 Literals / Datatypes
+
+Primitive Datatypes
+
 - Integer
     - byte
     - short
@@ -60,12 +63,40 @@ Literals / Datatypes
     - double
 - Character
     - char
-- String
-    - String
 - Boolean
     - boolean
+
+- String
+    - String
 - Null
     - null
+
+#### BigDecimal
+
+```
+
+BigDecimal n1 = new BigDecimal("90907")
+BigDecimal n2 = new BigDecimal("7686")
+n1.add(n2)
+n1.subtract(n2)
+n1.multiply(n2)
+
+
+
+abs(                     add(                     byteValue()              byteValueExact()
+compareTo(               divide(                  divideAndRemainder(      divideToIntegralValue(
+doubleValue()            equals(                  floatValue()             getClass()
+hashCode()               intValue()               intValueExact()          longValue()
+longValueExact()         max(                     min(                     movePointLeft(
+movePointRight(          multiply(                negate(                  notify()
+notifyAll()              plus(                    pow(                     precision()
+remainder(               round(                   scale()                  scaleByPowerOfTen(
+setScale(                shortValue()             shortValueExact()        signum()
+sqrt(                    stripTrailingZeros()     subtract(                toBigInteger()
+toBigIntegerExact()      toEngineeringString()    toPlainString()          toString()
+ulp()                    unscaledValue()          wait(
+
+```
 
 ### Other Contents
 
@@ -89,6 +120,33 @@ Literals / Datatypes
 | Input - Scanner | 1. next() <br> 2. nextLine() <br> 3. nextInt() <br> 4. nextFloat() <br> 5. nextDouble() <br> 6. nextBoolean()<br> 7. next().charAt(0) |
 | Input - BufferedReader | 1. readLine() <br> 2. read() <br> 3. Integer.parseInt(br.readLine())<br> 4. Float.parseFloat(br.readLine())<br> 5. Double.parseDouble(br.readLine())<br> 6. Boolean.parseBoolean(br.readLine())|
 | Control Flow | <br> 1. If-else <br> 2. For <br> 3. While <br> 4. Do-While <br> 5. Switch <br> 6. Break <br> 7. Continue <br> 8. Return |
+
+## Reference Variable
+
+Reference Variable vs Primitive Variable
+- memory
+- assignment
+- initialization (null)
+
+Predefined Reference types in Java
+- String
+- Wrapper Class
+- LocalDate, LocalDateTime
+
+Reference variable is stored in Heap. Primitive variable is stored in Stack
+
+
+```
+>> 1+2
+-> 3
+
+>> "2"+"2"
+-> "22"
+
+>> "1"+3
+-> "13"
+
+```
 
 ## OOPs  [ OOPs.java ](OOPs.java)
 
@@ -143,8 +201,25 @@ Literals / Datatypes
 
 
 
+## Check Java Version
+ java -version
+
+ jshell --version
+
+ ### Command to open jShell
+ jshell
+
+ ### To exit
+
+ /exit
+
+
+
+
+
+
 Features of Java
-Path and C;lasspath
+Path and Classpath
 Class and Objects
 Javap
 Javadoc and API
