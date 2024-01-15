@@ -535,8 +535,76 @@ LocalDateTime nowDateTime = LocalDateTime.now()
 | withNano()         | Returns a copy of this `LocalTime` with the nano-of-second altered.|
 | withSecond()       | Returns a copy of this `LocalTime` with the second-of-minute altered.|
 
-##
+## Arrays and ArrayLists
 
+```
+int[] marks = [12,23,34];
+
+for(int mark:marks){
+    System.out.print(mark+"-");
+}
+=> 12-23-34-
+
+
+int[] marks = new int[]
+marks[0]=12;
+marks[1]=23;
+marks[2]=45;
+marks[3]=76;
+marks[4]=23;
+```
+
+| **Method**         | **Description**                                              |
+|--------------------|--------------------------------------------------------------|
+| asList()           | Returns a fixed-size list backed by the specified array.    |
+| binarySearch()     | Searches the specified array for the specified value using the binary search algorithm.|
+| class             | Returns the `Class` object that represents the type of the specified array.|
+| compare()          | Compares two arrays lexicographically.                       |
+| compareUnsigned()  | Compares two arrays lexicographically treating elements as unsigned.|
+| copyOf()           | Copies the specified array, truncating or padding with zeros (if necessary) to obtain the specified length.|
+| copyOfRange()      | Copies the specified range of the specified array.           |
+| deepEquals()       | Returns `true` if the two specified arrays are deeply equal. |
+| deepHashCode()     | Returns a hash code based on the "deep contents" of the specified array.|
+| deepToString()     | Returns a string representation of the "deep contents" of the specified array.|
+| equals()           | Returns `true` if the two specified arrays are equal.       |
+| fill()             | Assigns the specified value to each element of the specified array.|
+| hashCode()         | Returns a hash code based on the contents of the specified array.|
+| mismatch()         | Finds and returns the relative index of the first mismatch between two arrays.|
+| parallelPrefix()   | Cumulates, in parallel, each element of the specified array with the preceding elements.|
+| parallelSetAll()   | Set all elements of the specified array using the provided generator function in parallel.|
+| parallelSort()     | Sorts the specified array into ascending order in parallel.  |
+| setAll()           | Set all elements of the specified array using the provided generator function.|
+| sort()             | Sorts the specified array into ascending order.             |
+| spliterator()      | Creates a late-binding and fail-fast Spliterator over the specified array.|
+| stream()           | Returns a sequential `Stream` with the specified array as its source.|
+| toString()         | Returns a string representation of the contents of the specified array.|
+
+### Variable Arguments
+
+```
+void func1(int... values){
+    System.out.println(Array.toString(values));
+}
+
+func1(2)
+=> [2]
+
+func1(2,3,1)
+=> [2,3,1]
+
+func1(9,2,32)
+<!-- => [9,2,32] -->
+```
+
+### ArrayLists
+
+```
+ArrayList l1 = new ArrayList();
+
+ArrayList<String> l1 = new ArrayList<String>();
+
+
+```
 
 Features of Java
 Path and Classpath
