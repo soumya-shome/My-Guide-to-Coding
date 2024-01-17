@@ -602,8 +602,6 @@ func1(9,2,32)
 ArrayList l1 = new ArrayList();
 
 ArrayList<String> l1 = new ArrayList<String>();
-
-
 ```
 
 Features of Java
