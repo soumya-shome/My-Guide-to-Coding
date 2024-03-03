@@ -3,6 +3,142 @@
 Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java. This reference will take you through simple and practical approaches while learning Java Programming language.
 </p>
 
+Here is the improved roadmap in Markdown format:
+
+## Chapters
+
+### 1. Introduction to Course - Java Programming
+- Course Materials and Setup
+- Installing Java
+- Introduction to Java Programming with Jshell using Multiplication Table
+- Introduction to Java Method with Multiplication Table
+- Introduction to Java Platform
+- Introduction to Eclipse - First Java Programming Project
+- Java Coding Exercises - Set 1
+- GitHub Book
+- Introduction To Java Object-Oriented Programming
+- Java Coding Exercises - Set 2
+- Primitive Data Types And Alternatives in Java Programming
+- Conditionals in Java Programming
+- Java Coding Exercises - Set 3
+- Loops in Java Programming
+- Java Coding Exercises - Set 4
+- Reference Types in Java Programming
+- Java Coding Exercises - Set 5
+- Arrays and ArrayLists in Java Programming
+- Java Coding Exercises - Set 6
+- Java - Oriented Programming Again
+- Java Coding Exercises - Set 7
+- Collections in Java Programming
+- Java Coding Exercises - Set 8
+- Generics in Java Programming
+- Introduction to Functional Programming in Java
+- Java Coding Exercises - Set 9
+- Introduction to Threads And Concurrency in Java
+- Introduction to Exception Handling in Java
+- Files and Directories in Java
+- More Concurrency with Concurrent Collections and Atomic Operations
+- Java Tips
+- Java Coding Exercises - Set 10
+- New Course Additions - An Overview
+- Java New Features - Java 10 to Java 16
+- Getting Started with Java Spring Framework
+- Using Spring Framework to Create and Manage Your Java Objects
+- Exploring Spring Framework Advanced Features
+- Getting Started with Spring Boot
+- Getting Started with JPA and Hibernate
+- Getting Started with JUnit
+- Getting Started with Maven
+- Simple REST API with Spring Boot and Spring Data JPA
+- Congratulations
+- Appendix - Troubleshooting Eclipse and Java
+
+### 2. Java Programming Basics
+- Course Introduction
+- Java: A High-level Overview
+- Classes, Objects and their Members
+- Method Building Blocks: Operators & Control-flow Statements
+- Packages, Strings and Information Hiding Design Principle
+- Programming with Eclipse IDE
+- More java.lang & Coding Conventions
+- Case Study: A Social Bookmarking Application
+- Serious OOP: Inheritance & Polymorphism
+- More Serious OOP: Abstract Classes & Interfaces
+- Debugging Java Programs & Unit Testing with JUnit
+- Project: Implementing a Social Bookmarking App
+- JVM Internals
+- Exceptions with Best Practices
+- Input-Output
+- Collections Framework (aka Data Structures)
+- Generics
+- Nested Classes
+- Enums
+- Concurrency (aka Multi-threading)
+- Date & Time API Covers Java 8 & also Legacy API
+- Database Implementation & JDBC API
+- Functional-style Programming Lambdas & Streams
+- Introduction to Java EE & Web-enabling Project
+- Records (Java 16)
+- Congratulations! & Bonus Content on Git
+
+### 3. Java 8 and Beyond
+- Getting Started
+- Slides for the course
+- Why Java 8?
+- WorkSpace Setup - Mac
+- WorkSpace Setup - Windows
+- Source Code for this Course
+- Introduction to Lambda
+- Lambdas and Functional Interfaces
+- Constructor and Method References
+- Lambdas and Local variables (Effectively Final)
+- Streams API
+- Stream API - Operations
+- Streams API - Factory Methods
+- Streams API - Numeric Streams
+- Streams API - Terminal Operations
+- Streams API - Parallel Processing
+- Optional
+- Default/Static Methods in Interfaces
+- New Date/Time APIs
+- What's Next?
+
+### 4. Java Spring Framework
+- Getting Started with Java Spring Framework
+- Using Spring Framework to Create and Manage Your Java Objects
+- Exploring Spring Framework Advanced Features
+- Getting Started with Spring Boot
+- Getting Started with JPA and Hibernate
+- Simple REST API with Spring Boot and Spring Data JPA
+- Case Study: A Social Bookmarking Application
+- Serious OOP: Inheritance & Polymorphism
+- More Serious OOP: Abstract Classes & Interfaces
+- Introduction to Java EE & Web-enabling Project
+
+### 5. Java Testing and Building
+- Getting Started with JUnit
+- Getting Started with Maven
+- Debugging Java Programs & Unit Testing with JUnit
+- Congratulations! & Bonus Content on Git
+
+### 6. Exercise and Project
+- Java Coding Exercises - Set 1
+- Java Coding Exercises - Set 2
+- Java Coding Exercises - Set 3
+- Java Coding Exercises - Set 4
+- Java Coding Exercises - Set 5
+- Java Coding Exercises - Set 6
+- Java Coding Exercises - Set 7
+- Java Coding Exercises - Set 8
+- Java Coding Exercises - Set 9
+- Java Coding Exercises - Set 10
+- Project: Implementing a Social Bookmarking App
+
+### 7. Completion
+- What's Next?
+- Congratulations
+
+
 ## Features of Python
 <p>
 - Easy-to-learn </br>
