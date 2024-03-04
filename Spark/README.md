@@ -33,6 +33,19 @@ Basics of PySpark
 - SparkListenerStageCompleted
 - SparkListenerTaskStart
 
+##### Objectives
+1. Execute code in multiple languages
+1. Create documentation cells
+1. Access DBFS (Databricks File System)
+1. Create database and table
+1. Query table and plot results
+1. Add notebook parameters with widgets
+
+
+##### Databricks Notebook Utilities
+- <a href="https://docs.databricks.com/notebooks/notebooks-use.html#language-magic" target="_blank">Magic commands</a>: **`%python`**, **`%scala`**, **`%sql`**, **`%r`**, **`%sh`**, **`%md`**
+- <a href="https://docs.databricks.com/dev-tools/databricks-utils.html" target="_blank">DBUtils</a>: **`dbutils.fs`** (**`%fs`**), **`dbutils.notebooks`** (**`%run`**), **`dbutils.widgets`**
+- <a href="https://docs.databricks.com/notebooks/visualizations/index.html" target="_blank">Visualization</a>: **`display`**, **`displayHTML`**
 
 | Element         | Markdown Syntax |
 |-----------------|-----------------|
@@ -49,6 +62,57 @@ Basics of PySpark
 | Unordered List  | `- First items` <br> `- Second Item` <br> `- Third Item` |
 | Code Block      | ```` ``` ```` <br> `code block` <br> ```` ``` ````|
 | Table           |<code> &#124; col &#124; col &#124; col &#124; </code> <br> <code> &#124;---&#124;---&#124;---&#124; </code> <br> <code> &#124; val &#124; val &#124; val &#124; </code> <br> <code> &#124; val &#124; val &#124; val &#124; </code> <br>|
+
+##### Objectives
+1. Run a SQL query
+1. Create a DataFrame from a table
+1. Write the same query using DataFrame transformations
+1. Trigger computation with DataFrame actions
+1. Convert between DataFrames and SQL
+
+##### Methods
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/spark_session.html" target="_blank">SparkSession</a>: **`sql`**, **`table`**
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/dataframe.html" target="_blank">DataFrame</a>:
+  - Transformations:  **`select`**, **`where`**, **`orderBy`**
+  - Actions: **`show`**, **`count`**, **`take`**
+  - Other methods: **`printSchema`**, **`schema`**, **`createOrReplaceTempView`**
+
+**`SparkSession`** Methods
+| Method | Description |
+| --- | --- |
+| sql | Returns a DataFrame representing the result of the given query |
+| table | Returns the specified table as a DataFrame |
+| read | Returns a DataFrameReader that can be used to read data in as a DataFrame |
+| range | Create a DataFrame with a column containing elements in a range from start to end (exclusive) with step value and number of partitions |
+| createDataFrame | Creates a DataFrame from a list of tuples, primarily used for testing |
+
+A **DataFrame** is a distributed collection of data grouped into named columns.
+
+## Transformations
+When we created **`budget_df`**, we used a series of DataFrame transformation methods e.g. **`select`**, **`where`**, **`orderBy`**.
+
+<strong><code>products_df  
+&nbsp;  .select("name", "price")  
+&nbsp;  .where("price < 200")  
+&nbsp;  .orderBy("price")  
+</code></strong>
+    
+Transformations operate on and return DataFrames, allowing us to chain transformation methods together to construct new DataFrames.
+However, these operations can't execute on their own, as transformation methods are **lazily evaluated**.
+
+Running the following cell does not trigger any computation.
+
+## Actions
+Conversely, DataFrame actions are methods that **trigger computation**.
+Actions are needed to trigger the execution of any DataFrame transformations.
+
+The **`show`** action causes the following cell to execute transformations.
+
+
+
+
+
+
 
 | Command | Description | Example |
 | --- | --- | --- |
@@ -258,8 +322,6 @@ Basics of PySpark
 | `StructType` | Represents a list of `StructField` | `StructType([StructField("field", StringType(), True)])` |
 | `StructField` | Represents a field in a `StructType` | `StructField("field", StringType(), True)` |
 
-
-
 ### Column Operators and Methods
 | Method | Description |
 | --- | --- |
@@ -270,6 +332,15 @@ Basics of PySpark
 | isNull, isNotNull, isNan | Is null, is not null, is NaN |
 | asc, desc | Returns a sort expression based on ascending/descending order of the column |
 
+
+#### **`SparkSession`** Methods
+| Method | Description |
+| --- | --- |
+| sql | Returns a DataFrame representing the result of the given query |
+| table | Returns the specified table as a DataFrame |
+| read | Returns a DataFrameReader that can be used to read data in as a DataFrame |
+| range | Create a DataFrame with a column containing elements in a range from start to end (exclusive) with step value and number of partitions |
+| createDataFrame | Creates a DataFrame from a list of tuples, primarily used for testing |
 
 ## DataFrame Transformation Methods
 | Method | Description |
