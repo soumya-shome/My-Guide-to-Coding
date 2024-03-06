@@ -114,6 +114,9 @@ The **`show`** action causes the following cell to execute transformations.
 
 
 
+
+
+
 | Command | Description | Example |
 | --- | --- | --- |
 | `display` | Visualizes DataFrame | `display(df)` |
