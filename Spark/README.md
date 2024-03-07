@@ -77,6 +77,18 @@ Basics of PySpark
   - Actions: **`show`**, **`count`**, **`take`**
   - Other methods: **`printSchema`**, **`schema`**, **`createOrReplaceTempView`**
 
+## Query Execution
+We can express the same query using any interface. The Spark SQL engine generates the same query plan used to optimize and execute on our Spark cluster.
+
+![query execution engine](https://files.training.databricks.com/images/aspwd/spark_sql_query_execution_engine.png)
+
+<img src="https://files.training.databricks.com/images/icon_note_32.png" alt="Note"> Resilient Distributed Datasets (RDDs) are the low-level representation of datasets processed by a Spark cluster. In early versions of Spark, you had to write <a href="https://spark.apache.org/docs/latest/rdd-programming-guide.html" target="_blank">code manipulating RDDs directly</a>. In modern versions of Spark you should instead use the higher-level DataFrame APIs, which Spark automatically compiles into low-level RDD operations.
+
+## SparkSession
+The **`SparkSession`** class is the single entry point to all functionality in Spark using the DataFrame API.
+
+In Databricks notebooks, the SparkSession is created for you, stored in a variable called **`spark`**.
+
 **`SparkSession`** Methods
 | Method | Description |
 | --- | --- |
@@ -108,13 +120,192 @@ Actions are needed to trigger the execution of any DataFrame transformations.
 
 The **`show`** action causes the following cell to execute transformations.
 
+Below are several examples of <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql.html#dataframe-apis" target="_blank">DataFrame</a> actions.
+
+### DataFrame Action Methods
+| Method | Description |
+| --- | --- |
+| show | Displays the top n rows of DataFrame in a tabular form |
+| count | Returns the number of rows in the DataFrame |
+| describe,  summary | Computes basic statistics for numeric and string columns |
+| first, head | Returns the the first row |
+| collect | Returns an array that contains all rows in this DataFrame |
+| take | Returns an array of the first n rows in the DataFrame |
+
+**`createOrReplaceTempView`** creates a temporary view based on the DataFrame. The lifetime of the temporary view is tied to the SparkSession that was used to create the DataFrame.
+
+# Reader & Writer
+##### Objectives
+1. Read from CSV files
+1. Read from JSON files
+1. Write DataFrame to files
+1. Write DataFrame to tables
+1. Write DataFrame to a Delta table
+
+##### Methods
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrameReader.html" target="_blank">DataFrameReader</a>: **`csv`**, **`json`**, **`option`**, **`schema`**
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrameWriter.html" target="_blank">DataFrameWriter</a>: **`mode`**, **`option`**, **`parquet`**, **`format`**, **`saveAsTable`**
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.types.StructType.html?highlight=structtype#pyspark.sql.types.StructType" target="_blank">StructType</a>: **`toDDL`**
+
+##### Spark Types
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/data_types.html" target="_blank">Types</a>: **`ArrayType`**, **`DoubleType`**, **`IntegerType`**, **`LongType`**, **`StringType`**, **`StructType`**, **`StructField`**
+
+## DataFrameReader
+Interface used to load a DataFrame from external storage systems
+
+**`spark.read.parquet("path/to/files")`**
+
+DataFrameReader is accessible through the SparkSession attribute **`read`**. This class includes methods to load DataFrames from different external storage systems.
+
+You can use the **`StructType`** Scala method **`toDDL`** to have a DDL-formatted string created for you.
+
+This is convenient when you need to get the DDL-formated string for ingesting CSV and JSON but you don't want to hand craft it or the **`StructType`** variant of the schema.
+
+However, this functionality is not available in Python but the power of the notebooks allows us to use both languages.
+
+## DataFrameWriter
+Interface used to write a DataFrame to external storage systems
+
+<strong><code>
+(df  
+&nbsp;  .write                         
+&nbsp;  .option("compression", "snappy")  
+&nbsp;  .mode("overwrite")      
+&nbsp;  .parquet(output_dir)       
+)
+</code></strong>
+
+DataFrameWriter is accessible through the SparkSession attribute **`write`**. This class includes methods to write DataFrames to different external storage systems.
+
+## Delta Lake
+
+In almost all cases, the best practice is to use Delta Lake format, especially whenever the data will be referenced from a Databricks workspace. 
+
+<a href="https://delta.io/" target="_blank">Delta Lake</a> is an open source technology designed to work with Spark to bring reliability to data lakes.
+
+![delta](https://files.training.databricks.com/images/aspwd/delta_storage_layer.png)
+
+#### Delta Lake's Key Features
+- ACID transactions
+- Scalable metadata handling
+- Unified streaming and batch processing
+- Time travel (data versioning)
+- Schema enforcement and evolution
+- Audit history
+- Parquet format
+- Compatible with Apache Spark API
+
+# DataFrame & Column
+##### Objectives
+1. Construct columns
+1. Subset columns
+1. Add or replace columns
+1. Subset rows
+1. Sort rows
+
+##### Methods
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/dataframe.html" target="_blank">DataFrame</a>: **`select`**, **`selectExpr`**, **`drop`**, **`withColumn`**, **`withColumnRenamed`**, **`filter`**, **`distinct`**, **`limit`**, **`sort`**
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/column.html" target="_blank">Column</a>: **`alias`**, **`isin`**, **`cast`**, **`isNotNull`**, **`desc`**, operators
+
+## Column Expressions
+
+A <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/column.html" target="_blank">Column</a> is a logical construction that will be computed based on the data in a DataFrame using an expression
+
+Construct a new Column based on existing columns in a DataFrame
+
+### Column Operators and Methods
+| Method | Description |
+| --- | --- |
+| \*, + , <, >= | Math and comparison operators |
+| ==, != | Equality and inequality tests (Scala operators are **`===`** and **`=!=`**) |
+| alias | Gives the column an alias |
+| cast, astype | Casts the column to a different data type |
+| isNull, isNotNull, isNan | Is null, is not null, is NaN |
+| asc, desc | Returns a sort expression based on ascending/descending order of the column |
+
+## DataFrame Transformation Methods
+| Method | Description |
+| --- | --- |
+| Subset Columns |
+| **`select`** | Returns a new DataFrame by computing given expression for each element |
+| **`selectExpr()`** |  |
+| **`drop`** | Returns a new DataFrame with a column dropped |
+| Add or replace columns |
+| **`withColumnRenamed`** | Returns a new DataFrame with a column renamed |
+| **`withColumn`** | Returns a new DataFrame by adding a column or replacing the existing column that has the same name |
+| Subset Rows |
+| **`filter`**, **`where`** | Filters rows using the given condition |
+| **`dropDuplicates`**, **`distinct`** | Returns a new DataFrame with duplicate rows removed |
+| **`limit`** | Returns a new DataFrame by taking the first n rows |
+| Sort Rows |
+| **`sort`**, **`orderBy`** | Returns a new DataFrame sorted by the given expressions |
+| **`groupBy`** | Groups the DataFrame using the specified columns, so we can run aggregation on them |
+
+# Aggregation
+
+##### Objectives
+1. Group data by specified columns
+1. Apply grouped data methods to aggregate data
+1. Apply built-in functions to aggregate data
+
+##### Methods
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/dataframe.html" target="_blank">DataFrame</a>: **`groupBy`**
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/grouping.html" target="_blank" target="_blank">Grouped Data</a>: **`agg`**, **`avg`**, **`count`**, **`max`**, **`sum`**
+- <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/functions.html" target="_blank">Built-In Functions</a>: **`approx_count_distinct`**, **`avg`**, **`sum`**
+
+### Grouping data
+
+<img src="https://files.training.databricks.com/images/aspwd/aggregation_groupby.png" width="60%" />
+
+### groupBy
+Use the DataFrame **`groupBy`** method to create a grouped data object. 
+
+This grouped data object is called **`RelationalGroupedDataset`** in Scala and **`GroupedData`** in Python.
+
+### Grouped data methods
+| Method | Description |
+| --- | --- |
+| agg | Compute aggregates by specifying a series of aggregate columns |
+| avg | Compute the mean value for each numeric columns for each group |
+| count | Count the number of rows for each group |
+| max | Compute the max value for each numeric columns for each group |
+| mean | Compute the average value for each numeric columns for each group |
+| min | Compute the min value for each numeric column for each group |
+| pivot | Pivots a column of the current DataFrame and performs the specified aggregation |
+| sum | Compute the sum for each numeric columns for each group |
+
+## Built-In Functions
+In addition to DataFrame and Column transformation methods, there are a ton of helpful functions in Spark's built-in <a href="https://docs.databricks.com/spark/latest/spark-sql/language-manual/sql-ref-functions-builtin.html" target="_blank">SQL functions</a> module.
+
+In Scala, this is <a href="https://spark.apache.org/docs/latest/api/scala/org/apache/spark/sql/functions$.html" target="_blank">**`org.apache.spark.sql.functions`**</a>, and <a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql.html#functions" target="_blank">**`pyspark.sql.functions`**</a> in Python. Functions from this module must be imported into your code.
+
+### Aggregate Functions
+
+| Method | Description |
+| --- | --- |
+| approx_count_distinct | Returns the approximate number of distinct items in a group |
+| avg | Returns the average of the values in a group |
+| collect_list | Returns a list of objects with duplicates |
+| corr | Returns the Pearson Correlation Coefficient for two columns |
+| max | Compute the max value for each numeric columns for each group |
+| mean | Compute the average value for each numeric columns for each group |
+| stddev_samp | Returns the sample standard deviation of the expression in a group |
+| sumDistinct | Returns the sum of distinct values in the expression |
+| var_pop | Returns the population variance of the values in a group |
+
+### Math Functions
+
+| Method | Description |
+| --- | --- |
+| ceil | Computes the ceiling of the given column. |
+| cos | Computes the cosine of the given value. |
+| log | Computes the natural logarithm of the given value. |
+| round | Returns the value of the column e rounded to 0 decimal places with HALF_UP round mode. |
+| sqrt | Computes the square root of the specified float value. |
 
 
 
-
-
-
-
+<br><br><br>
 
 
 | Command | Description | Example |
@@ -325,74 +516,16 @@ The **`show`** action causes the following cell to execute transformations.
 | `StructType` | Represents a list of `StructField` | `StructType([StructField("field", StringType(), True)])` |
 | `StructField` | Represents a field in a `StructType` | `StructField("field", StringType(), True)` |
 
-### Column Operators and Methods
-| Method | Description |
-| --- | --- |
-| \*, + , <, >= | Math and comparison operators |
-| ==, != | Equality and inequality tests (Scala operators are **`===`** and **`=!=`**) |
-| alias | Gives the column an alias |
-| cast, astype | Casts the column to a different data type |
-| isNull, isNotNull, isNan | Is null, is not null, is NaN |
-| asc, desc | Returns a sort expression based on ascending/descending order of the column |
 
 
-#### **`SparkSession`** Methods
-| Method | Description |
-| --- | --- |
-| sql | Returns a DataFrame representing the result of the given query |
-| table | Returns the specified table as a DataFrame |
-| read | Returns a DataFrameReader that can be used to read data in as a DataFrame |
-| range | Create a DataFrame with a column containing elements in a range from start to end (exclusive) with step value and number of partitions |
-| createDataFrame | Creates a DataFrame from a list of tuples, primarily used for testing |
 
-## DataFrame Transformation Methods
-| Method | Description |
-| --- | --- |
-| **`select`** | Returns a new DataFrame by computing given expression for each element |
-| **`drop`** | Returns a new DataFrame with a column dropped |
-| **`withColumnRenamed`** | Returns a new DataFrame with a column renamed |
-| **`withColumn`** | Returns a new DataFrame by adding a column or replacing the existing column that has the same name |
-| **`filter`**, **`where`** | Filters rows using the given condition |
-| **`sort`**, **`orderBy`** | Returns a new DataFrame sorted by the given expressions |
-| **`dropDuplicates`**, **`distinct`** | Returns a new DataFrame with duplicate rows removed |
-| **`limit`** | Returns a new DataFrame by taking the first n rows |
-| **`groupBy`** | Groups the DataFrame using the specified columns, so we can run aggregation on them |
 
-### Grouped data methods
-| Method | Description |
-| --- | --- |
-| agg | Compute aggregates by specifying a series of aggregate columns |
-| avg | Compute the mean value for each numeric columns for each group |
-| count | Count the number of rows for each group |
-| max | Compute the max value for each numeric columns for each group |
-| mean | Compute the average value for each numeric columns for each group |
-| min | Compute the min value for each numeric column for each group |
-| pivot | Pivots a column of the current DataFrame and performs the specified aggregation |
-| sum | Compute the sum for each numeric columns for each group |
 
-### Aggregate Functions
 
-| Method | Description |
-| --- | --- |
-| approx_count_distinct | Returns the approximate number of distinct items in a group |
-| avg | Returns the average of the values in a group |
-| collect_list | Returns a list of objects with duplicates |
-| corr | Returns the Pearson Correlation Coefficient for two columns |
-| max | Compute the max value for each numeric columns for each group |
-| mean | Compute the average value for each numeric columns for each group |
-| stddev_samp | Returns the sample standard deviation of the expression in a group |
-| sumDistinct | Returns the sum of distinct values in the expression |
-| var_pop | Returns the population variance of the values in a group |
 
-### Math Functions
 
-| Method | Description |
-| --- | --- |
-| ceil | Computes the ceiling of the given column. |
-| cos | Computes the cosine of the given value. |
-| log | Computes the natural logarithm of the given value. |
-| round | Returns the value of the column e rounded to 0 decimal places with HALF_UP round mode. |
-| sqrt | Computes the square root of the specified float value. |
+
+
 
 ## Logistic Regression
 
