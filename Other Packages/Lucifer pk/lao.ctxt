@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ pattern()
+comment1.params=n
+comment1.target=void\ pattern(int)
+comment2.params=x\ n
+comment2.target=void\ pattern(char,\ int)
+comment3.params=
+comment3.target=void\ main()
+numComments=4

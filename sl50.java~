@@ -1,0 +1,18 @@
+class sl50
+{  
+    String rev(String n)
+    {
+        int l=n.length();
+        if(l==0)
+        {
+            return "";
+        }
+        char r=n.charAt(l-1);
+        String s=r+rev(n.substring(0,l-2));
+    }
+    void main(String r)
+    {
+        String p=rev(r);
+        System.out.println("ANS "+p);
+    }
+}       
