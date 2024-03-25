@@ -77,3 +77,39 @@ You can specify the scope as private (by default) or the public.
 ```
 Const << constant_name >> As << constant_type >> = << constant_value>>  
 ```
+
+## Arrays
+
+The array is a memory location which is capable of storing more than one value. All the values must be of the same data type. If you want to store a list of the same data type in a single variable, you can use an array to store.By using an array, you can mention the related values by the same name. You can use the subscript or an index to tell them apart. The individual values are referred to as the elements of the array. They are contiguous from index 0 to the highest index value.
+
+**Types of Array**
+1. Static: static displays have a fixed, pre-determined number of elements that can be stored. You cannot change the size of the data type of a static array. These are very useful when you work with known entities such as gender, number of days in a week, etc.
+2. Dynamic: The dynamic array does not have a fixed, pre-determined number of elements that can be stored. These are very useful when working with entities that you cannot pre-determine the number.
+
+**ReDim Statement :** ReDim statements are used to declare the dynamic array variables and are also used to allocate or reallocate the storage space.
+```
+ReDim [Preserve] varname (subscripts) [As type], [varname (subscripts) [As type]].  
+```
+
+| Part | Description |
+| --- | --- |
+|Preserve | (Optional) It used to preserve the data in an existing array when you change the size of the last dimension.
+| varname |(Required) It is the name of the variable.
+| Subscripts |(Required) It is the dimensions of an array variable. It may be declared up to 60 multiple dimensions. The subscripts argument uses the following syntax:<br><code> [lowerTo] upper, [[lowerTo] upper], ....... </code> <br> The lower bound of an array is controlled by an option base statement when no explicitly stated in lower. If no option base statement is present, then the lower bound is zero. |
+| Type | (Optional) It is the data type of the variable. It may be Byte, Boolean, Long, Integer, Single, Double, Currency, Date, String, Object, Variant, a user-defined or an object type. | 
+
+The ReDim statement is used to size or resize a dynamic array which is already declared by using a private, public or Dim comment with empty parentheses.You can use the ReDim statement frequently to change the number of an element and the dimensions in an array. You cannot declare an array of one data type. If the array is contained in a variant, then the type of elements can be changed by using an As type. If you are using the preserve keyword, there is no permission to change the data type.
+
+**Array Dimensions**
+1. One Dimension: the array is used only one index in the one dimension.
+```
+Dim agecount (100) As UInteger
+```
+2. Two Dimension: the array uses two indexes in the two-dimension.
+```
+Dim studentscounts (50, 5) As Byte
+```
+3. Multi dimension: the array is used more than two indexes in the multi-array.
+```
+Dim temperature (29, 30, 32) As single
+```
