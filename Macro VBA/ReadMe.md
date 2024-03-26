@@ -113,3 +113,57 @@ Dim studentscounts (50, 5) As Byte
 ```
 Dim temperature (29, 30, 32) As single
 ```
+
+## Operators
+
+**Arithmatic Operators**
+| Operator | Description | Example |
+| --- | --- | --- |
+| Addition (+) | You can add two number in an expression together with the addition operator. | `Dim x As Integer` <br> `x = 10 + 5` |
+| Subtraction (-) | You can subtract the two numbers in an expression together with the subtraction operator. | `Dim x As Integer  `<br>`x = 20 - 15 `|
+| Negation (~) | Negation also uses the subtraction operator, but with only one number or operand. | `Dim x As Integer = 50 `<br> `Dim y As Integer  `<br>`y = -x  `|
+| Multiplication (*) | You can multiply the two numbers in an expression together with the multiplication operator. | `Dim x As Double  `<br>`x = 10 * 55.23  ` |
+|Division (/) | You can divide the two numbers in an expression together with the division operator.The divisor and the dividend both must be integral types (Byte, SByte, Short, UShort, Integer, UInteger, Long, and ULong) for this operator. First, all other types must be converted to an integral type. | `Dim x As Double` <br> `X = 50 / 5`|
+|Exponentiation (^) | Exponentiation operator is used to raising a number to the power of another number.| `Dim y As Double`<br>`z = 4 ^ 2  ` |
+|Modulus Operator (Mod) | modulus arithmetic is performed using the Mod operator. This operator dividing the divisor into the dividend an integral number of times and returns the remainder.If divisor and dividend both are integral types, then the return value is integral. And if the divisor and dividend both are the floating-point types then return value is also a floating-point. | `Dim p As Integer = 100`<br>`Dim q As Integer = 6`<br>`Dim r As Integer`<br>`r = p Mod q`|
+
+**Bit-Shift Operation**
+A bit-shift operation is to perform an arithmetic shift on a bit pattern. This pattern is contained in the operand on the left. And the operand on the right specifies the number of positions to shift the pattern. You can shift the pattern into the right with >> operator or into the left with << operator. The data type of the pattern operand is Byte, SByte, Short, UShort, Integer, UInteger, Long, or ULong. Arithmetic shifts are not circular, means the bits shifted off one end of the result are not redefined at the other end. The vacated positions of the bit by a shift are set as follows:
+- 0 for the arithmetic left shit.
+- 0 for the arithmetic right shift of a positive number.
+- 0 for the arithmetic right shift of the unsigned data type (Byte, UShort, Uinteger, ULong).
+- 1 for the arithmetic right shift of the negative number (SByte, Integer, Short, or Long).
+
+```
+Dim lResult, rResult As Integer  
+Dim pattern As Integer = 15  
+' The low-order bits of the pattern are 0000 1100.   
+lResult = pattern << 3  
+' A left shift of 3 bits produces a value of 96.  
+rResult = pattern >> 2  
+' A right shift of 2 bits produces a value of 3.   
+```
+
+**Bitwise Operations**
+In addition to being logical operators, And, Or, Not, and Xor also perform bitwise arithmetic when used on numeric values.
+
+**String Operators**
+The string data is used to hold a sequence of characters that can consist of numbers, alphabets, special characters (symbols) or all of them.
+String operators are used to manipulating string data.
+A variable is said to be a string if it is enclosed within double quotes ("").
+
+```
+VariableName = "String"
+```
+
+Example
+```
+Str1 = "String" (only Alphabets)  
+Str2 = "145.32" (only Numbers)  
+Str3 = "!@#$" (only symbols or special characters)  
+Str4 = "Mar-1997" (character (Mar), symbol (-), number (1997), has all of above)  
+```
+
+| String Operator | Description | Example |
+| --- | --- | --- |
+| Concatenate (&) | This operator is used to concatenate the two strings or values together. | `"Mary" & "Kom"` |
