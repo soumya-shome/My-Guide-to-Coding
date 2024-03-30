@@ -125,13 +125,13 @@ Dim temperature (29, 30, 32) As single
 **Arithmatic Operators**
 | Operator | Description | Example |
 | --- | --- | --- |
-| Addition (+) | You can add two number in an expression together with the addition operator. | `Dim x As Integer` <br> `x = 10 + 5` |
-| Subtraction (-) | You can subtract the two numbers in an expression together with the subtraction operator. | `Dim x As Integer  `<br>`x = 20 - 15 `|
-| Negation (~) | Negation also uses the subtraction operator, but with only one number or operand. | `Dim x As Integer = 50 `<br> `Dim y As Integer  `<br>`y = -x  `|
-| Multiplication (*) | You can multiply the two numbers in an expression together with the multiplication operator. | `Dim x As Double  `<br>`x = 10 * 55.23  ` |
-|Division (/) | You can divide the two numbers in an expression together with the division operator.The divisor and the dividend both must be integral types (Byte, SByte, Short, UShort, Integer, UInteger, Long, and ULong) for this operator. First, all other types must be converted to an integral type. | `Dim x As Double` <br> `X = 50 / 5`|
-|Exponentiation (^) | Exponentiation operator is used to raising a number to the power of another number.| `Dim y As Double`<br>`z = 4 ^ 2  ` |
-|Modulus Operator (Mod) | modulus arithmetic is performed using the Mod operator. This operator dividing the divisor into the dividend an integral number of times and returns the remainder.If divisor and dividend both are integral types, then the return value is integral. And if the divisor and dividend both are the floating-point types then return value is also a floating-point. | `Dim p As Integer = 100`<br>`Dim q As Integer = 6`<br>`Dim r As Integer`<br>`r = p Mod q`|
+| **+** | Addition | `Dim x As Integer = 10 + 5` |
+| **-** | Subtraction | `Dim x As Integer = 20 - 15` |
+| **~** | Negation | `Dim y As Integer = -50` |
+| **\*** | Multiplication | `Dim x As Double = 10 * 55.23` |
+| **/** | Division | `Dim x As Double = 50 / 5` |
+| **^** | Exponentiation | `Dim z As Double = 4 ^ 2` |
+| **Mod** | Modulus | `Dim r As Integer = 100 Mod 6` |
 
 **Bit-Shift Operation**
 A bit-shift operation is to perform an arithmetic shift on a bit pattern. This pattern is contained in the operand on the left. And the operand on the right specifies the number of positions to shift the pattern. You can shift the pattern into the right with >> operator or into the left with << operator. The data type of the pattern operand is Byte, SByte, Short, UShort, Integer, UInteger, Long, or ULong. Arithmetic shifts are not circular, means the bits shifted off one end of the result are not redefined at the other end. The vacated positions of the bit by a shift are set as follows:
@@ -173,3 +173,49 @@ Str4 = "Mar-1997" (character (Mar), symbol (-), number (1997), has all of above)
 | String Operator | Description | Example |
 | --- | --- | --- |
 | Concatenate (&) | This operator is used to concatenate the two strings or values together. | `"Mary" & "Kom"` |
+
+**Logical Operators**
+| Operator | Description | Example |
+| --- | --- | --- |
+| **AND** | Combines conditions. Returns True if all conditions are True, otherwise False. | `If Age > 10 And Age < 20 Then` |
+| **OR** | Combines conditions. Returns True if any condition is True, otherwise False. | `If x = 10 Or y = 20 Then` |
+| **NOT** | Inverts a condition. Returns True if the original condition is False, and vice versa. | `If NOT BooleanFlag = False Then` |
+
+**Compression Operator**
+Certainly! Here's a concise version of the table:
+
+| Operator | Description |
+| --- | --- |
+| Equal (=) | Checks if two values are equal. | `If int x = int y then` |
+| Not equal to (<>) | Checks if two values are not equal. | `If int x <> int y then`|
+| Greater than (>) | Compares if the first value is greater than the second. | `If int x > int y then` |
+| Greater than equal to (>=) | Compares if the first value is greater than or equal to the second. | `If int x >= int y then` |
+| Less than (<) | Compares if the first value is less than the second. | `If int x < int y then` |
+| Less than equal to (<=) | Compares if the first value is less than or equal to the second. | `If int x <= int y then` |
+
+# Condition Statements
+
+## Switch Case
+VBA Select Case statement is used instead of multiple Nested If statements. The VBA Select Case makes the VBA program easy to understand and faster in execution time.The Select Case statement is an alternative of the If Else If statement. It is another way to select a value from a list of values.
+
+
+```
+Select Case test_expression  
+Case condition_1   
+Result_1  
+Case condition_2  
+Result_2   
+.....  
+.....  
+Case condition_n  
+Result_n  
+Case Else   
+Result_else  
+End Select   
+```
+Explanation:
+- test_expression: It is a string or numeric value that comparing to the list of the conditions.
+- condition_1 to condition_n: These are the conditions that evaluated in the order listed. If a condition is true, it will execute the corresponding code and not execute the further conditions of the code.
+- Result_1 to result_n: The code that is executed when a condition is true.
+- Case Else: If no condition is met to be accurate, then the else statement will be executed in the code.
+

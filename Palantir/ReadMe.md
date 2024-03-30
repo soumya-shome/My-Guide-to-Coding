@@ -72,6 +72,14 @@ When preparing a new pipeline or re-organizing an existing one, consider configu
 - The **Scheduler** application, which is accessible in Data Lineage, enables you to define datasets that should build together when your defined time and/or event-based are triggered. It also tracks pipeline metrics and provides additional schedule-level health checks.
 - **Data Health** application to monitor your pipeline and alert you when your defined conditions are met.
 
+|Job | Build |
+| --- | --- |
+| a data computation defined by the logic in a single transform. In other words, a job is a single transform that produces a single dataset (or several if a multi-output transform is used). | a collection of jobs with defined target datasets as defined in the schedule. |
+| Job status checks are therefore limited to individual datasets. | A Build status check, by contrast, will monitor the success or failure of all jobs in the build. |
+	
+
+
+
 
 # Summary:
 - A data pipeline is a series of datasets and transformation logic that build as a cohesive unit according to user-defined conditions.
