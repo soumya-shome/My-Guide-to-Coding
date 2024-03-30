@@ -1,5 +1,11 @@
 # VBA
 
+## Materials
+https://cognizant.udemy.com/course/ultimate-excel-vba/learn/lecture/361330#overview
+https://www.youtube.com/watch?v=yebsZPhpGzc
+https://www.javatpoint.com/vba
+
+
 ## What is Macro VBA?
 - VBA stands for Visual Basic for Applications, and event-driven programming language from Microsoft. It is now predominantly used with Microsoft Office applications such as MS Excel, MS-Word, and MS-Access.
 - VBA allows you to automate various activities in Excel such as generating reports, preparing charts & graphs, doing calculations, etc. This automation activity is also known as Macro.
