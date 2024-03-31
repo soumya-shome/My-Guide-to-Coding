@@ -1,4 +1,6 @@
+Attribute VB_Name = "Module1"
 Sub EnterLabel()
+Attribute EnterLabel.VB_ProcData.VB_Invoke_Func = " \n14"
 '
 'A comment can be anything you want
 'Comments are mainly used to document your code so that it is easier to revise later on

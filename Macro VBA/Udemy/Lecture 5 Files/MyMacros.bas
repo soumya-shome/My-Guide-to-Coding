@@ -1,4 +1,6 @@
+Attribute VB_Name = "MyMacros"
 Sub AbsoluteRecording()
+Attribute AbsoluteRecording.VB_ProcData.VB_Invoke_Func = " \n14"
 '
 ' AbsoluteRecording Macro
 '
@@ -9,6 +11,7 @@ Sub AbsoluteRecording()
     Range("A3").Select
 End Sub
 Sub RelativeRecording()
+Attribute RelativeRecording.VB_ProcData.VB_Invoke_Func = " \n14"
 '
 ' RelativeRecording Macro
 '
@@ -32,7 +35,5 @@ Sub FillMonths()
         xlFillDefault
     ActiveCell.Range("A1:A12").Select
 End Sub
-
-
 
 

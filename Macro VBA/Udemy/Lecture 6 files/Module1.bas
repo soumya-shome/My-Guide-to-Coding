@@ -1,4 +1,6 @@
+Attribute VB_Name = "Module1"
 Sub ConvertToValues()
+Attribute ConvertToValues.VB_ProcData.VB_Invoke_Func = " \n14"
 'A short macro that will convert the selected range of formulas to values
 
     'Call the Copy method of the Selection object, ex: 'Object_name.Method'

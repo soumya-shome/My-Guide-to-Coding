@@ -1,4 +1,6 @@
+Attribute VB_Name = "Module1"
 Sub AbsoluteRecording()
+Attribute AbsoluteRecording.VB_ProcData.VB_Invoke_Func = " \n14"
 '
 ' AbsoluteRecording Macro
 '
@@ -9,6 +11,7 @@ Sub AbsoluteRecording()
     Range("A3").Select
 End Sub
 Sub RelativeRecording()
+Attribute RelativeRecording.VB_ProcData.VB_Invoke_Func = " \n14"
 '
 ' RelativeRecording Macro
 '
