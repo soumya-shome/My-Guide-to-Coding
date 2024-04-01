@@ -5,6 +5,14 @@ https://cognizant.udemy.com/course/ultimate-excel-vba/learn/lecture/361330#overv
 https://www.youtube.com/watch?v=yebsZPhpGzc
 https://www.javatpoint.com/vba
 
+## Keyboard Shortcuts
+| Keys | Function |
+| --- | --- |
+| Alt + F11 | Switch between VBA Studio and Sheet | 
+
+## Extensions
+Save/Export Macro codes as *.BAS
+Save Excel workbook with Macro as *.xslm
 
 ## What is Macro VBA?
 - VBA stands for Visual Basic for Applications, and event-driven programming language from Microsoft. It is now predominantly used with Microsoft Office applications such as MS Excel, MS-Word, and MS-Access.
@@ -21,6 +29,23 @@ https://www.javatpoint.com/vba
 - Alt key and press the F11 key (Alt + F11).
 - Step 1: Go to the Worksheet tab. <br> Step 2: Right-click on the tab.<br>Step 3: Then, select the View Code option.
 - From Developer tab
+
+# Objects
+
+Excel Objects
+|Object|Description|
+|---|---|
+|Application|Represents the entire Excel application.|
+|Workbook|Represents an Excel workbook.|
+|Worksheet|Represents a worksheet.|
+|Range|Represents a cell, or a selection of cells.|
+|Chart|Represents a chart in a workbook.|
+|PivotTable|Represents a Pivot Table report on the worksheet.|
+|Shape|Represents an object in the drawing layer, such as an AutoShape, freeform, OLE object, or picture.|
+
+Object_Name.PROPERTY => Set properties
+
+Object_Name.Method => Execute Methods
 
 
 # Data Types
@@ -195,9 +220,8 @@ Certainly! Here's a concise version of the table:
 
 # Condition Statements
 
-## Switch Case
+## Select (Switch) Case
 VBA Select Case statement is used instead of multiple Nested If statements. The VBA Select Case makes the VBA program easy to understand and faster in execution time.The Select Case statement is an alternative of the If Else If statement. It is another way to select a value from a list of values.
-
 
 ```
 Select Case test_expression  
@@ -219,3 +243,389 @@ Explanation:
 - Result_1 to result_n: The code that is executed when a condition is true.
 - Case Else: If no condition is met to be accurate, then the else statement will be executed in the code.
 
+## If Then, If Else
+If Then, If Then Else and If Else If statements allows the programmers to control the execution flow of a script or one of its sections.
+### 1. If Then
+```
+If (Boolean_expression) Then  
+    Statement 1  
+    ........  
+    ........  
+    ........  
+    Statement n  
+End If  
+```
+**Example:**
+```
+Sub FixDate ()   
+    myDate = #10/03/1997#   
+    If myDate < Now Then myDate = Now   
+End Sub  
+
+
+Sub AlertUser (value as Long)   
+    If value = 1 Then   
+    AlertLabel.ForeColor = "yellow"   
+    AlertLabel.Font.Bold = True   
+    AlertLabel.Font.Italic = True   
+  End If   
+End Sub
+
+
+Private Sub If_demo_Click ()  
+     Dim x As Integer  
+     Dim y As Integer  
+     x = 20  
+     y = 10  
+     If x > y Then   
+        MsgBox "x is greater than y"  
+     End If   
+End Sub  
+
+Sub evenOdd ()  
+    If Range ("X1") Mod 2 = 0 Then   
+        MsgBox "X1 is even"  
+    End If  
+End Sub  
+```
+
+### 2. If Then Else
+An If statement contains a Boolean expression that allows one or more statements, if the condition is True, the statements under If condition is executed. If the condition is false, the statement under the Else condition is executed.
+
+```
+If (Boolean_expression) Then  
+Statement 1  
+.........  
+.........  
+.........  
+Statement n  
+Else  
+Statement 1  
+.........  
+.........  
+Statement n  
+End If  
+```
+**Example:**
+```
+Sub evenOdd ()  
+If Range ("A1") mod 2 = 0 Then  
+MsgBox "A1 is even"  
+Else  
+MsgBox "A1 is odd"  
+End If  
+End Sub
+
+
+Private Sub If_demo_Click ()  
+Dim x As Integer  
+Dim y As Integer  
+x = 20  
+y = 40  
+If x > y Then   
+MsgBox "x is greater than y"  
+Else  
+MsgBox "y is greater than x"  
+End If   
+End Sub  
+
+
+Dim score As Integer, result As String  
+Score = Range ("A1").Value  
+If score >= 60 Then  
+Result = "Pass"  
+Else  
+Result = "Fail"  
+End If  
+Range ("B1").Value = result  
+```
+
+###  3. If Else If
+```
+If (Boolean_expression) Then  
+Statement 1  
+........  
+........  
+........  
+Statement n  
+ElseIf (Boolean_expression) Then  
+Statement 1  
+.........  
+.........  
+Statement n  
+ElseIf (Boolean_expression) Then  
+Statement 1  
+.........  
+.........  
+Statement n  
+Else  
+Statement 1  
+.........  
+.........  
+Statement n  
+End If  
+```
+
+**Example:**
+```
+Private Sub If_demo_Click ()  
+Dim x As Integer  
+Dim y As Integer  
+x = 40  
+y = 40  
+If x > y Then   
+MsgBox "x is greater than y"  
+ElseIf y > x Then  
+MsgBox "y is greater than x"  
+Else  
+MsgBox "x and y are Equal"  
+End If   
+End Sub  
+
+Sub Macro1()  
+ btnVal = MsgBox("Press a button and program will tell which button was pressed?", 3, "Demo")  
+   
+   If btnVal = 1 Then  
+   
+      MsgBox "User pressed Yes!"  
+   
+   ElseIf btnVal = 2 Then  
+   
+      MsgBox "User Pressed No!"  
+   
+   Else  
+   
+      MsgBox "User Pressed Cancel!"  
+   
+   End If  
+  
+End Sub  
+```
+
+## Nested If
+An If or ElseIf statement inside another If or ElseIf statement. The inner If statements execution is based on the outermost If statements. This enables VBScript to handle complicated conditions.
+```
+If (Boolean_expression) Then  
+Statement 1  
+........  
+........  
+........  
+Statement n  
+If (Boolean_expression) Then  
+Statement 1  
+.........  
+.........  
+Statement n  
+ElseIf (Boolean_expression) Then  
+Statement 1  
+.........  
+.........  
+Statement n  
+Else  
+Statement 1  
+.........  
+.........  
+Statement n  
+End If  
+Else  
+Statement 1  
+.........  
+.........  
+Statement n  
+End If  
+```
+
+**Example:**
+```
+Sub Macro1()  
+Dim sngMarks As Single  
+sngMarks = 70  
+If sngMarks >= 80 Then  
+MsgBox "Excellent"  
+End If  
+If sngMarks >= 60 And sngMarks < 80 Then  
+MsgBox "Good"  
+End If  
+If sngMarks >= 40 And sngMarks < 60 Then  
+MsgBox "Average"  
+End If  
+If sngMarks < 40 Then  
+MsgBox "Poor"  
+End If  
+End Sub  
+
+Private Sub nested_If_demo_Click ()  
+Dim x As Integer   
+x = 30   
+If x > 0 Then   
+MsgBox "a number is a positive number"  
+If x = 1 Then  
+MsgBox "A number is neither prime nor composite"  
+ElseIf x = 2 Then   
+MsgBox "A number is the only prime even prime number"  
+ElseIf x = 3 Then   
+MsgBox "A number is the least odd prime number"  
+Else   
+MsgBox "The number is not 0, 1, 2, or 3"  
+End If   
+Else If x < 0 Then  
+MsgBox "A number is a negative number"  
+Else   
+MsgBox "the number is zero"  
+End If  
+End Sub  
+```
+## Switch
+To execute a group of statements depending upon the value of an Expression, then we use the Switch Case. Here, each value is called a Case, and the variable is being switched ON based on each case. Else statement case is executed if the test expression doesn't match with any of the Case specified by the user.
+
+Case Else is an optional statement within the select Case. However, it is a good programming practice always to have a Case Else statement.
+```
+Select Case expression  
+   Case expressionlist1  
+      Statement 1  
+      Statement 2  
+      .................  
+      .................  
+      Statement n  
+   Case expressionlist2  
+      Statement 1  
+      Statement 2  
+      .................  
+      .................  
+      Statement n  
+   Case expressionlistn  
+      Statement 1  
+      Statement 2  
+      .................  
+      .................  
+      Statement n  
+   Case Else  
+      Elsestatement 1  
+      Elsestatement 2  
+      ....  
+      ....  
+End Select  
+```
+
+**Example:**
+```
+Private Sub switch_demo_Click ()  
+Dim MyVar As Integer  
+MyVar = 1  
+Select Case MyVar  
+Case 1  
+MsgBox "A number is the least composite number"  
+Case 2  
+MsgBox "A number is the only even prime number"  
+Case 3  
+MsgBox "A number is the least odd prime number"  
+Case Else   
+MsgBox "unknown number"  
+End Select  
+End Sub   
+
+Function GetGrade(StudentMarks As Integer)  
+Dim FinalGrade As String  
+  
+Select Case StudentMarks  
+  
+Case Is < 33  
+FinalGrade = "F"  
+  
+Case 33 To 50  
+FinalGrade = "E"  
+  
+Case 51 To 60  
+FinalGrade = "D"  
+  
+Case 61 To 70  
+FinalGrade = "C"  
+  
+Case 71 To 90  
+FinalGrade = "B"  
+  
+Case Else  
+FinalGrade = "A"  
+  
+End Select  
+GetGrade = FinalGrade  
+  
+End Function  
+```
+# Loops
+
+## For Loops
+It executed a sequence of statements multiple times and compressed the code that manages the loop variable. For loop uses a variable which cycle goes through a series of values within a specified range. The code inside the loop is then executed for each value in VBA.
+```
+For counter_variable = start_value To end_value  
+........  
+........  
+[Block of code]  
+.........  
+.........  
+Next conter_varaiable  
+```
+
+**Example:**
+```
+For i = 1 to 20  
+Total = Total + iArray(i)    
+Next i  
+
+Sub forNext ()  
+Dim i As Integer   
+Dim iTotal As Integer   
+iTotal = 0  
+For i = 1 to 10  
+      iTotal = I + iTotal  
+Next i  
+MsgBox iTotal  
+End Sub  
+```
+
+## For Each Loop
+It executes the block of code if there is at least one element that exists in the group and iterated for each element in a group.
+```
+For Each object_variable In group_object_variable  
+........  
+........  
+[Block of code]  
+........  
+Next object_variable 
+```
+
+## Do While Loop
+It executed as long as the condition is True or the loop should be repeated only when the situation is False.
+```
+The do...While loop statement   
+Do   
+........  
+........  
+[Block of code]  
+........  
+Loop while (condition)  
+```
+
+## Do Until Loop
+It will be executed as long as the condition is False or the loop should be repeated only when the situation is True.
+
+```
+The Do...Until loop statement   
+Do  
+........  
+........  
+[Block of code]  
+Loop Until [condition]  
+```
+
+## Loop control statements
+Loop control statements can change execution from its normal sequence. When execution leaves a scope, all the remaining statements in the loop are NOT executed.
+
+There are the following control statements supported by the VBA.
+- Exit for statement: It terminates the For loop statements and transfers the execution to the statement immaterially following the loop.
+- Exit do statement: It terminates the do-while statement and transfers the execution to the statement immediately following the loop.
+
+
+
+ActiveCell => The Cell currently selected (`ActiveCell. `)
+Selection => The current Selection
