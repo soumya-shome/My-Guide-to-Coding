@@ -1,0 +1,12 @@
+{
+<<<<<<< HEAD
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "code-runner.runInTerminal": true,
+=======
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true,
+>>>>>>> data/main
+    "code-runner.saveFileBeforeRun": true
+}
