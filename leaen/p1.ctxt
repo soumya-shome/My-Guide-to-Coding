@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=p1
+comment1.params=base\ ht
+comment1.target=void\ Areapg(int,\ int)
+comment2.params=d1\ d2
+comment2.target=void\ Arearh(int,\ int)
+comment3.params=a\ b\ h
+comment3.target=void\ Areatr(int,\ int,\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

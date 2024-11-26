@@ -1,0 +1,10 @@
+Sep 07, 2021 6:25:14 PM com.tekstac.eclipse.ExerciseView UserloginPanel
+INFO: NEW LOG
+Sep 07, 2021 6:25:14 PM com.tekstac.eclipse.ExerciseView UserloginPanel
+INFO: Temp Directory :C:\Users\LENOVO\AppData\Local\Temp\
+Sep 07, 2021 6:26:00 PM com.tekstac.eclipse.ExerciseView createjksScript
+INFO:  Keystore false
+Sep 07, 2021 6:26:00 PM com.tekstac.eclipse.ExerciseView createjksScript
+INFO: cmd:cmdC:\Users\LENOVO\Desktop\Tekstac\.certificate\myscript.bat
+Sep 07, 2021 6:35:44 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Error talking to server: {"exception":"moodle_exception","message":"error\/module instance id unknow","errorcode":"module instance id unknow"}

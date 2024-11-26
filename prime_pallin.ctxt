@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=prime_pallin
+comment1.params=n
+comment1.target=int\ prime(int)
+comment2.params=n
+comment2.target=int\ pallin(int)
+comment3.params=
+comment3.target=void\ main()
+numComments=4

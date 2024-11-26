@@ -1,0 +1,17 @@
+def hourglassSum(arr,a,b):
+    s=0
+    for i in range(a,a+3):
+        for j in range(b,b+3):
+            if((i!=(a+1) or j!=b) and (i!=(a+1) or j!=b+2)):
+                s+=arr[i][j]  
+    return s            
+    
+arr = []
+for _ in range(6):
+    arr.append(list(map(int, input().rstrip().split())))
+max=-90
+for i in range(4):
+    for j in range(4):
+        su=hourglassSum(arr,i,j)
+        if su>max: max=su
+print(max)
