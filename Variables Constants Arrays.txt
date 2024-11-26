@@ -1,0 +1,69 @@
+Sub Macro1()
+Dim num As Integer
+num = 10
+MsgBox "Marco = " & num
+End Sub
+
+Sub Button1_Click()
+Dim name As String
+name = InputBox("Enter your name")
+MsgBox "Hello " & name
+End Sub
+
+Sub Button2_Click()
+Dim Yname As String, JoiningDate As Date, Income As Currency
+Yname = "Adam"
+JoiningDate = "10 March 2010"
+Income = 20000
+Range("A1") = Yname
+Range("A2") = JoiningDate
+Range("A3") = Income
+End Sub
+
+Private Sub Button3_Click()
+Const MyInteger As Integer = 30
+Const myDate As Date = #10/3/2023#
+Const myDay As String = "Friday"
+MsgBox "Integer is " & MyInteger & Chr(10) & "mydate is " & myDate & Chr(10) & "MyDay is " & myDay
+End Sub
+
+Private Sub cmdLoadBeverages_Click()
+    Dim Colors(1 To 5) As String
+    
+    Colors(1) = "Pink"
+    Colors(2) = "Red"
+    Colors(3) = "Green"
+    Colors(4) = "Black"
+    Colors(5) = "Blue"
+    
+    Sheet1.Cells(5, 1).Value = "My Favourite Beverages"
+    Sheet1.Cells(6, 1).Value = Colors(1)
+    Sheet1.Cells(7, 1).Value = Colors(2)
+    Sheet1.Cells(8, 1).Value = Colors(3)
+    Sheet1.Cells(9, 1).Value = Colors(4)
+    Sheet1.Cells(10, 1).Value = Colors(5)
+    
+End Sub
+
+Private Sub CommandButton1_Click()
+Dim Names(1 To 5) As String
+Names(1) = "Bella"
+Names(2) = "Edward"
+Names(3) = "Sam"
+Names(4) = "Jhon"
+Names(5) = "Nick"
+MsgBox Names(2)
+End Sub
+
+Private Sub CommandButton2_Click()
+Dim Names(1 To 5, 1 To 2) As String
+Dim i As Integer, j As Integer
+For i = 1 To 5
+    For j = 3 To 4
+        Names(i, j - 2) = Cells(i, j).Value
+    Next j
+Next i
+MsgBox Names(4, 2)
+End Sub
+
+
