@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1611688021 source:d:\programming languages\03. projects\cppdatabase\main.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<mysql/mysql.h>
+
+1476096933 c:\msys64\mingw64\include\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1476096946 c:\msys64\mingw64\include\mysql_com.h
+
+1476096972 c:\msys64\mingw64\include\mysql_time.h
+
+1476096983 c:\msys64\mingw64\include\mysql_version.h
+	<custom_conf.h>
+
+1476097123 c:\msys64\mingw64\include\typelib.h
+
+1476097168 c:\msys64\mingw64\include\my_list.h
+
+1476097177 c:\msys64\mingw64\include\my_alloc.h
+
+1608055825 c:\msys64\mingw64\include\mysql\mysql.h
+	<stdarg.h>
+	<sys/types.h>
+	"mariadb_com.h"
+	"mariadb_version.h"
+	"ma_list.h"
+	"mariadb_ctype.h"
+	"mariadb_stmt.h"
+
+1608055825 c:\msys64\mingw64\include\mysql\mariadb_com.h
+
+1608055825 c:\msys64\mingw64\include\mysql\mariadb_version.h
+	<custom_conf.h>
+
+1608055825 c:\msys64\mingw64\include\mysql\ma_list.h
+
+1608055825 c:\msys64\mingw64\include\mysql\mariadb_ctype.h
+	<ctype.h>
+
+1608055825 c:\msys64\mingw64\include\mysql\mariadb_stmt.h
+
