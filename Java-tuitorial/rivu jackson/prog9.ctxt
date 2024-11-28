@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=prog9
+comment1.params=num
+comment1.target=void\ prime(long)
+comment2.params=no
+comment2.target=int\ prime(int)
+comment3.params=m\ n
+comment3.target=void\ prime(int,\ int)
+numComments=4

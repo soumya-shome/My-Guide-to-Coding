@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ll
+comment1.params=a\ b
+comment1.target=ll(int,\ double)
+comment1.text=\r\n\ \ \ \ public\ ll(){\r\n\ \ \ \ \ \ \ \ a\=5;\r\n\ \ \ \ \ \ \ \ b\=9.7;\r\n\ \ \ \ }\r\n
+comment2.params=
+comment2.target=void\ display()
+comment3.params=
+comment3.target=void\ main()
+numComments=4

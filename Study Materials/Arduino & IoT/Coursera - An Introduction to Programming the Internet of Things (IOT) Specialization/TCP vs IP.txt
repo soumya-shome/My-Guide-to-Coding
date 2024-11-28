@@ -1,0 +1,8 @@
+TCP is a protocol suite, which means at different levels ,different protocols within TCP work to route traffic and re-route around failures.
+IP is a protocol used for data communication across a packet switched internetwork.
+
+TCP is a core operating on a relatively high level.
+IP operates ata lower level.
+
+TCP provides communication services at an intermediate level between an application program and the IP.
+IP encapsulates all data and is connectionless.

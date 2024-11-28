@@ -1,0 +1,176 @@
+Jul 27, 2021 10:09:28 PM com.tekstac.eclipse.ExerciseView UserloginPanel
+INFO: NEW LOG
+Jul 27, 2021 10:09:28 PM com.tekstac.eclipse.ExerciseView UserloginPanel
+INFO: Temp Directory :C:\Users\LENOVO\AppData\Local\Temp\
+Jul 27, 2021 10:19:15 PM com.tekstac.eclipse.ExerciseView createjksScript
+INFO:  Keystore true
+Jul 27, 2021 10:19:15 PM com.tekstac.eclipse.ExerciseView createjksScript
+INFO: cmd:cmdC:\Users\LENOVO\Desktop\Tekstac\.certificate\myscript.bat
+Jul 27, 2021 10:58:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jul 27, 2021 10:58:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jul 27, 2021 10:58:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Main.class
+Jul 27, 2021 10:58:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Main.java
+Jul 27, 2021 10:58:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Passenger.class
+Jul 27, 2021 10:58:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Passenger.java
+Jul 27, 2021 10:58:24 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java05.tekstac.com\/781275610834625\/monitor"}
+Jul 27, 2021 10:58:24 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java05.tekstac.com/781275610834625/monitor
+Jul 27, 2021 10:58:24 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java05.tekstac.com/781275610834625/monitor
+Jul 27, 2021 10:58:24 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java05.tekstac.com/781275610834625/monitor
+Jul 27, 2021 10:58:24 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 27, 2021 10:58:26 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 27, 2021 10:58:26 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jul 27, 2021 10:58:52 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java07.tekstac.com\/134542507325602\/monitor"}
+Jul 27, 2021 10:58:52 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java07.tekstac.com/134542507325602/monitor
+Jul 27, 2021 10:58:52 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java07.tekstac.com/134542507325602/monitor
+Jul 27, 2021 10:58:52 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java07.tekstac.com/134542507325602/monitor
+Jul 27, 2021 10:58:52 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 27, 2021 10:58:52 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 27, 2021 10:58:52 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jul 27, 2021 10:59:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java06.tekstac.com\/94448989912471\/monitor"}
+Jul 27, 2021 10:59:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java06.tekstac.com/94448989912471/monitor
+Jul 27, 2021 10:59:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java06.tekstac.com/94448989912471/monitor
+Jul 27, 2021 10:59:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java06.tekstac.com/94448989912471/monitor
+Jul 27, 2021 10:59:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 27, 2021 10:59:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 27, 2021 10:59:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jul 27, 2021 11:01:45 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java07.tekstac.com\/98159852954571\/monitor"}
+Jul 27, 2021 11:01:45 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java07.tekstac.com/98159852954571/monitor
+Jul 27, 2021 11:01:45 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java07.tekstac.com/98159852954571/monitor
+Jul 27, 2021 11:01:45 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java07.tekstac.com/98159852954571/monitor
+Jul 27, 2021 11:01:45 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 27, 2021 11:01:45 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 27, 2021 11:01:45 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jul 27, 2021 11:01:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java04.tekstac.com\/50036414533232\/monitor"}
+Jul 27, 2021 11:01:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java04.tekstac.com/50036414533232/monitor
+Jul 27, 2021 11:01:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java04.tekstac.com/50036414533232/monitor
+Jul 27, 2021 11:01:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java04.tekstac.com/50036414533232/monitor
+Jul 27, 2021 11:01:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 27, 2021 11:01:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 27, 2021 11:02:00 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jul 27, 2021 11:09:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java08.tekstac.com\/106460532159249\/monitor"}
+Jul 27, 2021 11:09:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java08.tekstac.com/106460532159249/monitor
+Jul 27, 2021 11:09:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java08.tekstac.com/106460532159249/monitor
+Jul 27, 2021 11:09:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java08.tekstac.com/106460532159249/monitor
+Jul 27, 2021 11:09:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 27, 2021 11:09:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 27, 2021 11:09:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jul 27, 2021 11:12:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java08.tekstac.com\/1663616711840092\/monitor"}
+Jul 27, 2021 11:12:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java08.tekstac.com/1663616711840092/monitor
+Jul 27, 2021 11:12:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java08.tekstac.com/1663616711840092/monitor
+Jul 27, 2021 11:12:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java08.tekstac.com/1663616711840092/monitor
+Jul 27, 2021 11:12:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 27, 2021 11:12:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 27, 2021 11:12:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jul 27, 2021 11:13:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java01.tekstac.com\/111383283988458\/monitor"}
+Jul 27, 2021 11:13:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java01.tekstac.com/111383283988458/monitor
+Jul 27, 2021 11:13:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java01.tekstac.com/111383283988458/monitor
+Jul 27, 2021 11:13:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java01.tekstac.com/111383283988458/monitor
+Jul 27, 2021 11:13:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 27, 2021 11:13:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 27, 2021 11:14:00 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jul 28, 2021 1:14:15 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jul 28, 2021 1:14:15 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jul 28, 2021 1:14:15 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Employee.class
+Jul 28, 2021 1:14:15 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Employee.java
+Jul 28, 2021 1:14:15 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Main.java
+Jul 28, 2021 1:14:15 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: PermanentEmployee.class
+Jul 28, 2021 1:14:15 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: PermanentEmployee.java
+Jul 28, 2021 1:14:16 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Exception java.util.NoSuchElementException
+Jul 28, 2021 1:14:16 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java03.tekstac.com\/1509759214367700\/monitor"}
+Jul 28, 2021 1:14:16 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java03.tekstac.com/1509759214367700/monitor
+Jul 28, 2021 1:14:16 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java03.tekstac.com/1509759214367700/monitor
+Jul 28, 2021 1:14:16 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java03.tekstac.com/1509759214367700/monitor
+Jul 28, 2021 1:14:16 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 28, 2021 1:14:16 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 28, 2021 1:14:17 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jul 28, 2021 1:14:40 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/cogee-java02.tekstac.com\/854812716681306\/monitor"}
+Jul 28, 2021 1:14:40 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://cogee-java02.tekstac.com/854812716681306/monitor
+Jul 28, 2021 1:14:40 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://cogee-java02.tekstac.com/854812716681306/monitor
+Jul 28, 2021 1:14:40 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://cogee-java02.tekstac.com/854812716681306/monitor
+Jul 28, 2021 1:14:40 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jul 28, 2021 1:14:40 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jul 28, 2021 1:14:40 AM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 

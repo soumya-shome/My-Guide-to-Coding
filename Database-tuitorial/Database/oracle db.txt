@@ -1,0 +1,5 @@
+db name - orcl
+db password - orclpwd password
+pubggable db - orclpdb
+
+https://localhost:5500/em

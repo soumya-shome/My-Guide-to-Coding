@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ showButton()
+comment1.params=num1
+comment1.target=void\ check(int)
+comment1.text=
+comment2.params=num
+comment2.target=void\ complogic(int)
+comment2.text=
+comment3.params=
+comment3.target=TTT1()
+comment3.text=
+comment4.params=e
+comment4.target=void\ itemStateChanged(java.awt.event.ItemEvent)
+comment4.text=
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.text=
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=
+numComments=7

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=prog7
+comment1.params=n\ ch
+comment1.target=void\ polygon(int,\ char)
+comment2.params=x\ y
+comment2.target=void\ polygon(int,\ int)
+comment3.params=
+comment3.target=void\ polygon()
+numComments=4

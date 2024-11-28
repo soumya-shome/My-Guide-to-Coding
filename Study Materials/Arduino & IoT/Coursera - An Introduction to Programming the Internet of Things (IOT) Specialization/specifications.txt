@@ -1,0 +1,4 @@
+Smart Door Lock
+1.Scan RFID Card , to get entry Access.
+2.Arduino to control the scanning process.
+3.Arduino to keep track of all records

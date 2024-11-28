@@ -1,0 +1,20 @@
+class Sayan
+  {
+     public static void main(int a)
+      {
+        int d=0;
+         if(a<5)
+         {
+            d=a*5;
+           {
+            elseif(a>5 && a<=10);
+           {
+            d=a*2;
+        }
+    }
+}
+}
+}
+
+
+        

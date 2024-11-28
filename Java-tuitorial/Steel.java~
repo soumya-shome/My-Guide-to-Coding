@@ -1,0 +1,31 @@
+class Steel
+  {
+     public static void main(int a,int b)
+      {
+         if(a>b)
+         {
+         System.out.println("a is the greatest");
+        }
+         else
+         {
+         System.out.println("b is the greatest");
+         }
+         if(a<b)
+         {
+         System.out.println("a is the least");
+         }
+         else
+         {
+         System.out.println("b is the least");
+        }
+    
+    }
+}
+-
+  
+ 
+
+
+ 
+         
+         
