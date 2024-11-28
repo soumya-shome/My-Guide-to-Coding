@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#div-menu").hide()
+		$("#div-main").mouseenter(function(){
+			$("#div-menu").slideDown("slow")
+					
+		
+		})
+		$("#div-main").mouseleave(function(){
+			$("#div-menu").slideUp("slow")
+			
+		})
+		
+	})
+	
+	</script>
+	<style>
+		body{
+			width: 100%;
+			margin: 0px;
+		}
+		
+		#div-main{
+			width: 100%;
+			padding: 25px;
+			text-align: center;
+			background-color: antiquewhite;
+			color: #AA0003
+		}
+		#div-menu{
+			width: 100%;
+			padding: 25px;
+			background-color: #FFA8A9;
+			color: #373737
+		}
+	
+	
+	</style>
+</head>
+
+<body>
+<div  id="div-main">What is jQuery?</div>
+	<div id="div-menu">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</div>
+</body>
+</html>

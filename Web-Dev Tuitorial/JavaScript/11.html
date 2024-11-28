@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+function myday(){
+var day;
+switch(new Date().getDay()){
+	case 0:
+	day="Weekend"
+	break
+	case 1:
+	case 2:	
+	case 3:	
+	case 4:	
+	case 5:
+	day="Weekdays"	
+	break
+	case 6:
+	day="Weekend"	
+	break;
+	
+	
+}
+document.getElementById('demo').innerHTML="You are in "+day
+}
+</script>
+</head>
+
+<body>
+<h2>Example of Switch</h2>
+<button onClick="myday()" >Run Switch</button>
+<h3 id="demo"></h3>
+</body>
+</html>

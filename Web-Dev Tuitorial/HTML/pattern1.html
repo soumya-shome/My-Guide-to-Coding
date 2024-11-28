@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<script>
+function pat(){
+	for(i=1;i<=5;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			document.getElementById('pr').innerHTML+="* "
+		}
+		document.getElementById('pr').innerHTML+="<br>"
+	}
+}
+</script>
+
+<body>
+<input type="button" name"pat" value="Print" onClick="pat()">
+<span id="pr"><br></span>
+</body>
+</html>

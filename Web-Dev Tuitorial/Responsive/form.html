@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form</title>
+<link href="responsive.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="body-img">
+<div class="row">
+
+<div class="col-2-logo"><img src="Images/Tripcase_logo_retina.jpg" width="100%"></div>
+<div class="col-2 menu-items">About us</div>
+<div class="col-2 menu-items">Tour Plans</div>
+<div class="col-2 menu-items">Gallery</div>
+<a href="form.html"><div class="col-2 menu-items">Register</div></a>
+<a href="login.html"><div class="col-2 menu-items">Login</div></a>
+
+</div>
+
+<div class="row">
+<div class="col-2"><h1></h1></div>
+<div class="col-8">
+<fieldset class="reg">
+<legend align="center"><strong>Register</strong></legend>
+<form name="reg" method="post">
+	<div>Name</div>
+	<input type="text" placeholder="Enter Name" required class="input-sm">
+    <br>
+    <div>User Name</div>
+    <input type="text" placeholder="Enter User Name" required class="input-sm">
+    <br>
+    <div>Email Id</div>
+    <input type="email" placeholder="Enter Email ID" class="input-sm">
+    <div>Phone Number</div>
+    <input type="tel" placeholder="Enter Phone" maxlength="10" class="input-sm">
+    <br>
+    <div>Password</div>
+    <input type="password" placeholder="Enter Password"  class="input-sm" required>
+    <br>
+    <div>Age</div>
+    <input type="number" placeholder="Age" min="18" max="75" class="input-sm"required>
+    <br>
+    <br>
+    <input type="submit" name="Submit" class="btn-width">
+</form>
+</fieldset>
+</div>
+<div class="col-2"><h1></h1></div>
+
+</body>
+</html>

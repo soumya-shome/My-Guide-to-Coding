@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#fadeto").click(function(){
+			$("#div-1").fadeTo("1000",.7);
+			$("#div-2").fadeTo("1000",.4)
+			$("#div-3").fadeTo("1000",.2).fadeTo("1000",.5)
+		})
+		
+	})
+	
+	
+	</script>
+	<style>
+		#div-1{
+			position: relative;
+			width: 250px;
+			height: 150px;
+			background-color: rgba(255,0,4,1.00)
+		}
+		#div-2{
+			position: relative;
+			width: 250px;
+			height: 150px;
+			background-color: rgba(91,189,45,1.00)
+		}
+		#div-3{
+			position: relative;
+			width: 250px;
+			height: 150px;
+			background-color: rgba(0,13,255,1.00)
+		}
+	
+	
+	</style>
+</head>
+
+<body>
+	<button id="fadeto">Fade To</button>
+	<br>
+<br>
+
+	<div id="div-1"></div><br>
+
+	<div id="div-2"></div><br>
+
+	<div id="div-3"></div><br>
+
+</body>
+</html>

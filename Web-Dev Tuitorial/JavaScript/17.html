@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+function myage(){
+sysDate=new Date()
+dob=document.getElementById('dob').value
+myDate=new Date(dob)// logical date conversion
+
+d1=sysDate.getDate()
+m1=sysDate.getMonth()
+y1=sysDate.getFullYear()
+
+d2=myDate.getDate()
+m2=myDate.getMonth()
+y2=myDate.getFullYear()
+
+day=Math.abs(d1-d2)
+month=Math.abs(m1-m2)
+year=y1-y2
+
+if(myDate>sysDate ||y2<1910){
+	alert("enter a Valid Date")
+	return false
+}
+else{
+
+document.getElementById('demo').innerHTML="Your Age is "+year+" Years "+month+" Months "+day+" Days"
+}
+}
+</script>
+</head>
+
+<body>
+<h2>Age Calculator</h2>
+<input type="date" id="dob" name="dob">
+<br>
+<br>
+<button onClick="myage()" >Age</button>
+<br>
+<br>
+<h3 id="demo"></h3>
+</body>
+</html>

@@ -1,0 +1,444 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+	.navbar{
+		border-radius: 0px !important;
+		min-height: 80px;
+	  }
+	
+	.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+	.navbar-default {
+ background-color:#FFE2F0;
+}
+ 
+.navbar-default .navbar-brand {
+ 
+  color:#C991BF;
+ 
+}
+ 
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+ 
+  color:#F9F9F9;
+ 
+}
+
+	
+	.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+	}
+</style>
+
+<script>
+	$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+	
+});	
+</script>
+</head>
+
+<body>
+<nav class="nav navbar-default navbar-fixed-top" >
+	<div class="container-fluid">
+	<div class="navbar-header">
+	<button class="navbar-toggle" data-toggle="collapse" data-target="#mymenu">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+	
+		<div class="active" style="margin-top: 14px"><a href="#"><img src="logo-t.png"  class="img-responsive" width="80%"> </a></div>
+		</div>
+		<div class="collapse navbar-collapse" id="mymenu">
+		<ul class="nav navbar-nav">
+			
+		<li class="dropdown"><a class="test dropdown-toggle" data-toggle="dropdown" tabindex="-1" href="#"><strong>MEN</strong><span class="caret"></span></a>
+			 
+                <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Topwear <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Casual Shirts</a></li>
+          <li><a tabindex="-1" href="#">Formal Shirts</a></li>
+          <li><a tabindex="-1" href="#">T Shirts</a></li>
+          <li><a tabindex="-1" href="#">Jackets & Blazers</a></li>
+        
+               </ul>
+               </li>
+                
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Bottomwear <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Jeans</a></li>
+          <li><a tabindex="-1" href="#">Casual Trousers</a></li>
+          <li><a tabindex="-1" href="#">Formal Trousers</a></li>
+          <li><a tabindex="-1" href="#">Shorts & Tracks</a></li>
+        
+               </ul>
+                </li>
+                
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Footwear <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Casual Shoes</a></li>
+          <li><a tabindex="-1" href="#">Sports Shoes</a></li>
+          <li><a tabindex="-1" href="#">Formal Shoes</a></li>
+          <li><a tabindex="-1" href="#">Flip Flops</a></li>
+        
+               </ul>
+                </li>
+			</ul>
+			
+			<li class="dropdown"><a class="test dropdown-toggle" data-toggle="dropdown" tabindex="-1" href="#"><strong>WOMEN</strong><span class="caret"></span></a>
+			
+			 <ul class="dropdown-menu">
+             
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Indian & Fusion Wear <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Kurtas, Kurtis, Tunics</a></li>
+          <li><a tabindex="-1" href="#">Ethnic Dresses</a></li>
+          <li><a tabindex="-1" href="#">Sarees</a></li>
+          <li><a tabindex="-1" href="#">Lehenga Choli</a></li>
+        
+               </ul>
+                </li>
+                
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Western Wear <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Dresses & Tops</a></li>
+          <li><a tabindex="-1" href="#">Shirts & Tshirts</a></li>
+          <li><a tabindex="-1" href="#">Jeans & Jeggings</a></li>
+          <li><a tabindex="-1" href="#">Trousers & Shorts</a></li>
+        
+               </ul>
+                </li>
+                
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Footwear <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Flats</a></li>
+          <li><a tabindex="-1" href="#">Heels</a></li>
+          <li><a tabindex="-1" href="#">Boots</a></li>
+          <li><a tabindex="-1" href="#">Sport Shoes</a></li>
+        
+               </ul>
+                </li>
+			</ul>
+			<li class="dropdown"><a class="test dropdown-toggle" data-toggle="dropdown" tabindex="-1" href="#"><strong>KIDS</strong><span class="caret"></span></a>
+			
+			<ul class="dropdown-menu">
+             
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Boys Clothing <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Ethnic Wear</a></li>
+          <li><a tabindex="-1" href="#">Casual Wear</a></li>
+          <li><a tabindex="-1" href="#">Clothing Sets</a></li>
+          <li><a tabindex="-1" href="#">Sleepwear</a></li>
+        
+               </ul>
+                </li>
+                
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Girls Clothing<span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Ethnic Wear</a></li>
+          <li><a tabindex="-1" href="#">Casual Wear</a></li>
+          <li><a tabindex="-1" href="#">Clothing Sets</a></li>
+          <li><a tabindex="-1" href="#">Sleepwear</a></li>
+        
+               </ul>
+                </li>
+                
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Boys Footwear <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Sports Shoes & Sneakers</a></li>
+          <li><a tabindex="-1" href="#">Formal Shoes</a></li>
+          <li><a tabindex="-1" href="#">Boots</a></li>
+          <li><a tabindex="-1" href="#">Flip Flops</a></li>
+        
+               </ul>
+                </li>
+                
+                <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Girls Footwear <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Flats</a></li>
+          <li><a tabindex="-1" href="#">Heels</a></li>
+          <li><a tabindex="-1" href="#">Boots</a></li>
+          <li><a tabindex="-1" href="#">Sport Shoes</a></li>
+        
+               </ul>
+                </li>
+			</ul>
+			
+			<li class="dropdown"><a class="test dropdown-toggle" data-toggle="dropdown" tabindex="-1" href="#"><strong>HOME & LIVING</strong><span class="caret"></span></a>
+			
+              <ul class="dropdown-menu">
+             
+               <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Flooring <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Carpets</a></li>
+          <li><a tabindex="-1" href="#">Floor Mats</a></li>
+          <li><a tabindex="-1" href="#">Door Mats</a></li>
+        
+            </ul>
+           </li>
+     
+             
+               <li class="dropdown-submenu">
+               <a class="test" tabindex="-1" href="#">Lamps & Lighting<span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               
+          <li><a tabindex="-1" href="#">Floor Lamps</a></li>
+          <li><a tabindex="-1" href="#">Table Lamps</a></li>
+          <li><a tabindex="-1" href="#">Wall Lamps</a></li
+        
+          ></ul>
+	     </li>
+			
+		    </ul>
+			
+			
+			</li>
+			</ul>
+		
+		<ul class="nav navbar-nav navbar-right">
+		<li><form class="form-inline" style="padding-top: 6px">
+			<div class="form-group" style="margin-top: 14px">
+				<input type="search" name="search" id="search" placeholder="Search" class="form-control"><button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+			</div>
+		</form>
+			</li>
+<li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;<strong>Profile</strong></a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-list"></span>&nbsp;<strong>Wishlist</strong></a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;<strong>Cart</strong></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>&nbsp;<strong>Login</strong></a></li>
+			
+		</ul>
+		</div>
+		
+	</div>
+	
+</nav>
+<div class="carousel slide" data-ride="carousel" id="myslide" style="margin-top: 80px">
+	
+	<ol class="carousel-indicators">
+	<li class="active" data-slide-to="0" data-target="#myslide"></li>
+	<li  data-slide-to="1" data-target="#myslide"></li>
+	<li  data-slide-to="2" data-target="#myslide"></li>	
+	</ol>
+	<div class="carousel-inner">
+	
+		<div class="item active">
+		<div class="carousel-caption">Fashion For her</div>
+			<img src= "images2/1.jpg" class="img-responsive">
+		</div> 
+		
+		<div class="item ">
+		<div class="carousel-caption">Accesorize</div>
+			<img src= "images2/2.jpg" class="img-responsive">
+		</div>
+		
+			<div class="item ">
+		<div class="carousel-caption">Pair Up</div>
+			<img src= "images2/3.jpg" class="img-responsive">
+		</div>
+		
+	</div>
+	<a class="carousel-control left" href="#myslide" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+	<a class="carousel-control right" href="#myslide" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
+</div>
+
+<br>
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-12">
+		<h2 class="text-left">Brands in Focus</h2>
+		<h4 class="text-left">Show some brand love</h4>
+	</div>
+	</div>
+	<br>
+	<br>
+	
+	<div class="row">
+		<div class="col-md-3">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">Wrogn</h2>
+					</div>
+					<div class="panel-body">
+						<img src= "images2/11.jpg" class="img-responsive">
+					</div>
+					<div class="panel-footer">Explore</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="col-md-3">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">Mast & Harbour</h2>
+					</div>
+					<div class="panel-body">
+						<img src= "images2/33.jpg" class="img-responsive">
+					</div>
+					<div class="panel-footer">Explore</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="col-md-3">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">Roadster</h2>
+					</div>
+					<div class="panel-body">
+						<img src= "images2/22.jpg" class="img-responsive">
+					</div>
+					<div class="panel-footer">Explore</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="col-md-3">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">Lavie</h2>
+					</div>
+					<div class="panel-body">
+						<img src= "images2/55.jpg" class="img-responsive">
+					</div>
+					<div class="panel-footer">Explore</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+		<div class="container-fluid">
+		<div class="row">
+	<div class="col-md-12">
+		<h2 class="text-left">Trending Now</h2>
+		<h4 class="text-left">From the magazines to your wardrobe</h4>
+	</div>
+	</div>
+	<br>
+	<br>
+	
+		<div class="col-md-3">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title" align="center">Frilled Skirts and Tees</h2>
+					</div>
+					<div class="panel-body">
+						<img src=  "images2/44.jpg" class="img-responsive">
+					</div>
+					<div class="panel-footer">For her</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="col-md-3">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title" align="center">Kurtas & Pallazzos</h2>
+					</div>
+					<div class="panel-body">
+						<img src= "images2/66.jpg" class="img-responsive">
+					</div>
+					<div class="panel-footer">For her</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="col-md-6">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title" align="center">Linen Shirts</h2>
+					</div>
+					<div class="panel-body">
+						<img src= "images2/77.jpg" class="img-responsive">
+					</div>
+					<div class="panel-footer">For him</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		</div>
+
+</body>
+</html>

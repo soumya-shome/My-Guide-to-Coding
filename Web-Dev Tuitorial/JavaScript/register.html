@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="validation.js"></script>
+</head>
+
+<body>
+<form name="f1" method="post" onSubmit="return(validate())" >
+<p>Name:</p>
+<p><input type="text" name="nam" placeholder="Enter Name" size="30" maxlength="50"></p>
+<p>Password</p>
+<p><input type="password" name="pass" placeholder="Password" size="30" ></p>
+<p>Confirm Password</p>
+<p><input type="password" name="pass2" placeholder="Password" size="30" ></p>
+<p>Email</p>
+<p><input type="text" name="email" placeholder="Email" size="50" ></p>
+<p>Pin Code</p>
+<p><input type="text" name="pin"  size="30"></p>
+<p>City</p>
+<p><select name="city">
+<option value="0">---Select City---</option>
+<optgroup label="Delhi">
+<option value="1">New Delhi</option>
+<option value="2">Old Delhi</option>
+<option value="3">Chadnichowk</option>
+</optgroup>
+<optgroup label="West Bengal">
+<option value="4">Kolkata</option>
+<option value="5">Howrah</option>
+<option value="6">Hooghly</option>
+</optgroup>
+</select>
+</p>
+<p>Phone No</p>
+<p><input type="text" name="mob"  size="30"></p>
+
+<p><input type="submit" value="Submit"><input type="reset" value="Clear"></p>
+
+</form>
+</body>
+</html>
