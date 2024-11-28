@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	.dropdown-menu.multi-column {
+        width: 400px;
+}
+
+.dropdown-menu.multi-column .dropdown-menu {
+        display: block !important;
+        position: static !important;
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        min-width:100px;
+}
+	
+	</style>
+</head>
+
+<body>
+	<div class="container-fluid">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#">Electronics</a></li>
+		<li class="dropdown" ><a href="#" class="dropdown-toggle" data-toggle="dropdown">Mens <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li class="dropdown-header">All Items</li>
+				<li ><a href="#">Shirts</a></li>
+				<li ><a href="#">Trouser</a></li>
+				<li ><a href="#">Jeans</a></li>
+				<li ><a href="#">T-Shirts</a></li>
+				<li ><a href="#">Ethnics</a></li>
+				<li ><a href="#">Accessories</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Brands</li>
+				<li ><a href="#">D&G</a></li>
+				<li ><a href="#">Nike</a></li>
+				<li ><a href="#">Raymonds</a></li>
+			</ul>
+		
+		
+		</li>
+		<li  class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Womens<span class="caret"></span></a>
+		 <div class="dropdown-menu multi-column">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Saree</a></li>
+                        <li><a href="#">Kurti</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Col 2 - Opt 1</a></li>
+                        <li><a href="#">Col 2 - Opt 2</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Col 2 - Opt 1</a></li>
+                        <li><a href="#">Col 2 - Opt 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+			
+		</li>
+		<li ><a href="#">Kids</a></li>
+		<li ><a href="#">Home And Decoration</a></li>
+		<li ><a href="#">Spots,GYM</a></li>
+		<li ><a href="#">Offers Zone</a></li>
+		
+		<li class="navbar-right" ><a href="#"><span class="glyphicon glyphicon-log-in"></span>&nbsp;Login</a></li>
+		<li class="navbar-right"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Cart</a></li>
+		</ul>
+	
+		<div class="row">
+		<div class="col-md-6"></div>
+		<div class="col-md-6">
+			<form>
+			<div class="form-group">
+				<label>User</label>
+				<input type="email" id="email" class="form-control" placeholder="Email">
+				</div>
+			<div class="form-group">
+				<label>Password</label>
+				<input type="password" id="pass" class="form-control" placeholder="Password">
+				</div>
+			<input type="checkbox" id="remember">Remember me
+				<br>
+				<br>
+				<input type="submit" class="btn btn-default" value="Login">
+				<p>New User<a href="#">Create an account</a></p>
+			</form>
+			
+			
+			
+			</div>
+		
+		
+		</div>
+		
+	</div>
+</body>
+</html>

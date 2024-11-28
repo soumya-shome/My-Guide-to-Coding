@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:100%;
+	margin:0;
+	height:1500px;
+	background-image:url(boardwalk-dawn-dock-2531237.jpg);
+	background-position:center;
+	background-size:cover
+}
+#a1{
+	position:absolute;
+	top:50px;
+	left:50px;
+	width:100px;
+	height:100px;
+	background-color:rgba(51,204,204,.6);
+	transition-duration:2s
+	
+}
+#a2{
+	position:absolute;
+	top:170px;
+	left:50px;
+	width:100px;
+	height:100px;
+	background-color:rgba(51,204,204,.6);
+	animation-name:demo;
+	animation-duration:3s;
+	animation-iteration-count:infinite
+}
+#r1{
+	position:relative;
+	top:50px;
+	left:170px;
+	width:100px;
+	height:100px;
+	background-color:rgba(51,204,204,.6);
+	transition-duration:1s
+}
+#r2{
+	position:relative;
+	top:70px;
+	left:170px;
+	width:100px;
+	height:100px;
+	background-color:rgba(51,204,204,.6);
+	animation-name:demo2;
+	animation-duration:3s;
+	animation-iteration-count:infinite
+}
+#f1{
+	position:fixed;
+	top:290px;
+	left:170px;
+	width:100px;
+	height:100px;
+	background-color:rgba(51,204,204,.6);
+	transition-duration:2s;
+	transition-delay:.5s;
+	transition-timing-function:ease-in-out
+}
+#f1:hover{
+	width:300px;
+	background-color:rgba(204,102,0,.7)
+}
+#a1:hover{
+	/*transform:rotate(360deg)*/
+	/*transform:scale(1.5,1.5)*/
+	/*transform:skew(45deg,-30deg)*/
+	/*transform:translate(0px,100px)*/
+	transform:rotate(180deg) scale(1.5,1.5) 
+}
+#r1:hover{
+	/*transform:rotate(360deg)*/
+	/*transform:scale(1.5,1.5)*/
+	/*transform:skew(45deg,-30deg)*/
+	/*transform:translate(0px,100px)*/
+	transform:rotate(180deg) scale(1.5,1.5) 
+}
+/*********Animation************/
+
+@keyframes demo{
+	from{
+		transform:scale(1,1)
+		background-color:rgba(51,204,204,.6);
+	}
+	to{
+		transform:scale(1.5,1.5) rotate(360deg);
+		background-color:rgba(255,0,0,.7)
+	}
+	
+	
+}
+@keyframes demo2{
+	0%{
+		position:relative;
+		left:170px;
+		transform:scale(1,1);
+		background-color:rgba(51,204,204,.6);
+	}
+	50%{
+		position:relative;
+		left:370px;
+		transform:scale(1.5,1.5) rotate(360deg);
+		background-image:url(Koala.jpg);
+		background-size:cover
+	}
+	100%{
+		position:relative;
+		left:170px;
+		transform:scale(1,1);
+		background-color:rgba(51,204,204,.6);
+	}
+	
+	
+}
+		

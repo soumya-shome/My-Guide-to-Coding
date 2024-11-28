@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script language="javascript">
+
+function demo(){
+	var user=document.login.nam.value
+	var pw=document.login.pass.value
+	
+	if(user!="admin" && user!="abcd"){
+		alert("Invalid User id")
+		document.login.nam.focus()	
+		
+	}
+	else if(pw!="12345"){
+		
+		alert("Invalid Password")
+		document.login.pass.select()	
+		
+	}
+	else{
+		document.write("Login Successful")
+	}
+}
+function showpass(){
+	x=document.login.pass
+	if(x.type==="password"){
+		x.type="text"	
+	}
+	else{
+		x.type="password"
+	}
+	
+}
+</script>
+</head>
+
+<body>
+<form name="login" method="post">
+<p>User</p>
+<input type="text" name="nam" placeholder="User ID">
+<p>Password</p>
+<input type="password" name="pass" placeholder="User ID"><input type="checkbox" onChange="showpass()">Show Password
+<br>
+<br>
+
+<button type="button" onClick="demo()">Login</button>
+</form>
+</body>
+</html>

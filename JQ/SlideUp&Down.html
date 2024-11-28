@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#sldn").hide()
+		$("#slup").click(function(){
+			$(".img-1").slideUp("fast")
+			$("#sldn").show()
+			$("#slup").hide()
+		})
+		$("#sldn").click(function(){
+			$(".img-1").slideDown("fast");
+			$("#sldn").hide()
+			$("#slup").show()
+		})
+		
+	})
+	
+	</script>
+</head>
+
+<body>
+	<button id="slup" >Slide Up </button> <button id="sldn">Slide Down</button>
+	<br>
+<br>
+<img class="img-1" src="lake-mansarovar-kailash-on-background.jpg" width="60%">
+</body>
+</html>

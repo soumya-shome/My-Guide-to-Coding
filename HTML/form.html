@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>form</title>
+</head>
+
+<body bgcolor="#8F8F8F">
+	<form name="f1" method="post">
+		<p>Name:</p>
+		<p><input type="text" name="nam" placeholder="Enter Name" size="30" maxlength="50"></p>
+		<p>Address</p>
+		<p><textarea rows="10" cols="50" name="address"></textarea></p>
+		<p>Password</p>
+		<p><input type="password" name="pass" placeholder="Password" size="30" ></p>
+		<p>Email</p>
+		<p><input type="email" name="email" placeholder="Email" size="50" required></p>
+		<p>Date of Birth</p>
+		<p><input type="date" name="dob" ></p>
+		<p>Time</p>                           
+		<p><input type="time" name="time"></p>
+		<p>Colour</p>
+		<p><input type="color" name="c1"></p>
+		<p>Price Range</p>
+		<p><input type="range" name="r1" min="500" max="5000" step="500"></p>
+		<p>Gender</p>
+		<p><input type="radio" name="r1">Male <input type="radio" name="r1">Female <input type="radio" name="r1">Others</p>
+		<p>Booking</p>
+		<p><input type="number" min="2" max="10" step="2"></p>
+		<p>Education </p>
+		<p>
+			<input type="checkbox" name="ch1">Madhyamik
+			<br>
+			<input type="checkbox" name="ch1">H.S
+			<br>
+			<input type="checkbox" name="ch1">B.A
+			<br>
+			<input type="checkbox" name="ch1">B.Sc
+			<br>
+			<input type="checkbox" name="ch1">B.Com
+			<br>
+		</p>
+		<p>City</p>
+		<p><select name="city">
+			<option value="0">---Select City---</option>
+			<optgroup label="Delhi">
+				<option value="1">New Delhi</option>
+				<option value="2">Old Delhi</option>
+				<option value="3">Chadnichowk</option>
+			</optgroup>
+			<optgroup label="West Bengal">
+				<option value="4">Kolkata</option>
+				<option value="5">Howrah</option>
+				<option value="6">Hooghly</option>
+			</optgroup>
+		</select>
+		</p>
+		<p>Website</p>
+		<p><input type="url" name="site" value="http://"></p>
+		<p>Attachments</p>
+		<p><input type="file" name="file"></p>
+		<p><input type="submit" value="Submit"><input type="reset" value="Clear"></p>
+
+	</form>
+
+	<form name="f2" method="get">
+		<p><input type="search" name="search" size="30" placeholder="Search"></p>
+		<p><input type="submit" value="Search"></p>
+	</form>
+	<p>Metro Station List</p>
+	<datalist id="metro">
+		<option value="Noapara"></option>
+		<option value="Dumdum"></option>
+		<option value="Belghoriya"></option>
+		<option value="Shyambazar"></option>
+		<option value="Sobhabazar"></option>
+		<option value="Girishpark"></option>
+		<option value="Mahatma Gandhi"></option>
+		<option value="Central"></option>
+		<option value="Chandnichowk"></option>
+	</datalist>
+	<input list="metro" name="mt" size="30">
+</body>
+</html>

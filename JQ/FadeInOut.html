@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#fadein").hide()
+		$("#fadeout").click(function(){
+			$(".img-1").fadeOut("fast");
+			$(".img-2").fadeOut("slow");
+			$(".img-3").fadeOut(2000)
+			$("#fadein").show()
+			$("#fadeout").hide()
+		})
+		$("#fadein").click(function(){
+			$(".img-1").fadeIn("fast");
+			$(".img-2").fadeIn("slow");
+			$(".img-3").fadeIn(2000)
+			$("#fadein").hide()
+			$("#fadeout").show()
+		})
+		
+	})
+	
+	</script>
+</head>
+
+<body>
+	<button id="fadein" >Fade In </button> <button id="fadeout">Fade Out</button>
+	<br>
+<br>
+<img class="img-1" src="lake-mansarovar-kailash-on-background.jpg" width="33%">
+	<img class="img-2" src="lake-mansarovar-kailash-on-background.jpg" width="33%">
+	<img class="img-3" src="lake-mansarovar-kailash-on-background.jpg" width="33%">
+</body>
+</html>

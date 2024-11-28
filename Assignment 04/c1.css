@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after
+{
+content: "";
+clear: both;
+display: table;
+}
+[class*="col-"]
+{
+float: left;
+padding: 15px;
+}
+
+#body-bh{
+	background-image:url(Images/adventure-casual-field-551650.jpg);
+	background-size:cover;
+}
+
+#logo{
+	position:absolute;
+	
+	height:80px;
+	background-image:url(Images/Tripcase_logo_retina.jpg);
+	background-size:cover
+}
+#div-menu{
+	
+	position:relative;
+	height:100px;
+	
+	background-color:#09F;
+	
+}
+.menu-items{
+	text-align:center;
+	padding-top:40px;
+	height:60px;
+	font-family:"Comic Sans MS", cursive;
+	transition-duration:0.5s
+}
+
+.menu-items:hover{
+	transform:scale(1.25,1.25);
+	background-color:#06F;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+	
+	</script><!--- Google CDN--->
+	
+	<script>
+	
+	$(document).ready(function(){
+$("button").click(function(){
+$(".demo-b").animate({left: '250px'},400).animate({left: '0px'},250).animate({left: '150px'},300).animate({left: '0px'},150)
+});
+});
+	</script>
+	<style>
+		.demo-b{
+			width: 200px;
+			height: 150px;
+			background-color: aquamarine;
+			position: relative;
+			top: 10px
+		}
+		}
+	
+	</style>
+	
+</head>
+
+<body>
+	<button>Animation</button>
+	<br>
+<br>
+<div class="demo-b">Shake</div>
+
+</body>
+</html>

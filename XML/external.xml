@@ -1,0 +1,16 @@
+<?xml-stylesheet href="newstyle.css" type="text/css"?>
+<!DOCTYPE booklist SYSTEM "booklist.dtd">
+<booklist>
+<book pid="b012" type="softcopy">
+<title>Certificate programm in Web Designing</title>
+<author>Phoenix Computer Training</author>
+<price>250</price>
+<qty>50</qty>
+</book>
+<book pid="b015" type="softcopy">
+<title>Certificate programm in Web Develeopment</title>
+<author>Phoenix Computer Training</author>
+<price>250</price>
+<qty>50</qty>
+</book>
+</booklist>
