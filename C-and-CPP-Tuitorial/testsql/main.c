@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<mysql.h>
+#include <mysql.h>
 int main()
 {
     printf("Hello world!\n");

@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=SUMof2
-comment1.params=a1\ b1
-comment1.target=int\ sum(int,\ int)
-comment2.params=
-comment2.target=void\ main()
-numComments=3
