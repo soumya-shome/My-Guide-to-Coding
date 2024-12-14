@@ -1,0 +1,78 @@
+Jun 02, 2021 10:14:33 PM com.tekstac.eclipse.ExerciseView UserloginPanel
+INFO: NEW LOG
+Jun 02, 2021 10:14:33 PM com.tekstac.eclipse.ExerciseView UserloginPanel
+INFO: Temp Directory :C:\Users\LENOVO\AppData\Local\Temp\
+Jun 02, 2021 10:15:52 PM com.tekstac.eclipse.ExerciseView createjksScript
+INFO:  Keystore true
+Jun 02, 2021 10:15:52 PM com.tekstac.eclipse.ExerciseView createjksScript
+INFO: cmd:cmdC:\Users\LENOVO\Desktop\Tekstac\.certificate\myscript.bat
+Jun 02, 2021 10:19:01 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jun 02, 2021 10:19:01 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jun 02, 2021 10:19:01 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OccurrenceOfChar.class
+Jun 02, 2021 10:19:01 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OccurrenceOfChar.java
+Jun 02, 2021 10:19:03 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail02.tekstac.com\/128198332645796\/monitor"}
+Jun 02, 2021 10:19:03 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail02.tekstac.com/128198332645796/monitor
+Jun 02, 2021 10:19:03 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail02.tekstac.com/128198332645796/monitor
+Jun 02, 2021 10:19:03 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail02.tekstac.com/128198332645796/monitor
+Jun 02, 2021 10:19:03 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 10:19:03 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 10:19:03 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 10:19:53 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail02.tekstac.com\/187413115505980\/monitor"}
+Jun 02, 2021 10:19:53 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail02.tekstac.com/187413115505980/monitor
+Jun 02, 2021 10:19:53 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail02.tekstac.com/187413115505980/monitor
+Jun 02, 2021 10:19:53 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail02.tekstac.com/187413115505980/monitor
+Jun 02, 2021 10:19:53 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 10:19:53 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 10:19:54 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 10:33:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jun 02, 2021 10:33:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jun 02, 2021 10:33:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OccurrenceOfChar.class
+Jun 02, 2021 10:33:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OccurrenceOfChar.java
+Jun 02, 2021 10:33:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail06.tekstac.com\/35701769966164\/monitor"}
+Jun 02, 2021 10:33:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail06.tekstac.com/35701769966164/monitor
+Jun 02, 2021 10:33:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail06.tekstac.com/35701769966164/monitor
+Jun 02, 2021 10:33:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail06.tekstac.com/35701769966164/monitor
+Jun 02, 2021 10:33:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 10:33:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 10:33:33 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 10:43:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Exception java.io.FileNotFoundException: C:\Users\LENOVO\Desktop\Tekstac\.certificate\keystore.jks (The system cannot find the path specified)
+Jun 02, 2021 10:43:05 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Exception java.io.FileNotFoundException: C:\Users\LENOVO\Desktop\Tekstac\.certificate\keystore.jks (The system cannot find the path specified)
+Jun 02, 2021 10:43:09 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Exception java.io.FileNotFoundException: C:\Users\LENOVO\Desktop\Tekstac\.certificate\keystore.jks (The system cannot find the path specified)
+Jun 02, 2021 10:43:09 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Activity Dropdown java.lang.RuntimeException: Could not connect to the server
+Jun 02, 2021 10:43:09 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Exception java.io.FileNotFoundException: C:\Users\LENOVO\Desktop\Tekstac\.certificate\keystore.jks (The system cannot find the path specified)
+Jun 02, 2021 10:43:09 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Load Taskjava.lang.RuntimeException: Could not connect to the server

@@ -1,0 +1,272 @@
+Jun 02, 2021 11:11:10 AM com.tekstac.eclipse.ExerciseView UserloginPanel
+INFO: NEW LOG
+Jun 02, 2021 11:11:10 AM com.tekstac.eclipse.ExerciseView UserloginPanel
+INFO: Temp Directory :C:\Users\LENOVO\AppData\Local\Temp\
+Jun 02, 2021 11:17:16 AM com.tekstac.eclipse.ExerciseView createjksScript
+INFO:  Keystore true
+Jun 02, 2021 11:17:16 AM com.tekstac.eclipse.ExerciseView createjksScript
+INFO: cmd:cmdC:\Users\LENOVO\Desktop\Tekstac\.certificate\myscript.bat
+Jun 02, 2021 12:12:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jun 02, 2021 12:12:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jun 02, 2021 12:12:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Main.class
+Jun 02, 2021 12:12:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Main.java
+Jun 02, 2021 12:12:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Player.class
+Jun 02, 2021 12:12:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Player.java
+Jun 02, 2021 12:12:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: PlayerUtility.class
+Jun 02, 2021 12:12:46 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: PlayerUtility.java
+Jun 02, 2021 12:12:58 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail04.tekstac.com\/135715935430100\/monitor"}
+Jun 02, 2021 12:12:58 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail04.tekstac.com/135715935430100/monitor
+Jun 02, 2021 12:12:58 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail04.tekstac.com/135715935430100/monitor
+Jun 02, 2021 12:12:58 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail04.tekstac.com/135715935430100/monitor
+Jun 02, 2021 12:12:58 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 12:12:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 12:12:59 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 12:13:48 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail06.tekstac.com\/142097228405976\/monitor"}
+Jun 02, 2021 12:13:48 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail06.tekstac.com/142097228405976/monitor
+Jun 02, 2021 12:13:48 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail06.tekstac.com/142097228405976/monitor
+Jun 02, 2021 12:13:48 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail06.tekstac.com/142097228405976/monitor
+Jun 02, 2021 12:13:48 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 12:13:49 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 12:13:49 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 12:14:40 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jun 02, 2021 12:14:40 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jun 02, 2021 12:14:40 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Main.class
+Jun 02, 2021 12:14:40 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Main.java
+Jun 02, 2021 12:14:40 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Player.class
+Jun 02, 2021 12:14:40 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Player.java
+Jun 02, 2021 12:14:40 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: PlayerUtility.class
+Jun 02, 2021 12:14:40 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: PlayerUtility.java
+Jun 02, 2021 12:14:41 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail04.tekstac.com\/791827615388011\/monitor"}
+Jun 02, 2021 12:14:41 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail04.tekstac.com/791827615388011/monitor
+Jun 02, 2021 12:14:41 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail04.tekstac.com/791827615388011/monitor
+Jun 02, 2021 12:14:41 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail04.tekstac.com/791827615388011/monitor
+Jun 02, 2021 12:14:41 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 12:14:41 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 12:14:42 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 12:33:38 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail02.tekstac.com\/27657908150161\/monitor"}
+Jun 02, 2021 12:33:38 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail02.tekstac.com/27657908150161/monitor
+Jun 02, 2021 12:33:38 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail02.tekstac.com/27657908150161/monitor
+Jun 02, 2021 12:33:38 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail02.tekstac.com/27657908150161/monitor
+Jun 02, 2021 12:33:38 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 12:33:38 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 12:33:39 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 12:37:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jun 02, 2021 12:37:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jun 02, 2021 12:37:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: CumulativeSum.class
+Jun 02, 2021 12:37:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: CumulativeSum.java
+Jun 02, 2021 12:37:56 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail01.tekstac.com\/70904665856450\/monitor"}
+Jun 02, 2021 12:37:56 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail01.tekstac.com/70904665856450/monitor
+Jun 02, 2021 12:37:56 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail01.tekstac.com/70904665856450/monitor
+Jun 02, 2021 12:37:56 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail01.tekstac.com/70904665856450/monitor
+Jun 02, 2021 12:37:56 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 12:37:56 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 12:37:57 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 12:38:14 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail05.tekstac.com\/773758913052543\/monitor"}
+Jun 02, 2021 12:38:14 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail05.tekstac.com/773758913052543/monitor
+Jun 02, 2021 12:38:14 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail05.tekstac.com/773758913052543/monitor
+Jun 02, 2021 12:38:14 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail05.tekstac.com/773758913052543/monitor
+Jun 02, 2021 12:38:14 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 12:38:14 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 12:38:14 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 12:38:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail07.tekstac.com\/80939555045883\/monitor"}
+Jun 02, 2021 12:38:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail07.tekstac.com/80939555045883/monitor
+Jun 02, 2021 12:38:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail07.tekstac.com/80939555045883/monitor
+Jun 02, 2021 12:38:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail07.tekstac.com/80939555045883/monitor
+Jun 02, 2021 12:38:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 12:38:31 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 12:38:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 12:39:17 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail02.tekstac.com\/138768812468530\/monitor"}
+Jun 02, 2021 12:39:17 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail02.tekstac.com/138768812468530/monitor
+Jun 02, 2021 12:39:17 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail02.tekstac.com/138768812468530/monitor
+Jun 02, 2021 12:39:17 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail02.tekstac.com/138768812468530/monitor
+Jun 02, 2021 12:39:17 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 12:39:17 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 12:39:18 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 1:38:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jun 02, 2021 1:38:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jun 02, 2021 1:38:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: HighestMarkPerSem.class
+Jun 02, 2021 1:38:21 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: HighestMarkPerSem.java
+Jun 02, 2021 1:38:23 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail06.tekstac.com\/269277011896512\/monitor"}
+Jun 02, 2021 1:38:23 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail06.tekstac.com/269277011896512/monitor
+Jun 02, 2021 1:38:23 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail06.tekstac.com/269277011896512/monitor
+Jun 02, 2021 1:38:23 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail06.tekstac.com/269277011896512/monitor
+Jun 02, 2021 1:38:23 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 1:38:23 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 1:38:23 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 1:38:48 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Error talking to server: {"exception":"moodle_exception","message":"error\/module instance id unknow","errorcode":"module instance id unknow"}
+Jun 02, 2021 1:39:02 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Error talking to server: {"exception":"moodle_exception","message":"error\/module instance id unknow","errorcode":"module instance id unknow"}
+Jun 02, 2021 3:31:02 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jun 02, 2021 3:31:02 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jun 02, 2021 3:31:02 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Factorial.class
+Jun 02, 2021 3:31:02 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Factorial.java
+Jun 02, 2021 3:31:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail07.tekstac.com\/669460516862110\/monitor"}
+Jun 02, 2021 3:31:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail07.tekstac.com/669460516862110/monitor
+Jun 02, 2021 3:31:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail07.tekstac.com/669460516862110/monitor
+Jun 02, 2021 3:31:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail07.tekstac.com/669460516862110/monitor
+Jun 02, 2021 3:31:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 3:31:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 3:31:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 3:32:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail07.tekstac.com\/31672092407831\/monitor"}
+Jun 02, 2021 3:32:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail07.tekstac.com/31672092407831/monitor
+Jun 02, 2021 3:32:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail07.tekstac.com/31672092407831/monitor
+Jun 02, 2021 3:32:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail07.tekstac.com/31672092407831/monitor
+Jun 02, 2021 3:32:04 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 3:32:05 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 3:32:05 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 3:53:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .classpath
+Jun 02, 2021 3:53:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: .project
+Jun 02, 2021 3:53:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Count.class
+Jun 02, 2021 3:53:30 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Count.java
+Jun 02, 2021 3:53:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail05.tekstac.com\/17496952242921\/monitor"}
+Jun 02, 2021 3:53:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail05.tekstac.com/17496952242921/monitor
+Jun 02, 2021 3:53:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail05.tekstac.com/17496952242921/monitor
+Jun 02, 2021 3:53:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail05.tekstac.com/17496952242921/monitor
+Jun 02, 2021 3:53:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 3:53:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 3:53:32 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 3:53:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail08.tekstac.com\/1296167410938736\/monitor"}
+Jun 02, 2021 3:53:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail08.tekstac.com/1296167410938736/monitor
+Jun 02, 2021 3:53:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail08.tekstac.com/1296167410938736/monitor
+Jun 02, 2021 3:53:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail08.tekstac.com/1296167410938736/monitor
+Jun 02, 2021 3:53:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 3:53:55 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 3:53:56 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 
+Jun 02, 2021 3:54:37 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Evaluation Response -->{"monitorURL":"wss:\/\/eejail07.tekstac.com\/1193490916446135\/monitor"}
+Jun 02, 2021 3:54:37 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Monitor Url is ---->wss://eejail07.tekstac.com/1193490916446135/monitor
+Jun 02, 2021 3:54:37 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: Updated Monitor Url ---> wss://eejail07.tekstac.com/1193490916446135/monitor
+Jun 02, 2021 3:54:37 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: OPENING URL :wss://eejail07.tekstac.com/1193490916446135/monitor
+Jun 02, 2021 3:54:37 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: C:\Users\LENOVO\Desktop/Tekstac/.certificate/keystore.jks
+Jun 02, 2021 3:54:37 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: wss connect  
+Jun 02, 2021 3:54:38 PM com.tekstac.eclipse.ExerciseView add_log
+INFO: WSS OPEN 

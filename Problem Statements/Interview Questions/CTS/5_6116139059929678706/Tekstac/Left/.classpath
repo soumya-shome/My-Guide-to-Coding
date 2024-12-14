@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Find and Replace"/>
+	<classpathentry kind="src" path="Length of String"/>
+	<classpathentry kind="src" path="PAN Card Validation"/>
+	<classpathentry kind="src" path="Print unique characters"/>
+	<classpathentry kind="src" path="String Concatenation"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=prog10
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-comment2.params=amt
-comment2.target=java.lang.String\ getAmtInWords(int)
-numComments=3

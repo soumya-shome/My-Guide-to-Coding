@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=File_ReadLines
-comment1.params=f
-comment1.target=void\ readLines(java.io.File)
-comment2.params=
-comment2.target=void\ main()
-numComments=3
