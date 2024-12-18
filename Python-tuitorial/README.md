@@ -1,80 +1,8 @@
 # Python
 
-## Contents
-Beginner Level:
-1. Introduction to Python
-- Overview of Python
-- Installing Python and an IDE
-- Basic syntax and data types
-2. Control Flow and Functions
-- Conditional statements (if. else, elif)
-- Loops (for, while)
-- Functions and modular programming
-3. Data Structures
-- Lists, tuples, and dictionaries
-- String manipulation
-- Basic input/output
-4. File Handling
-- Reading and writing files
-- Working with different file formats (text, csv)
-5. Exception Handling
-- Handling errors and exceptions
-- using try-except blocks
-6. Introduction to OOP (Object-Oriented Programming)
-- Classes and objects
-- Inheritance and polymorphism
-7. Introduction to Libraries
-- Overview of standard libraries (e.g., math, random)
-- Introduction to external libraries (e.g., NumPy for numerical operations)
+## Roadmap followed
 
-Intermediate Level
-1. Advanced OOP
-- Encapsulation, abstraction, and inheritance
-- Advanced topics in polymorphism
-2. Advanced Data Structures
-- Sets and frozensets
-- Stacks and queues
-- Advanced list comprehensions
-3. Functional Programming
-- Lambda functions
-- Map. filter, and reduce functions
-- Decorators and closures
-4. Working With APIS
-- Making API requests (e.g.. using requests library)
-- Parsing JSON responses
-5. Database Interaction
-- Basics of database connectivity (e.g., SQLite)
-- CRUD operations with databases
-6. Web Development Basics
-- Introduction to web frameworks (e.g„ Flask. Django)
-- Handling HTTP requests and responses
-7. Testing and Debugging
-- Writing test cases
-- Debugging techniques
-
-Expert Level:
-1. Advanced Web Development
-- RESTful APIs
-- Authentication and authorization
-- Front-end frameworks (e.g., React, Angular)
-2. Concurrency and Parallelism
-- Threading and multiprocessing
-- Asyncio for asynchronous programming
-3. Advanced Libraries and Frameworks
-- Deep dive into popular libraries (e.g., Pandas, NumPy, TensorFlow)
-- Customizing and extending frameworks
-4. Security in Python
-- Best practices for secure coding
-- Handling common security vulnerabilities
-5. Optimization and Performance
-- Profiling and optimizing code
-- Memory management and optimization techniques
-6. Advanced Topics in Data Science
-- Machine learning with Python (e.g„ scikit-learn)
-- Data visualization with Matplotlib and Seaborn
-7. Contributing to Open Source Projects
-- Understanding open Source contribution workflows
-- Collaborating on GitHub and other version control systems
+[RoadMap](https://roadmap.sh/python) : All articles included there
 
 
 ## Introduction
