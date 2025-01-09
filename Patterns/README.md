@@ -36,7 +36,7 @@
       </pre></td>
     </tr>
     <tr>
-      <td ><a href="My-Guide-to-Coding/Patterns/Numbers/01">View Code</a></td>
+      <td ><a href="Numbers/01">View Code</a></td>
     </tr>
     <tr>
 <td><pre>
