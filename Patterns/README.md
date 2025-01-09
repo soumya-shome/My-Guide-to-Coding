@@ -6,34 +6,37 @@
       <td colspan=4>Using Numbers</td>
     </tr>
     <tr>
-<td><pre>
-1 
-1 2 
-1 2 3 
-1 2 3 4 
-1 2 3 4 5 
-</pre></td>
-<td><pre>
-1 2 3 4 5 
-1 2 3 4 
-1 2 3 
-1 2 
-1 
-</pre></td>
-<td><pre>
-5 
-4 5 
-3 4 5 
-2 3 4 5 
-1 2 3 4 5 
-</pre></td>
-<td><pre>
-1 2 3 4 5 
-2 3 4 5 
-3 4 5 
-4 5 
-5 
-</pre></td>
+      <td><pre>
+      1 
+      1 2 
+      1 2 3 
+      1 2 3 4 
+      1 2 3 4 5 
+      </pre></td>
+      <td><pre>
+      1 2 3 4 5 
+      1 2 3 4 
+      1 2 3 
+      1 2 
+      1 
+      </pre></td>
+      <td><pre>
+      5 
+      4 5 
+      3 4 5 
+      2 3 4 5 
+      1 2 3 4 5 
+      </pre></td>
+      <td><pre>
+      1 2 3 4 5 
+      2 3 4 5 
+      3 4 5 
+      4 5 
+      5 
+      </pre></td>
+    </tr>
+    <tr>
+      <td ><a href="My-Guide-to-Coding/Patterns/Numbers/01">View Code</a></td>
     </tr>
     <tr>
 <td><pre>

@@ -1,4 +1,5 @@
-class $1
+//Triangle Possible or not
+class Main
 {
     public static void meth(int a,int b,int c)
     {

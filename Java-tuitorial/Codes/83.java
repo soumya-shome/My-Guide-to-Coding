@@ -1,8 +1,7 @@
 import java.util.*;
 
-class CRYTEK
+class Main
 {
-   
     int findMaxDay(String mname, int y)
     {
         String months[] = {"","January", "February", "March", "April", "May", "June", 
