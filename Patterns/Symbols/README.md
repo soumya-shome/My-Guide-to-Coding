@@ -60,6 +60,14 @@ Enter the terms: 5
   * * * *
  * * * * *
 </pre>
+95
+<pre>
+*
+* A
+* A *
+* A * A
+* A * A *
+</pre>
 
 36
 <pre>
