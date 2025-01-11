@@ -329,6 +329,30 @@
       <td colspan=2><a href="Numbers/33/">View Code 33</a></td>
       <td colspan=2><a href="Numbers/34/">View Code 34</a></td>
     </tr>
+        <tr>
+      <td><pre>
+      5
+      5 4
+      5 4 3
+      5 4 3 2
+      5 4 3 2 1
+      </pre></td>
+      <td><pre>
+ 
+      </pre></td>
+      <td><pre>
+ 
+      </pre></td>
+      <td><pre>
+      
+      </pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Numbers/35/">View Code 35</a></td>
+      <td ><a href="Numbers/22/">View Code </a></td>
+      <td ><a href="Numbers/23/">View Code </a></td>
+      <td ><a href="Numbers/24/">View Code </a></td>
+    </tr>
   </tbody>
 </table>
 

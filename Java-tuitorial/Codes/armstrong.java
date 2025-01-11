@@ -1,5 +1,5 @@
 import java.util.*;
-class armstrong
+class Main
 {
     boolean armstrong(int n)
     {   

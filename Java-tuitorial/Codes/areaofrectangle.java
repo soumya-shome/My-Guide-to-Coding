@@ -1,5 +1,5 @@
 import java.util.*;
-public class areaofrectangle
+public class Main
 {
     public int area(int a,int b)
     {

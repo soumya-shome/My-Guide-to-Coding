@@ -1,6 +1,6 @@
-class a7
+class Main
 {
-    public static void meth()
+    public static void main(String[] args)
     {
         int c=65;
         for(int i=1;i<=5;i++)

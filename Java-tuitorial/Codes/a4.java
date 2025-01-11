@@ -1,7 +1,9 @@
+//count number of occurence of each letter in a sentence
+
 import java .util.*;
-class a4
+class Main
 {
-    public static void meth()
+    public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a String");

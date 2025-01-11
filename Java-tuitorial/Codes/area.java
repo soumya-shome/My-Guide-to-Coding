@@ -1,4 +1,4 @@
-class area
+class Main
 {
     public static void main(int r)
     {
