@@ -1,9 +1,15 @@
-class p4
+/*
+51111
+45222
+34533
+23454
+12345
+ */
+class p3_3
 {
-    public static void meth()
-    {
+    public static void main(String[] args){
         int m=1;
-        for(int i=1;i<=5;i++)
+        for(int i=5;i>=1;i--)
         {
             for(int j=i;j<=5;j++)
             {
@@ -11,12 +17,12 @@ class p4
             }
             if(i>1)
             {
-                for(int k=1;k<=i-1;k++)
+                for(int x=i;x>=2;x--)
                 {
                     System.out.print(m);
                 }
             }
-            
+            m++;
             System.out.println();
         }
     }

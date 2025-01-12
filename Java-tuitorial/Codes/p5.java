@@ -1,7 +1,7 @@
 class p5
 {
-    public static void meth(int n)
-    {
+    public static void main(String[] args){
+        int n = 5;
         int s=0;
         int d=0;
         int i=1;

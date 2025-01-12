@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Group Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ece5dd;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .chat-container {
+            width: 360px;
+            height: 600px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background-color: #075e54;
+            color: #ffffff;
+            padding: 10px 15px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .chat-body {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            background-color: #e5ddd5;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .chat-date {
+            background-color: rgba(101, 182, 226, 0.41);
+            
+            border-radius: 8px; 
+            text-align: center;
+            font-size: 12px;
+            margin: 10px auto; /* Centers the date block */
+            padding: 5px 10px; /* Adds spacing around the text */
+            display: inline-block; /* Ensures the width is relevant to the text */
+        }
+
+        .chat-message {
+            max-width: 70%;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.5;
+            position: relative;
+        }
+
+        .chat-message::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+        }
+
+        .chat-message.incoming {
+            background-color: #ffffff;
+            align-self: flex-start;
+            border-top-left-radius: 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .chat-message.incoming::before {
+            left: -8px;
+            border-width: 8px 8px 8px 0;
+            border-color: transparent #ffffff transparent transparent;
+        }
+
+        .chat-message.outgoing {
+            background-color: #dcf8c6;
+            align-self: flex-end;
+            border-top-right-radius: 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .chat-message.outgoing::before {
+            right: -8px;
+            border-width: 8px 0 8px 8px;
+            border-color: transparent transparent transparent #dcf8c6;
+        }
+
+        .chat-message .sender-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 12px;
+            color: #555;
+        }
+
+        .chat-message .date {
+            font-size: 10px;
+            color: #888;
+            margin-top: 5px;
+            text-align: right;
+        }
+
+        .chat-footer {
+            display: flex;
+            padding: 10px;
+            background-color: #ffffff;
+            border-top: 1px solid #dddddd;
+        }
+
+        .chat-footer input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 20px;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .chat-footer button {
+            margin-left: 10px;
+            padding: 10px 15px;
+            border: none;
+            background-color: #075e54;
+            color: #ffffff;
+            border-radius: 50%;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .chat-footer button:hover {
+            background-color: #0b7765;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Group Chat</div>
+        <div class="chat-body">
+            <div class="chat-date">24th December 2024</div>
+            <div class="chat-message incoming">
+                <div class="sender-name">Alice</div>
+                Hello everyone!
+                <div class="date">10:00 AM</div>
+            </div>
+            <div class="chat-message outgoing">
+                <div class="sender-name">You</div>
+                Hi Alice! How are you?
+                <div class="date">10:01 AM</div>
+            </div>
+            <div class="chat-message incoming">
+                <div class="sender-name">Bob</div>
+                Hey Alice, good to see you here!
+                <div class="date">10:02 AM</div>
+            </div>
+            <div class="chat-message incoming">
+                <div class="sender-name">Alice</div>
+                I'm good, thanks! How about you guys?
+                <div class="date">10:03 AM</div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" placeholder="Type a message..." />
+            <button>&#9658;</button>
+        </div>
+    </div>
+</body>
+</html>

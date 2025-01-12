@@ -1,6 +1,14 @@
-class p1
+/*
+ *     
+ *  1
+   121
+  12321
+ 1234321
+123454321
+ */
+class p1_3
 {
-    public static void meth()
+    public static void main(String[] args)
     {
         int z=1;
         int n=5;

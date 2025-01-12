@@ -1,7 +1,13 @@
-class p2
+/*
+12345
+23452
+34533
+45444
+55555
+ */
+class p2_2
 {
-    public static void meth()
-    {
+    public static void main(String[] args){
         int m=1;
         for(int i=1;i<=5;i++)
         {

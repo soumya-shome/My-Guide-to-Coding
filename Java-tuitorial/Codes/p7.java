@@ -1,6 +1,6 @@
 class p7
 {
-    public static void meth()
+    public static void main(String[] args)
     {
         int s=4;
         for(int i=5;i>=1;i--)
