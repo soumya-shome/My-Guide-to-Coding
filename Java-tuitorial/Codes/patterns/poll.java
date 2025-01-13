@@ -1,6 +1,6 @@
 class poll
 {
-    public static void metH()
+    public static void main(String[] args)
     {
         int s=1;
         int e=7;
