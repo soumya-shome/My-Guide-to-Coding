@@ -1,6 +1,23 @@
+/*
+       * 
+      * *
+     * * *
+    * * * *
+   * * * * *
+  * * * * * *
+ * * * * * * *
+* * * * * * * *
+    * * * *
+    * * * *
+    * * * *
+    * * * *
+    * * * *
+    * * * *
+    * * * *
+ */
 class pt2
 {
-    public static void meth()
+    public static void main(String[] args)
     {
         int s=7;
         for(int i=1;i<=8;i++)

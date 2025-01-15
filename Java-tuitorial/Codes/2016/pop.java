@@ -1,6 +1,13 @@
+/*
+12345 54321
+1234   4321
+123     321
+12       21
+1         1
+ */
 class pop
 {
-    public static void meth()
+    public static void main(String[] args)
     {
         int p=5,d=1;
         for(int i=1;i<=5;i++)
