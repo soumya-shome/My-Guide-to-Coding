@@ -2,6 +2,9 @@
 <table>
   <tbody>
     <tr>
+      <td colspan=4>Using Numbers</td>
+    </tr>
+    <tr>
       <td><pre>
       1 
       1 2 
@@ -32,10 +35,10 @@
       </pre></td>
     </tr>
     <tr>
-      <td ><a href="01/">View Code 01</a></td>
-      <td ><a href="02/">View Code 02</a></td>
-      <td ><a href="03/">View Code 03</a></td>
-      <td ><a href="04/">View Code 04</a></td>
+      <td ><a href="Numbers/01/">View Code 01</a></td>
+      <td ><a href="Numbers/02/">View Code 02</a></td>
+      <td ><a href="Numbers/03/">View Code 03</a></td>
+      <td ><a href="Numbers/04/">View Code 04</a></td>
     </tr>
     <tr>
       <td><pre>
@@ -68,10 +71,10 @@
       </pre></td>
     </tr>
     <tr>
-      <td ><a href="05/">View Code 05</a></td>
-      <td ><a href="06/">View Code 06</a></td>
-      <td ><a href="07/">View Code 07</a></td>
-      <td ><a href="08/">View Code 08</a></td>
+      <td ><a href="Numbers/05/">View Code 05</a></td>
+      <td ><a href="Numbers/06/">View Code 06</a></td>
+      <td ><a href="Numbers/07/">View Code 07</a></td>
+      <td ><a href="Numbers/08/">View Code 08</a></td>
     </tr>
     <tr>
       <td><pre>
@@ -104,10 +107,10 @@
       </pre></td>
     </tr>
     <tr>
-      <td ><a href="09/">View Code 09</a></td>
-      <td ><a href="10/">View Code 10</a></td>
-      <td ><a href="11/">View Code 11</a></td>
-      <td ><a href="12/">View Code 12</a></td>
+      <td ><a href="Numbers/09/">View Code 09</a></td>
+      <td ><a href="Numbers/10/">View Code 10</a></td>
+      <td ><a href="Numbers/11/">View Code 11</a></td>
+      <td ><a href="Numbers/12/">View Code 12</a></td>
     </tr>
     <tr>
       <td><pre>
@@ -140,10 +143,10 @@
       </pre></td>
     </tr>
     <tr>
-      <td ><a href="13/">View Code 13</a></td>
-      <td ><a href="14/">View Code 14</a></td>
-      <td ><a href="15/">View Code 15</a></td>
-      <td ><a href="16/">View Code 16</a></td>
+      <td ><a href="Numbers/13/">View Code 13</a></td>
+      <td ><a href="Numbers/14/">View Code 14</a></td>
+      <td ><a href="Numbers/15/">View Code 15</a></td>
+      <td ><a href="Numbers/16/">View Code 16</a></td>
     </tr>
     <tr>
       <td><pre>
@@ -175,10 +178,10 @@
       </pre></td>
     </tr>
     <tr>
-      <td ><a href="17/">View Code 17</a></td>
-      <td ><a href="18/">View Code 18</a></td>
-      <td ><a href="19/">View Code 19</a></td>
-      <td ><a href="20/">View Code 20</a></td>
+      <td ><a href="Numbers/17/">View Code 17</a></td>
+      <td ><a href="Numbers/18/">View Code 18</a></td>
+      <td ><a href="Numbers/19/">View Code 19</a></td>
+      <td ><a href="Numbers/20/">View Code 20</a></td>
     </tr>
     <tr>
       <td><pre>
@@ -211,10 +214,10 @@
       </pre></td>
     </tr>
     <tr>
-      <td ><a href="21/">View Code 21</a></td>
-      <td ><a href="22/">View Code 22</a></td>
-      <td ><a href="23/">View Code 23</a></td>
-      <td ><a href="24/">View Code 24</a></td>
+      <td ><a href="Numbers/21/">View Code 21</a></td>
+      <td ><a href="Numbers/22/">View Code 22</a></td>
+      <td ><a href="Numbers/23/">View Code 23</a></td>
+      <td ><a href="Numbers/24/">View Code 24</a></td>
     </tr>
     <tr>
       <td><pre>
@@ -255,10 +258,10 @@
       </pre></td>
     </tr>
     <tr>
-      <td ><a href="25/">View Code 25</a></td>
-      <td ><a href="26/">View Code 26</a></td>
-      <td ><a href="27/">View Code 27</a></td>
-      <td ><a href="28/">View Code 28</a></td>
+      <td ><a href="Numbers/25/">View Code 25</a></td>
+      <td ><a href="Numbers/26/">View Code 26</a></td>
+      <td ><a href="Numbers/27/">View Code 27</a></td>
+      <td ><a href="Numbers/28/">View Code 28</a></td>
     </tr>
     <tr>
       <td colspan=2><pre>
@@ -279,8 +282,8 @@
       </pre></td>
     </tr>
     <tr>
-      <td colspan=2><a href="29/">View Code 29</a></td>
-      <td colspan=2><a href="30/">View Code 30</a></td>
+      <td colspan=2><a href="Numbers/29/">View Code 29</a></td>
+      <td colspan=2><a href="Numbers/30/">View Code 30</a></td>
     <tr>
       <td colspan=2><pre>
               1
@@ -300,8 +303,8 @@
       </pre></td>
     </tr>
     <tr>
-      <td colspan=2><a href="31/">View Code 31</a></td>
-      <td colspan=2><a href="32/">View Code 32</a></td>
+      <td colspan=2><a href="Numbers/31/">View Code 31</a></td>
+      <td colspan=2><a href="Numbers/32/">View Code 32</a></td>
     </tr>
     <tr>
       <td colspan=2><pre>
@@ -322,8 +325,32 @@
       </pre></td>
     </tr>
     <tr>
-      <td colspan=2><a href="33/">View Code 33</a></td>
-      <td colspan=2><a href="34/">View Code 34</a></td>
+      <td colspan=2><a href="Numbers/33/">View Code 33</a></td>
+      <td colspan=2><a href="Numbers/34/">View Code 34</a></td>
+    </tr>
+        <tr>
+      <td><pre>
+      5
+      5 4
+      5 4 3
+      5 4 3 2
+      5 4 3 2 1
+      </pre></td>
+      <td><pre>
+ 
+      </pre></td>
+      <td><pre>
+ 
+      </pre></td>
+      <td><pre>
+      
+      </pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Numbers/35/">View Code 35</a></td>
+      <td ><a href="Numbers/22/">View Code </a></td>
+      <td ><a href="Numbers/23/">View Code </a></td>
+      <td ><a href="Numbers/24/">View Code </a></td>
     </tr>
   </tbody>
 </table>
