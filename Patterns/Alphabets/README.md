@@ -1,56 +1,63 @@
+# Using Alphabets
 <table>
   <tbody>
     <tr>
       <td colspan=4>Using Alphabets</td>
     </tr>
     <tr>
-<td><pre><!-- 21 -->
+      <td><pre><!-- 21 -->
 A
 A B 
 A B C 
 A B C D 
 A B C D E 
-</pre></td>
-<td><pre><!-- 22 -->
+      </pre></td>
+      <td><pre><!-- 22 -->
 A 
 B C 
 D E F 
 G H I J 
-</pre></td>
-<td><pre><!-- 23 -->
+      </pre></td>
+      <td><pre><!-- 23 -->
 E D C B A
   E D C B
     E D C
       E D
         E
-</pre></td>
-<td><pre><!-- 24 -->
+      </pre></td>
+      <td><pre><!-- 24 -->
 A B C D E
 B C D E
 C D E
 D E
 E
-</pre></td>
+      </pre></td>
     </tr>
     <tr>
-<td><pre><!-- 00 -->
+      <td ><a href="Alphabets/01/">View Code 01</a></td>
+      <td ><a href="Alphabets/02/">View Code 02</a></td>
+      <td ><a href="Alphabets/03/">View Code 03</a></td>
+      <td ><a href="Alphabets/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+      <td><pre><!-- 00 -->
 A A A A A 
 C C C C
 E E E
 G G
 I
-</pre></td>
+      </pre></td>
     </tr>
     <tr>
-<td colspan=2><pre>
+      <td colspan=2><pre>
 Enter word : Hello
 H
  e
   l
    l
     o
-</pre></td>
-<td colspan=2><pre>
+      </pre></td>
+      <td colspan=2><pre>
       A
     A B A
   A B C B A
