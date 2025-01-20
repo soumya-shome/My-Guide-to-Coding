@@ -1,42 +1,47 @@
 # Patterns
-
 <table>
   <tbody>
     <tr>
       <td colspan=4>Using Symbols</td>
     </tr>
     <tr>
-<td><pre>
+      <td><pre>
 * 
 * *
 * * *
 * * * *
 * * * * *
-</pre></td>
-<td><pre>
+      </pre></td>
+      <td><pre>
 * * * * *
 * * * *
 * * *
 * *
 *
-</pre></td>
-<td><pre>
+      </pre></td>
+      <td><pre>
         *
       * *
     * * *
   * * * *
 * * * * *
-</pre></td>
-<td><pre>
+      </pre></td>
+      <td><pre>
 * * * * *
   * * * *
     * * *
       * *
         *
-</pre></td>
+      </pre></td>
     </tr>
     <tr>
-<td><pre>
+      <td ><a href="Numbers/01/">View Code 01</a></td>
+      <td ><a href="Numbers/02/">View Code 02</a></td>
+      <td ><a href="Numbers/03/">View Code 03</a></td>
+      <td ><a href="Numbers/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+    <td><pre>
      *
     * *
    * * *
