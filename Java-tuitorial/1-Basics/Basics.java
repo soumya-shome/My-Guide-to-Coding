@@ -1,7 +1,6 @@
 import java.lang.Math; //Import Math class
 import java.util.Scanner; //Import Scanner class
 
-
 public class Basics {
     public static void main(String[] args) {
 
