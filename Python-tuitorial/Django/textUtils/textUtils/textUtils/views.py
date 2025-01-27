@@ -4,86 +4,54 @@ from django.shortcuts import render
 
 
 def index(request):
-    # return HttpResponse("Hello")
-    params = {'name': 'soumyadeep', 'place': 'Mars'}
-    return render(request, 'index.html', params)
+    return render(request, 'index.html')
 
-
-# def myLinks(request):
-#     links = []
-#     with open("Files/MyLinks.txt", 'r') as f:
-#         links = [line.strip() for line in f.readlines()]
-#     response = ""
-#     for i in links:
-#         response += "<a href="+str(i)+"> Link </a> </br>"
-#     # print(response)
-#     return HttpResponse(response)
-#
-# def about(request):
-#     return HttpResponse("<h1>About Soumyadeep</h1>")
 
 def analyze(request):
-    #Get the text
-    djtext = request.GET.get('text', 'default')
+    djtext = request.POST.get('text', 'default')
+    removepunc = request.POST.get('removepunc', 'off')
+    fullcaps = request.POST.get('fullcaps', 'off')
+    newlineremover = request.POST.get('newlineremover', 'off')
+    extraspaceremover = request.POST.get('extraspaceremover', 'off')
 
-    # Check checkbox values
-    removepunc = request.GET.get('removepunc', 'off')
-    fullcaps = request.GET.get('fullcaps', 'off')
-    newlineremover = request.GET.get('newlineremover', 'off')
-    extraspaceremover = request.GET.get('extraspaceremover', 'off')
+    purpose = ''
+    params = {'purpose': '', 'analyzed_text': ''}
 
-    #Check which checkbox is on
     if removepunc == "on":
         punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
         analyzed = ""
         for char in djtext:
             if char not in punctuations:
                 analyzed = analyzed + char
-        params = {'purpose':'Removed Punctuations', 'analyzed_text': analyzed}
-        return render(request, 'analyze.html', params)
+        djtext = analyzed
+        purpose = 'Remove Punctuations'
 
-    elif fullcaps== "on":
+    if fullcaps == "on":
         analyzed = ""
         for char in djtext:
             analyzed = analyzed + char.upper()
+        djtext = analyzed
+        purpose = purpose + ', Changed to Uppercase'
 
-        params = {'purpose': 'Changed to Uppercase', 'analyzed_text': analyzed}
-        # Analyze the text
-        return render(request, 'analyze.html', params)
-
-    elif extraspaceremover== "on":
+    if extraspaceremover == "on":
         analyzed = ""
         for index, char in enumerate(djtext):
-            if not(djtext[index] == " " and djtext[index+1]==" "):
+            if not (djtext[index] == " " and djtext[index + 1] == " "):
                 analyzed = analyzed + char
+        djtext = analyzed
+        purpose = purpose + ', Extra Space Remover'
 
-        params = {'purpose': 'Removed NewLines', 'analyzed_text': analyzed}
-        # Analyze the text
-        return render(request, 'analyze.html', params)
-
-    elif (newlineremover == "on"):
+    if newlineremover == "on":
         analyzed = ""
         for char in djtext:
-            if char != "\n":
+            if char != "\n" and char != "\r":
                 analyzed = analyzed + char
+        djtext = analyzed
+        purpose = purpose + ', Removed NewLines'
 
-        params = {'purpose': 'Removed NewLines', 'analyzed_text': analyzed}
-        # Analyze the text
-        return render(request, 'analyze.html', params)
-    else:
+    if (newlineremover == "off") and (extraspaceremover == "off") and (fullcaps == "off") and removepunc == "off":
         return HttpResponse("Error")
 
-# def capitalizefirst(request):
-#     return HttpResponse("capitalize first")
-#
-#
-# def newlineremove(request):
-#     return HttpResponse("newline remove")
-#
-#
-# def spaceremover(request):
-#     return HttpResponse("space remover")
-#
-#
-# def charcount(request):
-#     return HttpResponse("char count")
+    params = {'purpose': purpose, 'analyzed_text': djtext}
+
+    return render(request, 'analyze.html', params)
