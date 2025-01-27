@@ -23,9 +23,5 @@ urlpatterns = [
     path('',views.index, name='index'),
     # path('about',views.about, name='about'),
     # path('links',views.myLinks, name='links'),
-    path('removepunc',views.removepunc, name='removepunc'),
-    path('capitalizefirst',views.capitalizefirst, name='capitalizefirst'),
-    path('newlineremove',views.newlineremove, name='newlineremove'),
-    path('spaceremover',views.spaceremover, name='spaceremover'),
-    path('charcount',views.charcount, name='charcount'),
+    path('analyze',views.analyze, name='analyze'),
 ]
