@@ -13,6 +13,7 @@
 * * * * *
       </pre></td>
       <td><pre>
+24
 * * * * *
 * * * *
 * * *
@@ -35,10 +36,10 @@
       </pre></td>
     </tr>
     <tr>
-      <td ><a href="Numbers/01/">View Code 01</a></td>
-      <td ><a href="Numbers/02/">View Code 02</a></td>
-      <td ><a href="Numbers/03/">View Code 03</a></td>
-      <td ><a href="Numbers/04/">View Code 04</a></td>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
     </tr>
     <tr>
     <td><pre>
@@ -47,216 +48,73 @@
    * * *
   * * * *
  * * * * *
-</pre></td>
-<td><pre>
+    </pre></td>
+    <td><pre> 
  * * * * * 
   * * * *
    * * *
     * *
      *
-</pre></td>
-<td><pre>
+    </pre></td>
+    <td><pre>
 * 
 * *
 *   *
 *     *
 * * * * *
-</pre></td>
-<td><pre>
-     *
-   *  *
-  *    *
- *      *
-*  *  *  *
+    </pre></td>
+    <td><pre>
+* * * * *
+*     *
+*   *
+* *
+* 
 </pre></td>
     </tr>
     <tr>
-<td><pre>
-     * 
-    * *
-   * * *
-  * * * *
- * * * * *
-  * * * *
-   * * *
-    * *
-     *
-</pre></td>
-<td><pre>
-*
-**
-*** 
-****
-*****
-****
-***
-**
-*
-</pre></td>
-<td><pre>
-* * * * *
- * * * * 
-  * * *
-   * *
-    *
-   * *
-  * * *
- * * * *
-* * * * *
-</pre></td>
-<td><pre>
- * * * * *
-  * * * *
-   * * *
-    * *
-     *
-     *
-    * *
-   * * *
-  * * * *
- * * * * *
-</pre></td>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
     </tr>
     <tr>
-<td><pre>
-* * * * * 
-*       *
-*       *
-*       *
-* * * * *
-</pre></td>
-<td><pre>
-* * * * * 
-* *   * *
-*   *   *
-* *   * *
-* * * * *
-</pre></td>
-<td><pre>
-* * * * * * * 
-*           *
-*   * * *   *
-*   *   *   *
-*   * * *   *
-*           *
-* * * * * * *
-</pre></td>
-<td><pre>
- *     *
-  *   *
-   * *
-    *
-   * *
-  *   *
- *     *
-</pre></td>
-    </tr>
-    <tr>
-<td><pre>
-# # # # # 
-# # #
-#
-</pre></td>
-<td><pre>
-******
-* ****
-*  ***
-*   **
-*    *
-</pre></td>
-<td><pre>
-* * * * * * 
-* *     * *
-*         *
-*         *
-* *     * *
-* * * * * *
-</pre></td>
-<td><pre>
-*
-* A
-* A *
-* A * A
-* A * A *
-</pre></td>
-    </tr>
-    <tr>
-<td colspan=2><pre>
-Enter the terms: 5
-*********
- *******
-  *****
-   ***
-    *
-</pre></td>
-<td colspan=2><pre>
-enter the no. of rows : 5
-     *
-    * *
-   *   *
+      <td><pre>
+        * 
+      * *
+    *   *
   *     *
- *********
-</pre></td>
+* * * * *
+      </pre></td>
+      <td><pre>
+* * * * *
+  *     *
+    *   *
+      * *
+        * 
+      </pre></td>
+      <td><pre>
+    *
+   * *
+  *   *
+ *     *
+* * * * *
+      </pre></td>
+      <td><pre>
+* * * * *
+ *     *
+  *   *
+   * * 
+    *
+      </pre></td>
     </tr>
     <tr>
-<td colspan=2><pre>
-Enter the number of terms : 5
-   * 
-  * *
- * * *
-  * *
-   *
-</pre></td>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
     </tr>
-  </tbody>
-</table>
-
-
-<pre>
-* * * * * * * * *
-* * * *   * * * *
-* * *       * * *
-* *           * *
-*               *
-* *           * *
-* * *       * * *
-* * * *   * * * *
-* * * * * * * * *
-</pre>
-<pre>
-        *
-      * * *
-    * * * * *
-  * * * * * * *
-* * * * * * * * *
-  * * * * * * * 
-    * * * * *
-      * * *
-        *
-</pre>
-<pre>
-* * * * * 
-* * * *   
-* * * 
-* *    
-*       
-* *  
-* * * 
-* * * * 
-* * * * * 
-</pre>
-<pre>
-* * * * *
-  * * * *
-    * * *
-      * *
-        *
-      * *
-    * * *
-  * * * *
-* * * * *
-</pre>
-<pre>
+    <tr>
+      <td><pre>
 *
 * *
 * * *
@@ -266,8 +124,8 @@ Enter the number of terms : 5
 * * *
 * *
 *
-</pre>
-<pre>
+      </pre></td>
+      <td><pre>
         *
       * *
     * * * 
@@ -277,142 +135,83 @@ Enter the number of terms : 5
     * * *
       * * 
         *
-</pre>
-<pre>
+      </pre></td>
+      <td><pre>
         *
       * * *
     * * * * *
   * * * * * * *
 * * * * * * * * *
-</pre>
-<pre>
+      </pre></td>
+      <td><pre>
 * * * * * * * * *
   * * * * * * * 
     * * * * *
       * * *
         *
-</pre>
-<pre>
-* * * * * * * * *
-  * * * * * * * 
-    * * * * *
-      * * *
-        *
-      * * *
-    * * * * *
-  * * * * * * *
-* * * * * * * * *
-</pre>
-
-<pre>
-        * 
-      * *
-    *   *
-  *     *
-* * * * *
-</pre>
-<pre>
-* * * * *
-  *     *
-    *   *
-      * *
-        * 
-</pre>
-
-<pre>
-* * * * *
-*     *
-*   *
-* *
-* 
-</pre>
-<pre>
-     *
-    * *
-   *   *
-  *     *
- *********
-</pre>
-<pre>
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-</pre>
-<pre>
-* * * * *
-*       *
-*   *   *
-*       *
-* * * * *
-</pre>
-<pre>
-* * * * *
-* *     *
-*   *   *
-*     * *
-* * * * *
-</pre>
-<pre>
-* * * * *
-*     * *
-*   *   *
-* *     *
-* * * * *
-</pre>
-<pre>
-*           * 
-  *       *
-    *   *
-      *
-      *
-      *
-      *
-</pre>
-<pre>
+      </pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+      <td><pre>
 * * * * * 
-    *
-    *
-    *
-    *
-</pre>
-<pre>
-* * * * * *
-* * * * * *
-    * *
-    * *
-    * *
-    * *
-</pre>
-<pre>
-            *
-        * *   * *
-    * * *       * * *
-* * * *           * * * *
-</pre>
- 
-
-23
-<pre>
-* 
-* *
-* * *
-* * * *
+* * * *   
+* * * 
+* *    
+*       
+* *  
+* * * 
+* * * * 
+* * * * * 
+      </pre></td>
+      <td><pre>
 * * * * *
-</pre>
-
-24
-<pre>
+  * * * *
+    * * *
+      * *
+        *
+      * *
+    * * *
+  * * * *
 * * * * *
-* * * *
-* * *
-* *
-*
-</pre>
-
+      </pre></td>
+      <td><pre>
+* * * * * * * * *
+* * * *   * * * *
+* * *       * * *
+* *           * *
+*               *
+* *           * *
+* * *       * * *
+* * * *   * * * *
+* * * * * * * * *
+      </pre></td>
+      <td><pre>
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+  * * * * * * * 
+    * * * * *
+      * * *
+        *
+      </pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+      <td><pre>
 28
-<pre>
      * 
     * *
    * * *
@@ -422,140 +221,100 @@ Enter the number of terms : 5
    * * *
     * *
      *
-</pre>
-
-31
-<pre>
+      </pre></td>
+      <td><pre>
 *
-**  
+**
 *** 
+****
+*****
 ****
 ***
 **
 *
-</pre>
-
-34
-<pre>
-Enter the terms: 5
-*********
- *******
-  *****
-   ***
-    *
-</pre>
-
-35
-<pre>
-     *
-    * *
-   * * *
-  * * * *
- * * * * *
-</pre>
-95
-<pre>
-*
-* A
-* A *
-* A * A
-* A * A *
-</pre>
-
-36
-<pre>
- * * * * * 
-  * * * *
-   * * *
-    * *
-     *
-</pre>
-
-37
-<pre>
-Enter the number of terms : 5
-   * 
-  * *
- * * *
-  * *
-   *
-</pre>
-
-38
-<pre>
-* * * * 
- * * *
-  * *
-   *
-  * *
- * * *
-* * * *
-</pre>
-
-39
-<pre>
-* * * * * * 
- * * * * *
-  * * * *
-   * * *
-    * *
-     *
-     *
-    * *
-   * * *
-  * * * *
- * * * * *
-* * * * * *
-</pre>
-
-40
-<pre>
-* 
-* *
-*   *
-*     *
+      </pre></td>
+      <td><pre>
 * * * * *
-</pre>
-
-44
-<pre>
-enter the no. of rows : 5
+ * * * * 
+  * * *
+   * *
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+      </pre></td>
+      <td><pre>
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+</pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+      <td><pre>
      *
     * *
    *   *
   *     *
  *********
-</pre>
-
-45
-<pre>
-     *
-   *  *
-  *    *
- *      *
-*  *  *  *
-</pre>
-
-47
-<pre>
+      </pre></td>
+      <td><pre>
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+      </pre></td>
+      <td><pre>
+* * * * *
+*       *
+*   *   *
+*       *
+* * * * *
+      </pre></td>
+      <td><pre>
+* * * * *
+* *     *
+*   *   *
+*     * *
+* * * * *
+      </pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+<td><pre>
 * * * * * 
 *       *
 *       *
 *       *
 * * * * *
-</pre>
-
-48
-<pre>
+</pre></td>
+<td><pre>
 * * * * * 
 * *   * *
 *   *   *
 * *   * *
 * * * * *
-</pre>
-
-52
-<pre>
+</pre></td>
+<td><pre>
 * * * * * * * 
 *           *
 *   * * *   *
@@ -563,10 +322,8 @@ enter the no. of rows : 5
 *   * * *   *
 *           *
 * * * * * * *
-</pre>
-
-54
-<pre>
+</pre></td>
+<td><pre>
  *     *
   *   *
    * *
@@ -574,30 +331,156 @@ enter the no. of rows : 5
    * *
   *   *
  *     *
-</pre>
-
-90
-<pre>
+</pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+<td><pre>
 # # # # # 
 # # #
 #
-</pre>
-
-91
-<pre>
+</pre></td>
+<td><pre>
 ******
 * ****
 *  ***
 *   **
 *    *
-</pre>
-
-92
-<pre>
+</pre></td>
+<td><pre>
 * * * * * * 
 * *     * *
 *         *
 *         *
 * *     * *
 * * * * * *
-</pre>
+</pre></td>
+<td><pre>
+*
+* A
+* A *
+* A * A
+* A * A *
+</pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+      <td><pre>
+* * * * *
+*     * *
+*   *   *
+* *     *
+* * * * *
+      </pre></td>
+      <td><pre>
+*           * 
+  *       *
+    *   *
+      *
+      *
+      *
+      *
+      </pre></td>
+      <td><pre>
+* * * * * 
+    *
+    *
+    *
+    *
+      </pre></td>
+      <td><pre>
+* * * * * *
+* * * * * *
+    * *
+    * *
+    * *
+    * *
+      </pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+      <td><pre>
+* * * * * * * * *
+  * * * * * * * 
+    * * * * *
+      * * *
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+      </pre></td>
+      <td><pre>
+*********
+ *******
+  *****
+   ***
+    *
+      </pre></td>
+      <td><pre>
+*
+* A
+* A *
+* A * A
+* A * A *
+      </pre></td>
+      <td><pre>
+# # # # # 
+# # #
+#
+      </pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
+    </tr>
+    <tr>
+      <td><pre>
+      </pre></td>
+      <td><pre>
+* * * * * * 
+* *     * *
+*         *
+*         *
+* *     * *
+* * * * * *
+      </pre></td>
+******
+* ****
+*  ***
+*   **
+*    *
+      <td><pre>
+      </pre></td>
+      <td><pre>
+            *
+        * *   * *
+    * * *       * * *
+* * * *           * * * *
+      </pre></td>
+    </tr>
+    <tr>
+      <td ><a href="Symbols/01/">View Code 01</a></td>
+      <td ><a href="Symbols/02/">View Code 02</a></td>
+      <td ><a href="Symbols/03/">View Code 03</a></td>
+      <td ><a href="Symbols/04/">View Code 04</a></td>
+    </tr>
+  </tbody>
+</table>
