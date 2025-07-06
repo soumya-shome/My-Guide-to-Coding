@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-main()
+int main()
 {
 	int n;
 	cout<<"Enter the no. of rows \n";
@@ -19,4 +19,5 @@ main()
 		}
 		cout<<endl;
 	}
+	return 0;
 }
