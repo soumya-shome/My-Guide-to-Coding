@@ -2,17 +2,13 @@
 using namespace std;
 int main()
 {
-	int n;
-	cout<<"Enter the no. of rows \n";
-	cin>>n;
-	int s=n;
-	for(int i=1;i<=n;i++)
+	int line=5;
+	for(int i=1;i<=line;i++)
 	{
-		for(int sp=1;sp<=s;sp++)
+		for(int sp=1;sp<=line - i;sp++)
 		{
 			cout<<" ";
 		}
-		s--;
 		for(int j=0;j<i;j++)
 		{
 			cout<<"* ";

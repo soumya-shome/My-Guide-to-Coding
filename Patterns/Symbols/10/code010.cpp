@@ -12,7 +12,10 @@ int main()
         }
         for (j = line; j >= i; j--)
         {
-            cout << "* ";
+            if (i == 1 || i == line || j == i || j == line)
+			    cout<<"* ";
+            else
+                cout<<"  ";
         }
         cout << "\n";
     }
