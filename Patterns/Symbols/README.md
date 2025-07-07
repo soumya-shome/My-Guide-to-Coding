@@ -191,15 +191,15 @@
         *
       </pre></td>
       <td><pre>
-* * * * * * * * *
-* * * *   * * * *
-* * *       * * *
-* *           * *
-*               *
-* *           * *
-* * *       * * *
-* * * *   * * * *
-* * * * * * * * *
+* * * * * * * * * * 
+* * * *     * * * *
+* * *         * * *
+* *             * *
+*                 *
+* *             * *
+* * *         * * *
+* * * *     * * * *
+* * * * * * * * * *
       </pre></td>
     </tr>
     <tr>
@@ -380,50 +380,6 @@
     <tr>
       <td><pre>
     *
-   ***
-  *****
- *******
-*********
-      </pre></td>
-      <td><pre>
-*********
- *******
-  *****
-   ***
-    *
-      </pre></td>
-    <td><pre>
-*
-**
-*** 
-****
-*****
-****
-***
-**
-*
-      </pre></td>
-      <td><pre>
-    *
-   **
-  *** 
- ****
-*****
- ****
-  ***
-   **
-    *
-      </pre></td>
-    </tr>
-    <tr>
-      <td ><a href="Symbols/37/">View Code 37</a></td>
-      <td ><a href="Symbols/38/">View Code 38</a></td>
-      <td ><a href="Symbols/39/">View Code 39</a></td>
-      <td ><a href="Symbols/40/">View Code 40</a></td>
-    </tr>
-    <tr>
-      <td><pre>
-    *
    * *
   *   *
  *     *
@@ -435,17 +391,11 @@
   *   *
    * *
     *
-      </pre></td>
-      <td><pre>
-      </pre></td>
-      <td><pre>
       </pre></td>
     </tr>
     <tr>
       <td ><a href="Symbols/41/">View Code 37</a></td>
       <td ><a href="Symbols/42/">View Code 38</a></td>
-      <td ><a href="Symbols/43/">View Code 39</a></td>
-      <td ><a href="Symbols/44/">View Code 40</a></td>
     </tr>
   </tbody>
 </table>
