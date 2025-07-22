@@ -1,4 +1,4 @@
-class JAVA54
+class code033
 {
     public static void main(String[] ars)
     {

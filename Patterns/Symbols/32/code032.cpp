@@ -3,27 +3,27 @@ using namespace std;
 int main()
 {
     int i, j;
-    
-    int h=(n%2==0)?n/2:(n/2+1);
+    int line = 5;
+    int h=(line%2==0)?line/2:(line/2+1);
     // Loop to print upper half of the pattern
     for(i=1; i<=h; i++)
     {
         for(j=i; j<=h; j++)
         {
-            printf("* ");
+            cout<<"* ";
         }
 
         for(j=1; j<=2*(i-1); j++)
         {
-            printf("  ");
+            cout<<"  ";
         }
 
         for(j=i; j<=h; j++)
         {
-            printf("* ");
+            cout<<"* ";
         }
 
-        printf("\n");
+        cout<<"\n";
     }
 
     // Loop to print lower half of the pattern
@@ -31,21 +31,20 @@ int main()
     {
         for(j=h; j>=i; j--)
         {
-            printf("* ");
+            cout<<"* ";
         }
 
         for(j=2*(i-1); j>=1; j--)
         {
-            printf("  ");
+            cout<<"  ";
         }
 
         for(j=h; j>=i; j--)
         {
-            printf("* ");
+            cout<<"* ";
         }
 
-        printf("\n");
+        cout<<"\n";
     }
-
     return 0;
 }
