@@ -1,3 +1,0 @@
-mat=[]
-for ...
-	mat.append(input().replace(' ',''))

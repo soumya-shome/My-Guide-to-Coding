@@ -1,1 +1,0 @@
-keytool -importcert -file "C:\Users\LENOVO\Desktop\Tekstac\.certificate\tekstac.crt" -storepass changeit -keypass changeit -trustcacerts -noprompt -keystore "C:\Users\LENOVO\Desktop\Tekstac\.certificate\keystore.jks" -alias "tekstac"

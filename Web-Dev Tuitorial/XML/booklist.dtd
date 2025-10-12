@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE booklist[
-<!ELEMENT booklist (books) >
-<!ELEMENT book (title,author,price,qty) >
-<!ELEMENT title (#PCDATA) >
-<!ELEMENT author (#PCDATA) >
-<!ELEMENT price(#PCDATA) >
-<!ELEMENT qty (#PCDATA) >
-<!ATTLIST book pid type "softcopy">
