@@ -1,0 +1,5 @@
+/* src/components/Content.css */
+.content {
+  margin-left: 250px; /* Match the width of the sidebar */
+  padding: 20px;
+}
